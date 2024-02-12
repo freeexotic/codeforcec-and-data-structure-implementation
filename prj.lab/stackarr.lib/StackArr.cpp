@@ -1,5 +1,5 @@
-#include <stackarr/stackarr.h>
-#include <complex/complex.h>
+#include "stackarr.h"
+#include "complex.h"
 
 #include <iostream> 
 #include <algorithm>
