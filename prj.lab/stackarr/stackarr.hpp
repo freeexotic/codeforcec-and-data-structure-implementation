@@ -15,11 +15,11 @@ public:
    
 
    int Pop() noexcept;
-   void Push(const &Complex value);
+   void Push( const &Complex value);
    void Clear() noexcept;
 private:
    int size = 0;
-   int level = -1 ; // индекс верхнего элемента (-1 - если пустой)
+   int level = -1 ;// индекс верхнего элемента (-1 - если пустой)
 };
 
 #endif 
