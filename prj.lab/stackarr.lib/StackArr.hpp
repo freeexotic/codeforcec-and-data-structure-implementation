@@ -14,15 +14,12 @@ public:
    [[nodiscard]] StackArr& operator= (const StackArr&) = default;
    
 
-   int pop(){
-
-}
-   void push(){
-
-}
+   int Pop() noexcept;
+   void Push(const &Complex value);
+   void Clear() noexcept;
 private:
-   int size;
-   int level; 
+   int size = 0;
+   int level = -1 ; // индекс верхнего элемента (-1 - если пустой)
 };
 
 #endif 
