@@ -1,33 +1,32 @@
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles/edit_cache.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles/rebuild_cache.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles/list_install_components.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles/install.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles/install/local.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles/install/strip.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/CMakeFiles/edit_cache.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/CMakeFiles/rebuild_cache.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/CMakeFiles/list_install_components.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/CMakeFiles/install.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/CMakeFiles/install/local.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/CMakeFiles/install/strip.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/complex/CMakeFiles/complex.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/complex/CMakeFiles/edit_cache.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/complex/CMakeFiles/rebuild_cache.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/complex/CMakeFiles/list_install_components.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/complex/CMakeFiles/install.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/complex/CMakeFiles/install/local.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/complex/CMakeFiles/install/strip.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/stackarr/CMakeFiles/stackarr.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/stackarr/CMakeFiles/edit_cache.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/stackarr/CMakeFiles/rebuild_cache.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/stackarr/CMakeFiles/list_install_components.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/stackarr/CMakeFiles/install.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/stackarr/CMakeFiles/install/local.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/stackarr/CMakeFiles/install/strip.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.test/CMakeFiles/test_complex.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.test/CMakeFiles/edit_cache.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.test/CMakeFiles/rebuild_cache.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.test/CMakeFiles/list_install_components.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.test/CMakeFiles/install.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.test/CMakeFiles/install/local.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.test/CMakeFiles/install/strip.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/CMakeFiles/edit_cache.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/CMakeFiles/rebuild_cache.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/CMakeFiles/list_install_components.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/CMakeFiles/install.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/CMakeFiles/install/local.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/CMakeFiles/install/strip.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/CMakeFiles/edit_cache.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/CMakeFiles/rebuild_cache.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/CMakeFiles/list_install_components.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/CMakeFiles/install.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/CMakeFiles/install/local.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/CMakeFiles/install/strip.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/complex/CMakeFiles/complex.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/complex/CMakeFiles/edit_cache.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/complex/CMakeFiles/rebuild_cache.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/complex/CMakeFiles/list_install_components.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/complex/CMakeFiles/install.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/complex/CMakeFiles/install/local.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/complex/CMakeFiles/install/strip.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/stackarr/CMakeFiles/stackarr.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/stackarr/CMakeFiles/edit_cache.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/stackarr/CMakeFiles/rebuild_cache.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/stackarr/CMakeFiles/list_install_components.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/stackarr/CMakeFiles/install.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/stackarr/CMakeFiles/install/local.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/stackarr/CMakeFiles/install/strip.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.test/CMakeFiles/edit_cache.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.test/CMakeFiles/rebuild_cache.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.test/CMakeFiles/list_install_components.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.test/CMakeFiles/install.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.test/CMakeFiles/install/local.dir
+/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.test/CMakeFiles/install/strip.dir

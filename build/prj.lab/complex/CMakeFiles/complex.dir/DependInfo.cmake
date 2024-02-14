@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/prj.lab/complex/complex.cpp" "prj.lab/complex/CMakeFiles/complex.dir/complex.cpp.o" "gcc" "prj.lab/complex/CMakeFiles/complex.dir/complex.cpp.o.d"
+  "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/prj.lab/complex/complex.cpp" "prj.lab/complex/CMakeFiles/complex.dir/complex.cpp.o" "gcc" "prj.lab/complex/CMakeFiles/complex.dir/complex.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

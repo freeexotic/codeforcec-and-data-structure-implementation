@@ -38,3 +38,10 @@ out
 # custom build folders
 bin.*
 build.*
+
+# Build folders
+build
+build.*
+bin
+bin.*
+build.bat

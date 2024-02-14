@@ -54,10 +54,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v
+CMAKE_SOURCE_DIR = "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build
+CMAKE_BINARY_DIR = "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -129,7 +129,7 @@ prj.lab/stackarr/clean: prj.lab/stackarr/CMakeFiles/stackarr.dir/clean
 # Directory level rules for directory prj.test
 
 # Recursive "all" directory target.
-prj.test/all: prj.test/CMakeFiles/test_complex.dir/all
+prj.test/all:
 .PHONY : prj.test/all
 
 # Recursive "preinstall" directory target.
@@ -137,7 +137,7 @@ prj.test/preinstall:
 .PHONY : prj.test/preinstall
 
 # Recursive "clean" directory target.
-prj.test/clean: prj.test/CMakeFiles/test_complex.dir/clean
+prj.test/clean:
 .PHONY : prj.test/clean
 
 #=============================================================================
@@ -147,14 +147,14 @@ prj.test/clean: prj.test/CMakeFiles/test_complex.dir/clean
 prj.lab/complex/CMakeFiles/complex.dir/all:
 	$(MAKE) $(MAKESILENT) -f prj.lab/complex/CMakeFiles/complex.dir/build.make prj.lab/complex/CMakeFiles/complex.dir/depend
 	$(MAKE) $(MAKESILENT) -f prj.lab/complex/CMakeFiles/complex.dir/build.make prj.lab/complex/CMakeFiles/complex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles --progress-num=1,2 "Built target complex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/CMakeFiles" --progress-num=1,2 "Built target complex"
 .PHONY : prj.lab/complex/CMakeFiles/complex.dir/all
 
 # Build rule for subdir invocation for target.
 prj.lab/complex/CMakeFiles/complex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/complex/CMakeFiles/complex.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/CMakeFiles" 0
 .PHONY : prj.lab/complex/CMakeFiles/complex.dir/rule
 
 # Convenience name for target.
@@ -173,14 +173,14 @@ prj.lab/complex/CMakeFiles/complex.dir/clean:
 prj.lab/stackarr/CMakeFiles/stackarr.dir/all: prj.lab/complex/CMakeFiles/complex.dir/all
 	$(MAKE) $(MAKESILENT) -f prj.lab/stackarr/CMakeFiles/stackarr.dir/build.make prj.lab/stackarr/CMakeFiles/stackarr.dir/depend
 	$(MAKE) $(MAKESILENT) -f prj.lab/stackarr/CMakeFiles/stackarr.dir/build.make prj.lab/stackarr/CMakeFiles/stackarr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles --progress-num=3,4 "Built target stackarr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/CMakeFiles" --progress-num=3,4 "Built target stackarr"
 .PHONY : prj.lab/stackarr/CMakeFiles/stackarr.dir/all
 
 # Build rule for subdir invocation for target.
 prj.lab/stackarr/CMakeFiles/stackarr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/CMakeFiles" 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/stackarr/CMakeFiles/stackarr.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/CMakeFiles" 0
 .PHONY : prj.lab/stackarr/CMakeFiles/stackarr.dir/rule
 
 # Convenience name for target.
@@ -191,32 +191,6 @@ stackarr: prj.lab/stackarr/CMakeFiles/stackarr.dir/rule
 prj.lab/stackarr/CMakeFiles/stackarr.dir/clean:
 	$(MAKE) $(MAKESILENT) -f prj.lab/stackarr/CMakeFiles/stackarr.dir/build.make prj.lab/stackarr/CMakeFiles/stackarr.dir/clean
 .PHONY : prj.lab/stackarr/CMakeFiles/stackarr.dir/clean
-
-#=============================================================================
-# Target rules for target prj.test/CMakeFiles/test_complex.dir
-
-# All Build rule for target.
-prj.test/CMakeFiles/test_complex.dir/all: prj.lab/complex/CMakeFiles/complex.dir/all
-	$(MAKE) $(MAKESILENT) -f prj.test/CMakeFiles/test_complex.dir/build.make prj.test/CMakeFiles/test_complex.dir/depend
-	$(MAKE) $(MAKESILENT) -f prj.test/CMakeFiles/test_complex.dir/build.make prj.test/CMakeFiles/test_complex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles --progress-num=5,6 "Built target test_complex"
-.PHONY : prj.test/CMakeFiles/test_complex.dir/all
-
-# Build rule for subdir invocation for target.
-prj.test/CMakeFiles/test_complex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.test/CMakeFiles/test_complex.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles 0
-.PHONY : prj.test/CMakeFiles/test_complex.dir/rule
-
-# Convenience name for target.
-test_complex: prj.test/CMakeFiles/test_complex.dir/rule
-.PHONY : test_complex
-
-# clean rule for target.
-prj.test/CMakeFiles/test_complex.dir/clean:
-	$(MAKE) $(MAKESILENT) -f prj.test/CMakeFiles/test_complex.dir/build.make prj.test/CMakeFiles/test_complex.dir/clean
-.PHONY : prj.test/CMakeFiles/test_complex.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

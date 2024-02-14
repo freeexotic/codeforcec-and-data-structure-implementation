@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v
+CMAKE_SOURCE_DIR = "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build
+CMAKE_BINARY_DIR = "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/CMakeFiles" "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -187,19 +187,6 @@ stackarr/fast:
 	$(MAKE) $(MAKESILENT) -f prj.lab/stackarr/CMakeFiles/stackarr.dir/build.make prj.lab/stackarr/CMakeFiles/stackarr.dir/build
 .PHONY : stackarr/fast
 
-#=============================================================================
-# Target rules for targets named test_complex
-
-# Build rule for target.
-test_complex: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_complex
-.PHONY : test_complex
-
-# fast build rule for target.
-test_complex/fast:
-	$(MAKE) $(MAKESILENT) -f prj.test/CMakeFiles/test_complex.dir/build.make prj.test/CMakeFiles/test_complex.dir/build
-.PHONY : test_complex/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -214,7 +201,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... complex"
 	@echo "... stackarr"
-	@echo "... test_complex"
 .PHONY : help
 
 

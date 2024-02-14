@@ -82,13 +82,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CMake.app/Contents/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake"
   "/Applications/CMake.app/Contents/share/cmake-3.28/Modules/Platform/Darwin.cmake"
   "/Applications/CMake.app/Contents/share/cmake-3.28/Modules/Platform/UnixPaths.cmake"
-  "/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/CMakeLists.txt"
+  "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/CMakeLists.txt"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
-  "/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/prj.lab/CMakeLists.txt"
-  "/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/prj.lab/complex/CMakeLists.txt"
-  "/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/prj.lab/stackarr/CMakeLists.txt"
-  "/Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/prj.test/CMakeLists.txt"
+  "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/prj.lab/CMakeLists.txt"
+  "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/prj.lab/complex/CMakeLists.txt"
+  "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/prj.lab/stackarr/CMakeLists.txt"
+  "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/prj.test/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -113,5 +113,4 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "prj.lab/complex/CMakeFiles/complex.dir/DependInfo.cmake"
   "prj.lab/stackarr/CMakeFiles/stackarr.dir/DependInfo.cmake"
-  "prj.test/CMakeFiles/test_complex.dir/DependInfo.cmake"
   )

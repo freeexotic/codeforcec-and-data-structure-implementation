@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v
+CMAKE_SOURCE_DIR = "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build
+CMAKE_BINARY_DIR = "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/stackarr//CMakeFiles/progress.marks
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/stackarr/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles 0
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/CMakeFiles" "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/stackarr//CMakeFiles/progress.marks"
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/stackarr/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/stackarr/clean
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/stackarr/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/stackarr/preinstall
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/stackarr/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/stackarr/preinstall
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/stackarr/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 prj.lab/stackarr/CMakeFiles/stackarr.dir/rule:
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/stackarr/CMakeFiles/stackarr.dir/rule
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/stackarr/CMakeFiles/stackarr.dir/rule
 .PHONY : prj.lab/stackarr/CMakeFiles/stackarr.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ stackarr: prj.lab/stackarr/CMakeFiles/stackarr.dir/rule
 
 # fast build rule for target.
 stackarr/fast:
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(MAKE) $(MAKESILENT) -f prj.lab/stackarr/CMakeFiles/stackarr.dir/build.make prj.lab/stackarr/CMakeFiles/stackarr.dir/build
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(MAKE) $(MAKESILENT) -f prj.lab/stackarr/CMakeFiles/stackarr.dir/build.make prj.lab/stackarr/CMakeFiles/stackarr.dir/build
 .PHONY : stackarr/fast
 
 stackarr.o: stackarr.cpp.o
@@ -180,7 +180,7 @@ stackarr.o: stackarr.cpp.o
 
 # target to build an object file
 stackarr.cpp.o:
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(MAKE) $(MAKESILENT) -f prj.lab/stackarr/CMakeFiles/stackarr.dir/build.make prj.lab/stackarr/CMakeFiles/stackarr.dir/stackarr.cpp.o
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(MAKE) $(MAKESILENT) -f prj.lab/stackarr/CMakeFiles/stackarr.dir/build.make prj.lab/stackarr/CMakeFiles/stackarr.dir/stackarr.cpp.o
 .PHONY : stackarr.cpp.o
 
 stackarr.i: stackarr.cpp.i
@@ -188,7 +188,7 @@ stackarr.i: stackarr.cpp.i
 
 # target to preprocess a source file
 stackarr.cpp.i:
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(MAKE) $(MAKESILENT) -f prj.lab/stackarr/CMakeFiles/stackarr.dir/build.make prj.lab/stackarr/CMakeFiles/stackarr.dir/stackarr.cpp.i
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(MAKE) $(MAKESILENT) -f prj.lab/stackarr/CMakeFiles/stackarr.dir/build.make prj.lab/stackarr/CMakeFiles/stackarr.dir/stackarr.cpp.i
 .PHONY : stackarr.cpp.i
 
 stackarr.s: stackarr.cpp.s
@@ -196,7 +196,7 @@ stackarr.s: stackarr.cpp.s
 
 # target to generate assembly for a file
 stackarr.cpp.s:
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(MAKE) $(MAKESILENT) -f prj.lab/stackarr/CMakeFiles/stackarr.dir/build.make prj.lab/stackarr/CMakeFiles/stackarr.dir/stackarr.cpp.s
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(MAKE) $(MAKESILENT) -f prj.lab/stackarr/CMakeFiles/stackarr.dir/build.make prj.lab/stackarr/CMakeFiles/stackarr.dir/stackarr.cpp.s
 .PHONY : stackarr.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

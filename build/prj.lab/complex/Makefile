@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v
+CMAKE_SOURCE_DIR = "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build
+CMAKE_BINARY_DIR = "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/prj.lab/complex//CMakeFiles/progress.marks
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/complex/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build/CMakeFiles 0
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/CMakeFiles" "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/prj.lab/complex//CMakeFiles/progress.marks"
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/complex/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/complex/clean
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/complex/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/complex/preinstall
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/complex/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/complex/preinstall
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/complex/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 prj.lab/complex/CMakeFiles/complex.dir/rule:
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/complex/CMakeFiles/complex.dir/rule
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prj.lab/complex/CMakeFiles/complex.dir/rule
 .PHONY : prj.lab/complex/CMakeFiles/complex.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ complex: prj.lab/complex/CMakeFiles/complex.dir/rule
 
 # fast build rule for target.
 complex/fast:
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(MAKE) $(MAKESILENT) -f prj.lab/complex/CMakeFiles/complex.dir/build.make prj.lab/complex/CMakeFiles/complex.dir/build
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(MAKE) $(MAKESILENT) -f prj.lab/complex/CMakeFiles/complex.dir/build.make prj.lab/complex/CMakeFiles/complex.dir/build
 .PHONY : complex/fast
 
 complex.o: complex.cpp.o
@@ -180,7 +180,7 @@ complex.o: complex.cpp.o
 
 # target to build an object file
 complex.cpp.o:
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(MAKE) $(MAKESILENT) -f prj.lab/complex/CMakeFiles/complex.dir/build.make prj.lab/complex/CMakeFiles/complex.dir/complex.cpp.o
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(MAKE) $(MAKESILENT) -f prj.lab/complex/CMakeFiles/complex.dir/build.make prj.lab/complex/CMakeFiles/complex.dir/complex.cpp.o
 .PHONY : complex.cpp.o
 
 complex.i: complex.cpp.i
@@ -188,7 +188,7 @@ complex.i: complex.cpp.i
 
 # target to preprocess a source file
 complex.cpp.i:
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(MAKE) $(MAKESILENT) -f prj.lab/complex/CMakeFiles/complex.dir/build.make prj.lab/complex/CMakeFiles/complex.dir/complex.cpp.i
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(MAKE) $(MAKESILENT) -f prj.lab/complex/CMakeFiles/complex.dir/build.make prj.lab/complex/CMakeFiles/complex.dir/complex.cpp.i
 .PHONY : complex.cpp.i
 
 complex.s: complex.cpp.s
@@ -196,7 +196,7 @@ complex.s: complex.cpp.s
 
 # target to generate assembly for a file
 complex.cpp.s:
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(MAKE) $(MAKESILENT) -f prj.lab/complex/CMakeFiles/complex.dir/build.make prj.lab/complex/CMakeFiles/complex.dir/complex.cpp.s
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(MAKE) $(MAKESILENT) -f prj.lab/complex/CMakeFiles/complex.dir/build.make prj.lab/complex/CMakeFiles/complex.dir/complex.cpp.s
 .PHONY : complex.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/vsevolodsilaev/Desktop/C++/misis/misis2024s-23-03-silaev-v-v/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
