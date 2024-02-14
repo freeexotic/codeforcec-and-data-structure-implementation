@@ -1,10 +1,12 @@
+// 2024 by Polevoi Dmitry under Unlicense
+
 #pragma once
 #ifndef STACKARR_STACKARR_HPP_20240203
 #define STACKARR_STACKARR_HPP_20240203
 
 #include <cstddef>
 
-struct Complex;
+class Complex;
 
 class StackArr {
 public:
@@ -28,13 +30,10 @@ public:
 
   void Clear() noexcept;
 
-  int Size() noexcept;
-
-
 private:
   std::ptrdiff_t size_ = 0;   //!< число элементов в буфере
   std::ptrdiff_t i_top_ = -1; //!< индекс top элемента
   Complex* data_ = nullptr;   //!< элементы стека
 };
 
-#endif 
+#endif // !STACKARR_STACKARR_HPP_20240203
