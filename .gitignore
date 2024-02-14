@@ -45,3 +45,5 @@ build.*
 bin
 bin.*
 build.bat
+
+*.DS_Store
