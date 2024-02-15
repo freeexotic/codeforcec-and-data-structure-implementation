@@ -1,2 +1,2 @@
-
-set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT test_stackarr)
+add_executable(stacklst_test stacklst_test.cpp)
+target_link_libraries(stacklst_test stacklst)

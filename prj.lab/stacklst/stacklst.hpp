@@ -1,3 +1,4 @@
+#pragma once
 #ifndef STACKLST_STACKLSST_HPP_20240215
 #define STACKLST_STACKLSST_HPP_20240215
 
@@ -5,8 +6,18 @@
 
 class Complex;
 
+class Node {
+  public:
+    Node* back;
+    Complex data;
+    Node() = default;
+    Node(Complex data_) : data(data_), back(nullptr) {}
+    ~Node() = default;
+  };
+
 class StackLst {
 public:
+  
   [[nodiscard]] StackLst() = default;
 
   [[nodiscard]] StackLst(const StackLst&) = default;
@@ -29,8 +40,8 @@ public:
 
 private:
   std::ptrdiff_t size_ = 0;   //!< число элементов в буфере
-  std::ptrdiff_t i_top_ = -1; //!< индекс top элемента
-  Complex* data_ = nullptr;   //!< элементы стека
+  Node* head = nullptr;
+
 };
 
 #endif 

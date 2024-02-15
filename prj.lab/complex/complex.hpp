@@ -8,8 +8,8 @@ struct Complex {
  
   [[nodiscard]] Complex() = default;
 
-
   [[nodiscard]] Complex(const Complex&) = default;
+
 
   [[nodiscard]] explicit Complex(const double real) : re(real) { }
 

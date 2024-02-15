@@ -21,7 +21,7 @@ void StackArr::Push(const Complex& val) {
     size_ = 8;
     data_ = new Complex[size_];
   } else if (size_ == i_top_ + 1) { 
-    auto buf = new Complex(size_ * 2);
+    auto buf = new Complex[size_ * 2];
     std::copy(data_, data_ + size_, buf);
     std::swap(data_, buf);
     delete[] buf;
