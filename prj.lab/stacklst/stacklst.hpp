@@ -1,22 +1,19 @@
-
-
-#pragma once
-#ifndef STACKARR_STACKARR_HPP_20240203
-#define STACKARR_STACKARR_HPP_20240203
+#ifndef STACKLST_STACKLSST_HPP_20240215
+#define STACKLST_STACKLSST_HPP_20240215
 
 #include <cstddef>
 
 class Complex;
 
-class StackArr {
+class StackLst {
 public:
-  [[nodiscard]] StackArr() = default;
+  [[nodiscard]] StackLst() = default;
 
-  [[nodiscard]] StackArr(const StackArr&) = default;
+  [[nodiscard]] StackLst(const StackLst&) = default;
   
-  ~StackArr() = default;
+  ~StackLst() = default;
   
-  [[nodiscard]] StackArr& operator=(const StackArr&) = default;
+  [[nodiscard]] StackLst& operator=(const StackLst&) = default;
 
   bool IsEmpty() const noexcept;
 

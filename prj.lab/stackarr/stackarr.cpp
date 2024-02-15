@@ -1,4 +1,4 @@
-// 2024 by Polevoi Dmitry under Unlicense
+
 
 #include <complex/complex.hpp>
 #include <stackarr/stackarr.hpp>
