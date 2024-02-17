@@ -1,5 +1,3 @@
-
-
 #include <complex/complex.hpp>
 #include <stackarr/stackarr.hpp>
 
@@ -42,6 +40,10 @@ const Complex& StackArr::Top() const {
     throw std::logic_error("StackArr - try get top form empty stack.");
   }
   return data_[i_top_];
+}
+
+int StackArr::Size() noexcept {
+  return size_;
 }
 
 void StackArr::Clear() noexcept {

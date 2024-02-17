@@ -15,7 +15,7 @@ void StackLst::Push (const Complex& val){
     size_+=1;
 }
 
-void StackLst::Pop (){
+void StackLst::Pop() noexcept {
     if (!IsEmpty()){
         Node* buf = head;
         head = (head->back);

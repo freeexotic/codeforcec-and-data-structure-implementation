@@ -4,4 +4,4 @@ target_include_directories(complex PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/..>
   $<INSTALL_INTERFACE:include>
 )
-#install(TARGETS complex)
+install(TARGETS complex)

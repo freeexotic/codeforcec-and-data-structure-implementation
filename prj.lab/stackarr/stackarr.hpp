@@ -1,5 +1,3 @@
-
-
 #pragma once
 #ifndef STACKARR_STACKARR_HPP_20240203
 #define STACKARR_STACKARR_HPP_20240203
@@ -29,6 +27,9 @@ public:
   [[nodiscard]] const Complex& Top() const;
 
   void Clear() noexcept;
+
+  int Size() noexcept;
+
 
 private:
   std::ptrdiff_t size_ = 0;   //!< число элементов в буфере
