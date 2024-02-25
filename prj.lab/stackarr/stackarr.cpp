@@ -54,3 +54,7 @@ void StackArr::Clear() noexcept {
   i_top_ = -1;
   counter_ = 0;
 }
+
+int StackArr::Counter() noexcept {
+    return counter_;
+}

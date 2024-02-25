@@ -1,7 +1,0 @@
-# ninja log v5
-0	41	1708421422230080013	prj.lab/complex/CMakeFiles/complex.dir/complex.cpp.o	2c62445f56631cd5
-42	60	1708421422249851000	prj.lab/complex/libcomplex.a	14669e5e26758a5
-1	194	1708421422382027309	prj.lab/stackarr/CMakeFiles/stackarr.dir/stackarr.cpp.o	d3f32c6ffad77dc7
-195	212	1708421422402501000	prj.lab/stackarr/libstackarr.a	796b56079aaf90f6
-1	1771	1708421423957265082	prj.test/CMakeFiles/test_stackarr.dir/test_stackarr.cpp.o	d3aa5a33a6d77a09
-1772	1805	1708421423994096432	/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_stackarr	98e7ca7b2d6ec7fa

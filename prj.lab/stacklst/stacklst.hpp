@@ -3,6 +3,7 @@
 #define STACKLST_STACKLSST_HPP_20240215
 
 #include <cstddef>
+#include "complex/complex.hpp"
 
 struct Complex;
 
