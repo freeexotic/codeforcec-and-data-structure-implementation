@@ -1,3 +1,0 @@
-add_subdirectory(complex)
-add_subdirectory(stackarr)
-add_subdirectory(stacklst)
