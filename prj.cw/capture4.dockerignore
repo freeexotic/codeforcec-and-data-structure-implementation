@@ -1,0 +1,32 @@
+//
+// Created by Всеволод Силаев on 21.02.2024.
+//
+#include <iostream>
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/highgui.hpp>
+#include <opencv2/imgproc.hpp>
+
+using namespace cv;
+using namespace std;
+
+float w = 650, h =1000 ;
+Mat matrix, imgWarp;
+int main(){
+    string path = "/Users/vsevolodsilaev/CLionProjects/opencvtest/Resources/captureofpaper.png";
+    Mat img = imread(path);
+
+    Point2f src[4] ={{3000, 1750},{3000,2900},{ 1500,1450},{950,2330}};
+    Point2f dst[4] ={{0.0f, 0.0f},{w, 0.0f},{0.0f, h},{w,h}};
+
+    for (int i=0 ; i!=4; i++){
+        circle(img, src[i], 10, Scalar(0,255,0), 10);
+    }
+
+    matrix = getPerspectiveTransform(src, dst);
+    warpPerspective(img, imgWarp, matrix, Point(w,h));
+
+
+    imshow("Image", img);
+    imshow("Image Warp", imgWarp);
+    waitKey(0);
+}
