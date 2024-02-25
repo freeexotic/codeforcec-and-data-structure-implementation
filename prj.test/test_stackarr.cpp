@@ -10,15 +10,15 @@ TEST_CASE("cons") {
 
   SUBCASE("copy") {
     StackArr a;
-    for (int i = 0; i < 500; ++i)
+    for (int i = 0; i < 500; i++)
       a.Push(Complex());
 
     StackArr b(a);
-    CHECK(b.Size() == 500);
+    CHECK(b.Counter() == 500);
     
     b.Push(Complex());
-    CHECK(b.Size() == 501);
-    CHECK(a.Size() == 500);
+    CHECK(b.Counter() == 501);
+    CHECK(a.Counter() == 500);
   }
 }
 
@@ -29,11 +29,11 @@ TEST_CASE("appr") {
     for (int i = 0; i < 5; ++i)
       b.Push(Complex());
     a = b;
-    CHECK(a.Size() == 5);
+    CHECK(a.Counter() == 5);
 
     b.Push(Complex());
-    CHECK(b.Size() == 6);
-    CHECK(a.Size() == 5);
+    CHECK(b.Counter() == 6);
+    CHECK(a.Counter() == 5);
   }
   SUBCASE("appr with full") {
     StackArr a;
@@ -44,28 +44,28 @@ TEST_CASE("appr") {
       b.Push(Complex());
     }
     a = b;
-    CHECK(a.Size() == 5);
+    CHECK(a.Counter() == 5);
 
     b.Push(Complex());
-    CHECK(b.Size() == 6);
-    CHECK(a.Size() == 5);
+    CHECK(b.Counter() == 6);
+    CHECK(a.Counter() == 5);
   }
 }
 
 TEST_CASE("Push, Pop & Top"){
   StackArr a;
-  CHECK(a.Size() == 0);
+  CHECK(a.Counter() == 0);
   for (int i = 0; i < 1000; ++i)
   {
     a.Push(Complex(i, i));
-    CHECK(a.Size() == i + 1);
+    CHECK(a.Counter() == i + 1);
     CHECK(a.Top() == Complex(i, i));
   }
 
   for (int i = 998; i >= 0; --i)
   {
     a.Pop();
-    CHECK(a.Size() == i + 1);
+    CHECK(a.Counter() == i + 1);
     CHECK(a.Top() == Complex(i, i));
   }
   a.Pop();

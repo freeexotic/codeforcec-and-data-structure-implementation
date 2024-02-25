@@ -11,6 +11,7 @@ bool StackArr::IsEmpty() const noexcept {
 void StackArr::Pop() noexcept {
   if (!IsEmpty()) {
     i_top_ -= 1;
+    counter_--;
   }
 }
 
@@ -26,6 +27,7 @@ void StackArr::Push(const Complex& val) {
     size_ *= 2;
   }
   data_[++i_top_] = val;
+  counter_ += 1;
 }
   
 Complex& StackArr::Top() {
@@ -46,6 +48,11 @@ int StackArr::Size() noexcept {
   return size_;
 }
 
+int StackArr::Counter() noexcept{
+    return counter_;
+}
+
 void StackArr::Clear() noexcept {
   i_top_ = -1;
+  counter_ = 0;
 }

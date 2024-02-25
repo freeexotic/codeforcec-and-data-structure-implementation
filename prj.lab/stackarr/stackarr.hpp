@@ -4,7 +4,7 @@
 
 #include <cstddef>
 
-class Complex;
+struct Complex;
 
 class StackArr {
 public:
@@ -30,9 +30,12 @@ public:
 
   int Size() noexcept;
 
+  int Counter() noexcept;
+
 
 private:
-  std::ptrdiff_t size_ = 0;   //!< число элементов в буфере
+  std::ptrdiff_t size_ = 0;   //!< вместимость элементов в буфере
+  std::ptrdiff_t counter_ = 0; //! < количество элементов в стеке
   std::ptrdiff_t i_top_ = -1; //!< индекс top элемента
   Complex* data_ = nullptr;   //!< элементы стека
 };
