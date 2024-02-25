@@ -1,4 +1,4 @@
-CHECK: 20240219-070401
+CHECK: 20240226-005708
 OK: file codeforces.id is correct
 OK: folder prj.codeforces structure is correct
 ERROR: file prj.lab/rational/CMakeLists.txt is absent
@@ -9,5 +9,6 @@ STATUS: lab complex_io - test-failed
 ERROR: lab rational - test build failed
 ERROR: lab rational_io - test build failed
 ERROR: lab dynarr - test build failed
-ERROR: lab stackarr - test build failed
+STATUS: lab stackarr - test-failed
 ERROR: lab stacklst - test build failed
+ERROR: lab queuelst - test build failed
