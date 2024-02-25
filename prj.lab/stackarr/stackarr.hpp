@@ -1,3 +1,5 @@
+// 2024 by Polevoi Dmitry under Unlicense
+
 #pragma once
 #ifndef STACKARR_STACKARR_HPP_20240203
 #define STACKARR_STACKARR_HPP_20240203
@@ -28,11 +30,14 @@ public:
 
   void Clear() noexcept;
 
+<<<<<<< HEAD
   int Size() noexcept;
 
   int Counter() noexcept;
 
 
+=======
+>>>>>>> refs/remotes/origin/main
 private:
   std::ptrdiff_t size_ = 0;   //!< вместимость элементов в буфере
   std::ptrdiff_t counter_ = 0; //! < количество элементов в стеке
@@ -40,4 +45,4 @@ private:
   Complex* data_ = nullptr;   //!< элементы стека
 };
 
-#endif 
+#endif // !STACKARR_STACKARR_HPP_20240203
