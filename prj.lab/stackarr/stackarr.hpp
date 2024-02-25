@@ -4,7 +4,7 @@
 
 #include <cstddef>
 
-class Complex;
+struct Complex;
 
 class StackArr {
 public:
