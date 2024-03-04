@@ -496,6 +496,39 @@ build prj.lab/stacklst/install/strip: phony prj.lab/stacklst/CMakeFiles/install/
 # /Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/prj.lab/CMakeLists.txt
 # =============================================================================
 
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target queue
+
+
+#############################################
+# Order-only phony target for queue
+
+build cmake_object_order_depends_target_queue: phony || cmake_object_order_depends_target_complex
+
+build prj.lab/queue/CMakeFiles/queue.dir/queue.cpp.o: CXX_COMPILER__queue_unscanned_Release /Users/vsevolodsilaev/Desktop/C++/misis/try$ again/misis2024s-23-03-silaev-v-v/prj.lab/queue/queue.cpp || cmake_object_order_depends_target_queue
+  DEP_FILE = prj.lab/queue/CMakeFiles/queue.dir/queue.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  INCLUDES = -I"/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/prj.lab/queue/.." -I"/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/prj.lab/complex/.."
+  OBJECT_DIR = prj.lab/queue/CMakeFiles/queue.dir
+  OBJECT_FILE_DIR = prj.lab/queue/CMakeFiles/queue.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target queue
+
+
+#############################################
+# Link the static library prj.lab/queue/libqueue.a
+
+build prj.lab/queue/libqueue.a: CXX_STATIC_LIBRARY_LINKER__queue_Release prj.lab/queue/CMakeFiles/queue.dir/queue.cpp.o || prj.lab/complex/libcomplex.a
+  ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = prj.lab/queue/CMakeFiles/queue.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = prj.lab/queue/libqueue.a
+  TARGET_PDB = queue.a.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -639,11 +672,12 @@ build /Users/vsevolodsilaev/Desktop/C++/misis/try$ again/misis2024s-23-03-silaev
 #############################################
 # Order-only phony target for test_queue
 
-build cmake_object_order_depends_target_test_queue: phony || prj.test/CMakeFiles/test_queue.dir
+build cmake_object_order_depends_target_test_queue: phony || cmake_object_order_depends_target_complex cmake_object_order_depends_target_queue
 
 build prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o: CXX_COMPILER__test_queue_unscanned_Release /Users/vsevolodsilaev/Desktop/C++/misis/try$ again/misis2024s-23-03-silaev-v-v/prj.test/test_queue.cpp || cmake_object_order_depends_target_test_queue
   DEP_FILE = prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  INCLUDES = -I"/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/prj.lab/queue/.." -I"/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/prj.lab/complex/.."
   OBJECT_DIR = prj.test/CMakeFiles/test_queue.dir
   OBJECT_FILE_DIR = prj.test/CMakeFiles/test_queue.dir
 
@@ -655,9 +689,9 @@ build prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o: CXX_COMPILER__test_qu
 #############################################
 # Link the executable /Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue
 
-build /Users/vsevolodsilaev/Desktop/C++/misis/try$ again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue: CXX_EXECUTABLE_LINKER__test_queue_Release prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o
+build /Users/vsevolodsilaev/Desktop/C++/misis/try$ again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue: CXX_EXECUTABLE_LINKER__test_queue_Release prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o | prj.lab/queue/libqueue.a prj.lab/complex/libcomplex.a || prj.lab/complex/libcomplex.a prj.lab/queue/libqueue.a
   FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  LINK_LIBRARIES = -lqueue
+  LINK_LIBRARIES = prj.lab/queue/libqueue.a  prj.lab/complex/libcomplex.a
   OBJECT_DIR = prj.test/CMakeFiles/test_queue.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -736,9 +770,13 @@ build complex: phony prj.lab/complex/libcomplex.a
 
 build libcomplex.a: phony prj.lab/complex/libcomplex.a
 
+build libqueue.a: phony prj.lab/queue/libqueue.a
+
 build libstackarr.a: phony prj.lab/stackarr/libstackarr.a
 
 build libstacklst.a: phony prj.lab/stacklst/libstacklst.a
+
+build queue: phony prj.lab/queue/libqueue.a
 
 build stackarr: phony prj.lab/stackarr/libstackarr.a
 
@@ -779,7 +817,7 @@ build prj.lab/complex/all: phony prj.lab/complex/libcomplex.a
 #############################################
 # Folder: /Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.lab/queue
 
-build prj.lab/queue/all: phony
+build prj.lab/queue/all: phony prj.lab/queue/libqueue.a
 
 # =============================================================================
 
