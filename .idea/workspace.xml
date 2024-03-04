@@ -16,7 +16,6 @@
       <config projectName="silaev-v-v-23-03" targetName="test_stackarr" />
       <config projectName="silaev-v-v-23-03" targetName="complex" />
       <config projectName="silaev-v-v-23-03" targetName="stackarr" />
-      <config projectName="silaev-v-v-23-03" targetName="queue" />
       <config projectName="silaev-v-v-23-03" targetName="test_queue" />
     </generated>
   </component>
@@ -26,28 +25,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14f6de4e-848c-4b33-ac7d-5406e9e5545e" name="Changes" comment="add queue + test_queue">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="14f6de4e-848c-4b33-ac7d-5406e9e5545e" name="Changes" comment="add queuearr">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin.rel/test_stackarr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cmakeFiles-v1-3c0d718876c0f6f4b85a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-eb471264f384dc11078b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/index-2024-02-25T14-56-21-0481.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queue-Release-dc67ea54900b20dc310e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stackarr-Release-4390254a6dc0fb2ff018.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stacklst-Release-c471a5ec89a3fbbd29dd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.queue-Release-bf7e6a9f6f167844fbce.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.stackarr-Release-afe0743760e38b749e73.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.stacklst-Release-18fdd8254d2c3aefdca3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-queue-Release-2d5c60648b4b5d8f942e.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-Release-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-Release-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/complex/libcomplex.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/prj.lab/complex/libcomplex.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/stackarr/CMakeFiles/stackarr.dir/stackarr.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/stackarr/libstackarr.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.test/CMakeFiles/test_stackarr.dir/test_stackarr.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/queue/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/prj.lab/queue/cmake_install.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +120,11 @@
   }
 }</component>
   <component name="RunManager" selected="Doctest.pop">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Check operations" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_stacklst" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_stacklst" TEST_METHOD="Check operations" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -159,24 +155,18 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="queue" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="queue" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Unnamed" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" WORKING_DIR="file://$USER_HOME$/CLionProjects/misis2024s-23-03-silaev-v-v" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="C/C++ File.Unnamed" />
+      <item itemvalue="Doctest.test_queue" />
       <item itemvalue="Doctest.Check operations" />
       <item itemvalue="Doctest.appr" />
       <item itemvalue="Doctest.cons" />
       <item itemvalue="Doctest.pop" />
-      <item itemvalue="Doctest.test_queue" />
-      <item itemvalue="CMake Application.queue" />
-      <item itemvalue="C/C++ File.Unnamed" />
     </list>
     <recent_temporary>
       <list>
@@ -199,7 +189,7 @@
       <workItem from="1708850809368" duration="14440000" />
       <workItem from="1709379734540" duration="129000" />
       <workItem from="1709380011650" duration="100000" />
-      <workItem from="1709536917039" duration="1000" />
+      <workItem from="1709536917039" duration="215000" />
     </task>
     <task id="LOCAL-00001" summary="add queue + test_queue">
       <option name="closed" value="true" />
@@ -225,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708875107469</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add queuearr">
+      <option name="closed" value="true" />
+      <created>1709536943758</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709536943758</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +247,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add queue + test_queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="add queue + test_queue" />
+    <MESSAGE value="add queuearr" />
+    <option name="LAST_COMMIT_MESSAGE" value="add queuearr" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

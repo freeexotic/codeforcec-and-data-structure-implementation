@@ -1,12 +1,8 @@
 # ninja log v5
 0	63	1708876936703226159	prj.lab/complex/CMakeFiles/complex.dir/complex.cpp.o	2aa8d7a5390e787
+2	1740	1708876972475436673	prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o	d1a712a7917d17e0
+345	363	1708876937005083000	prj.lab/complex/libcomplex.a	be33eab410124d12
 0	343	1708876936981662030	prj.lab/complex/CMakeFiles/complex.dir/__/queue/queue.cpp.o	351c46560f10f779
 0	345	1708876936981661988	prj.lab/queue/CMakeFiles/queue.dir/queue.cpp.o	f0539deec6e11896
-345	363	1708876937005083000	prj.lab/complex/libcomplex.a	be33eab410124d12
 363	380	1708876937022190000	prj.lab/queue/libqueue.a	7e4d3e6a4b24c9b4
-0	1771	1708876938409848940	prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o	d1a712a7917d17e0
-1772	1804	1708876938445417001	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue	82f584317971d269
-1	1727	1708876963872010632	prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o	d1a712a7917d17e0
-1727	1759	1708876963907391236	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue	82f584317971d269
-2	1740	1708876972475436673	prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o	d1a712a7917d17e0
 1740	1773	1708876972510878485	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue	82f584317971d269

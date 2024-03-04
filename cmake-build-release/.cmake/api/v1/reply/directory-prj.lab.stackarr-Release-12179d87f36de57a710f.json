@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"prj.lab/queue/CMakeLists.txt"
+			"prj.lab/stackarr/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -30,16 +30,16 @@
 			"destination" : "lib",
 			"paths" : 
 			[
-				"prj.lab/queue/libqueue.a"
+				"prj.lab/stackarr/libstackarr.a"
 			],
-			"targetId" : "queue::@5854f05d036e03a5574c",
+			"targetId" : "stackarr::@5cb587019536b540a06d",
 			"targetIndex" : 1,
 			"type" : "target"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "prj.lab/queue",
-		"source" : "prj.lab/queue"
+		"build" : "prj.lab/stackarr",
+		"source" : "prj.lab/stackarr"
 	}
 }

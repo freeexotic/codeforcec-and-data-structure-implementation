@@ -1,9 +1,8 @@
 {
-	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "prj.lab/queue/libqueue.a"
+			"path" : "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_stackarr"
 		}
 	],
 	"backtrace" : 1,
@@ -11,15 +10,13 @@
 	{
 		"commands" : 
 		[
-			"add_library",
-			"install",
-			"target_link_libraries",
-			"target_include_directories",
-			"set_property"
+			"add_executable",
+			"target_link_libraries"
 		],
 		"files" : 
 		[
-			"prj.lab/queue/CMakeLists.txt"
+			"prj.test/CMakeLists.txt",
+			"prj.lab/stackarr/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -35,26 +32,17 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 8,
+				"line" : 7,
 				"parent" : 0
 			},
 			{
-				"command" : 2,
-				"file" : 0,
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
 				"line" : 2,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 4,
-				"parent" : 0
-			},
-			{
-				"command" : 4,
-				"file" : 0,
-				"line" : 3,
-				"parent" : 0
+				"parent" : 3
 			}
 		]
 	},
@@ -70,11 +58,11 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 4,
-					"path" : "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/prj.lab/queue/.."
+					"backtrace" : 2,
+					"path" : "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/prj.lab/stackarr/.."
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 2,
 					"path" : "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/prj.lab/complex/.."
 				}
 			],
@@ -83,7 +71,7 @@
 			{
 				"backtraces" : 
 				[
-					5
+					1
 				],
 				"standard" : "20"
 			},
@@ -96,31 +84,46 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 3,
+			"backtrace" : 2,
 			"id" : "complex::@f01986494a78af0cc1db"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "stackarr::@5cb587019536b540a06d"
 		}
 	],
-	"id" : "queue::@5854f05d036e03a5574c",
-	"install" : 
+	"id" : "test_stackarr::@03e42033715ba8c02d37",
+	"link" : 
 	{
-		"destinations" : 
+		"commandFragments" : 
 		[
 			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
 				"backtrace" : 2,
-				"path" : "lib"
+				"fragment" : "prj.lab/stackarr/libstackarr.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "prj.lab/complex/libcomplex.a",
+				"role" : "libraries"
 			}
 		],
-		"prefix" : 
-		{
-			"path" : "/usr/local"
-		}
+		"language" : "CXX"
 	},
-	"name" : "queue",
-	"nameOnDisk" : "libqueue.a",
+	"name" : "test_stackarr",
+	"nameOnDisk" : "test_stackarr",
 	"paths" : 
 	{
-		"build" : "prj.lab/queue",
-		"source" : "prj.lab/queue"
+		"build" : "prj.test",
+		"source" : "prj.test"
 	},
 	"sourceGroups" : 
 	[
@@ -130,13 +133,6 @@
 			[
 				0
 			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				1
-			]
 		}
 	],
 	"sources" : 
@@ -144,14 +140,9 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "prj.lab/queue/queue.cpp",
+			"path" : "prj.test/test_stackarr.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "prj.lab/queue/queue.hpp",
-			"sourceGroupIndex" : 1
 		}
 	],
-	"type" : "STATIC_LIBRARY"
+	"type" : "EXECUTABLE"
 }

@@ -31,7 +31,6 @@
 /Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.lab/stacklst/CMakeFiles/install.dir
 /Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.lab/stacklst/CMakeFiles/install/local.dir
 /Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.lab/stacklst/CMakeFiles/install/strip.dir
-/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.lab/queue/CMakeFiles/queue.dir
 /Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.lab/queue/CMakeFiles/edit_cache.dir
 /Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.lab/queue/CMakeFiles/rebuild_cache.dir
 /Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.lab/queue/CMakeFiles/list_install_components.dir

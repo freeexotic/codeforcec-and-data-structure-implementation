@@ -1,0 +1,203 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "prj.lab",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab-Release-6b850684795bf15e457d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "prj.lab"
+				},
+				{
+					"build" : "prj.lab/complex",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.complex-Release-8beea3e4d402cc07cd86.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "prj.lab/complex",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "prj.lab/stackarr",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.stackarr-Release-12179d87f36de57a710f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "prj.lab/stackarr",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "prj.lab/stacklst",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.stacklst-Release-9bf8707cf2be56587da2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "prj.lab/stacklst",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "prj.lab/queue",
+					"jsonFile" : "directory-prj.lab.queue-Release-948fc7a69ad02f425ee5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "prj.lab/queue"
+				},
+				{
+					"build" : "prj.test",
+					"jsonFile" : "directory-prj.test-Release-5c21977a58eb6220d410.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "prj.test",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "silaev-v-v-23-03",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "complex::@f01986494a78af0cc1db",
+					"jsonFile" : "target-complex-Release-bd83f81283002263eb7c.json",
+					"name" : "complex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "stackarr::@5cb587019536b540a06d",
+					"jsonFile" : "target-stackarr-Release-d377f2e10c1bfbbabfdf.json",
+					"name" : "stackarr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "stacklst::@6bb98f6a26e8fa7c255c",
+					"jsonFile" : "target-stacklst-Release-f687a62c17ff9a854edc.json",
+					"name" : "stacklst",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "test_queue::@03e42033715ba8c02d37",
+					"jsonFile" : "target-test_queue-Release-c2ab212065371a323173.json",
+					"name" : "test_queue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "test_stackarr::@03e42033715ba8c02d37",
+					"jsonFile" : "target-test_stackarr-Release-d5626c6cd7920cf7feab.json",
+					"name" : "test_stackarr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "test_stacklst::@03e42033715ba8c02d37",
+					"jsonFile" : "target-test_stacklst-Release-0243484ac54a12dace6a.json",
+					"name" : "test_stacklst",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/cmake-build-release",
+		"source" : "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
