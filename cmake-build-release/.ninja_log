@@ -1,48 +1,12 @@
 # ninja log v5
-0	53	1708873025852682516	prj.lab/complex/CMakeFiles/complex.dir/complex.cpp.o	2aa8d7a5390e787
-0	74	1708873025874744619	prj.lab/stacklst/CMakeFiles/stacklst.dir/stacklst.cpp.o	fb309bebc36986de
-0	291	1708873026090585222	prj.lab/stackarr/CMakeFiles/stackarr.dir/stackarr.cpp.o	aad430f4f3d9fd85
-0	464	1708873026262348826	prj.lab/complex/CMakeFiles/complex.dir/__/queue/queue.cpp.o	351c46560f10f779
-1	495	1708873026292469126	prj.lab/queue/CMakeFiles/queue.dir/queue.cpp.o	f0539deec6e11896
-464	502	1708873026303693000	prj.lab/complex/libcomplex.a	be33eab410124d12
-502	537	1708873026338653000	prj.lab/stackarr/libstackarr.a	796b56079aaf90f6
-503	538	1708873026339240000	prj.lab/queue/libqueue.a	7e4d3e6a4b24c9b4
-502	540	1708873026341855000	prj.lab/stacklst/libstacklst.a	79c1924729bd04b7
-54	2079	1708873027874911163	prj.test/CMakeFiles/test_stacklst.dir/test_stacklst.cpp.o	2df6d866bb693d73
-75	2104	1708873027900463326	prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o	d1a712a7917d17e0
-2079	2119	1708873027919308742	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_stacklst	cffc180e4cfe9a88
-2104	2138	1708873027938619280	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue	82f584317971d269
-1	2162	1708873027958667146	prj.test/CMakeFiles/test_stackarr.dir/test_stackarr.cpp.o	43605c0bbfa203ee
-2162	2194	1708873027995289527	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_stackarr	7d5f7427cc794e6a
-2	1732	1708873308935896469	prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o	d1a712a7917d17e0
-1732	1768	1708873308975186582	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue	82f584317971d269
-1	1729	1708873318584108207	prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o	d1a712a7917d17e0
-1729	1762	1708873318619588221	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue	82f584317971d269
-1	1778	1708873365963855143	prj.test/CMakeFiles/test_stackarr.dir/test_stackarr.cpp.o	43605c0bbfa203ee
-1779	1813	1708873366000905855	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_stackarr	7d5f7427cc794e6a
-1	1842	1708873378386319601	prj.test/CMakeFiles/test_stackarr.dir/test_stackarr.cpp.o	43605c0bbfa203ee
-1842	1875	1708873378421746156	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_stackarr	7d5f7427cc794e6a
-1	1811	1708873828574609775	prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o	d1a712a7917d17e0
-1811	1847	1708873828612980231	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue	82f584317971d269
-2	443	1708874062017410350	prj.lab/complex/CMakeFiles/complex.dir/__/queue/queue.cpp.o	351c46560f10f779
-443	463	1708874062040675000	prj.lab/complex/libcomplex.a	be33eab410124d12
-463	505	1708874062081995260	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_stackarr	7d5f7427cc794e6a
-2	356	1708874094173616374	prj.lab/queue/CMakeFiles/queue.dir/queue.cpp.o	f0539deec6e11896
-356	376	1708874094195695000	prj.lab/queue/libqueue.a	7e4d3e6a4b24c9b4
-3	1771	1708874095587469233	prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o	d1a712a7917d17e0
-1771	1807	1708874095626019106	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue	82f584317971d269
-2	1726	1708874105559215053	prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o	d1a712a7917d17e0
-1726	1758	1708874105594463530	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue	82f584317971d269
-2	1818	1708874111035083585	prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o	d1a712a7917d17e0
-1818	1852	1708874111072445465	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue	82f584317971d269
-2	380	1708874520111963523	prj.lab/complex/CMakeFiles/complex.dir/__/queue/queue.cpp.o	351c46560f10f779
-2	381	1708874520111942398	prj.lab/queue/CMakeFiles/queue.dir/queue.cpp.o	f0539deec6e11896
-380	398	1708874520132688000	prj.lab/complex/libcomplex.a	be33eab410124d12
-398	413	1708874520148121000	prj.lab/queue/libqueue.a	7e4d3e6a4b24c9b4
-413	448	1708874520182501477	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue	82f584317971d269
-2	1791	1708874547674447316	prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o	d1a712a7917d17e0
-1791	1825	1708874547712592483	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue	82f584317971d269
-1	1743	1708874568753674638	prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o	d1a712a7917d17e0
-1743	1775	1708874568789045198	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue	82f584317971d269
-2	1746	1708874586560802485	prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o	d1a712a7917d17e0
-1747	1779	1708874586596875832	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue	82f584317971d269
+0	63	1708876936703226159	prj.lab/complex/CMakeFiles/complex.dir/complex.cpp.o	2aa8d7a5390e787
+0	343	1708876936981662030	prj.lab/complex/CMakeFiles/complex.dir/__/queue/queue.cpp.o	351c46560f10f779
+0	345	1708876936981661988	prj.lab/queue/CMakeFiles/queue.dir/queue.cpp.o	f0539deec6e11896
+345	363	1708876937005083000	prj.lab/complex/libcomplex.a	be33eab410124d12
+363	380	1708876937022190000	prj.lab/queue/libqueue.a	7e4d3e6a4b24c9b4
+0	1771	1708876938409848940	prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o	d1a712a7917d17e0
+1772	1804	1708876938445417001	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue	82f584317971d269
+1	1727	1708876963872010632	prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o	d1a712a7917d17e0
+1727	1759	1708876963907391236	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue	82f584317971d269
+2	1740	1708876972475436673	prj.test/CMakeFiles/test_queue.dir/test_queue.cpp.o	d1a712a7917d17e0
+1740	1773	1708876972510878485	/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/bin.rel/test_queue	82f584317971d269

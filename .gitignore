@@ -48,5 +48,3 @@ build.bat
 
 *.DS_Store
 
-cmake-build-release.*
-bin.rel.*
