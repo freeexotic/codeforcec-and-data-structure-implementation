@@ -1,8 +1,6 @@
-add_library(queuelstr queuelstr.cpp queuelstr.hpp)
-target_link_libraries(queuelstr complex)
-set_property(TARGET queuelstr PROPERTY CXX_STANDARD 20)
-target_include_directories(queuelstr PUBLIC
-        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/..>
-        $<INSTALL_INTERFACE:include>
-)
-install(TARGETS queuelstr)
+add_subdirectory(complex)
+add_subdirectory(stackarr)
+add_subdirectory(stacklst)
+add_subdirectory(queue)
+add_subdirectory(queuearr)
+add_subdirectory(queuelstr)
