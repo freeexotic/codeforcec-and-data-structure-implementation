@@ -1,0 +1,36 @@
+//
+// Created by Всеволод Силаев on 22.02.2024.
+//
+#include <iostream>
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/highgui.hpp>
+#include <opencv2/imgproc.hpp>
+
+using namespace cv;
+
+int hmin = 0, smin = 0, vmin = 180 ;
+int hmax = 145, smax = 150, vmax = 255;
+
+Mat imgHSV, mask;
+
+int main(){
+    std::string path = "/Users/vsevolodsilaev/CLionProjects/opencvtest/Resources/colorcheck.jpg";
+    Mat img = imread(path) ;
+
+    imshow("Image", img);
+    cvtColor(img, imgHSV, COLOR_BGR2HSV );
+/*
+    namedWindow("Trackbars", (640, 200));
+    createTrackbar("Hue Min", "Trackbars", &hmin, 179);
+    createTrackbar("Hue Max", "Trackbars", &hmax, 179);
+    createTrackbar("Sat Min", "Trackbars", &smin, 255);
+    createTrackbar("Sat Max", "Trackbars", &smax, 255);
+    createTrackbar("Val Min", "Trackbars", &vmin, 255);
+    createTrackbar("Val Max", "Trackbars", &vmax, 255);
+*/
+    Scalar lower(hmin, smin, vmin);
+    Scalar upper(hmax, smax, vmax);
+    inRange(img, lower, upper, mask);
+    imshow("mask of img", mask);
+    waitKey(0);
+}

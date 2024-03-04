@@ -1,0 +1,3 @@
+/Users/vsevolodsilaev/CLionProjects/opencvtest/cmake-build-debug/CMakeFiles/opencvtest.dir
+/Users/vsevolodsilaev/CLionProjects/opencvtest/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/vsevolodsilaev/CLionProjects/opencvtest/cmake-build-debug/CMakeFiles/rebuild_cache.dir

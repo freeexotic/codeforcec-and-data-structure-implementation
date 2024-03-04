@@ -1,0 +1,17 @@
+#include <iostream>
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/highgui.hpp>
+#include <opencv2/imgproc.hpp>
+
+using namespace cv;
+using namespace std;
+
+int main(){
+    Mat img(512, 515, CV_8UC3, Scalar(200 ,50 ,200));
+    circle(img, Point(256, 256), 156, Scalar(200,200,200), FILLED);
+    rectangle(img, Point(200, 300), Point(300, 380), Scalar(100,100,100), FILLED);
+    line(img, Point(0,256), Point(512, 256), Scalar(255,255,255));
+    putText(img, "test text", Point(120,256), FONT_HERSHEY_DUPLEX, 2, Scalar(0,0,0));
+    imshow("image", img);
+    waitKey(0);
+}
