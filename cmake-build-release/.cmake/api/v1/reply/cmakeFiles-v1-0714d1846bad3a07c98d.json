@@ -162,14 +162,20 @@
 			"path" : "prj.lab/queue/CMakeLists.txt"
 		},
 		{
+			"path" : "prj.lab/queuearr/CMakeLists.txt"
+		},
+		{
+			"path" : "prj.lab/queuelstr/CMakeLists.txt"
+		},
+		{
 			"path" : "prj.test/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/cmake-build-release",
-		"source" : "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v"
+		"build" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release",
+		"source" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v"
 	},
 	"version" : 
 	{

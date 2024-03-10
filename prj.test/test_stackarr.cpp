@@ -69,6 +69,6 @@ TEST_CASE("Push, Pop & Top"){
     CHECK(a.Top() == Complex(i, i));
   }
   a.Pop();
-  CHECK_THROWS(a.Top());
+  CHECK_THROWS(a.Top(), "123");
   a.Pop();
 }

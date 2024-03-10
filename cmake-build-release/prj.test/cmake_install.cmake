@@ -1,4 +1,4 @@
-# Install script for directory: /Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/prj.test
+# Install script for directory: /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

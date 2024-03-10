@@ -1,0 +1,286 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "prj.lab",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab-Release-6b850684795bf15e457d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "prj.lab"
+				},
+				{
+					"build" : "prj.lab/complex",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.complex-Release-8beea3e4d402cc07cd86.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "prj.lab/complex",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "prj.lab/stackarr",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.stackarr-Release-bc221aa2c6007a3102a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "prj.lab/stackarr",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "prj.lab/stacklst",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.stacklst-Release-d79eb4bcc7c0efd0954e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "prj.lab/stacklst",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "prj.lab/queue",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.queue-Release-bf7e6a9f6f167844fbce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "prj.lab/queue",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "prj.lab/queuearr",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.queuearr-Release-4e0bb68453c2742b2eae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "prj.lab/queuearr",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "prj.lab/queuelstr",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.queuelstr-Release-596500161b1c0f147ebd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "prj.lab/queuelstr",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "prj.test",
+					"jsonFile" : "directory-prj.test-Release-5c21977a58eb6220d410.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "prj.test",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "silaev-v-v-23-03",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "complex::@f01986494a78af0cc1db",
+					"jsonFile" : "target-complex-Release-feb8f1ec731c92c68136.json",
+					"name" : "complex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "queue::@5854f05d036e03a5574c",
+					"jsonFile" : "target-queue-Release-f7e460dc4eeae61c5e6a.json",
+					"name" : "queue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "queuearr::@61168318a0e8eb0e03ed",
+					"jsonFile" : "target-queuearr-Release-a4ec282fb1509f840e76.json",
+					"name" : "queuearr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "queuelstr::@6be9beab16ec0bc80d44",
+					"jsonFile" : "target-queuelstr-Release-c2b9b072893cd9c16e90.json",
+					"name" : "queuelstr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "stackarr::@5cb587019536b540a06d",
+					"jsonFile" : "target-stackarr-Release-8aeda2937365628caf48.json",
+					"name" : "stackarr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "stacklst::@6bb98f6a26e8fa7c255c",
+					"jsonFile" : "target-stacklst-Release-e6f17651cdbf553a955c.json",
+					"name" : "stacklst",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "test_queue::@03e42033715ba8c02d37",
+					"jsonFile" : "target-test_queue-Release-f051829e3e6c13d37e94.json",
+					"name" : "test_queue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "test_queuearr::@03e42033715ba8c02d37",
+					"jsonFile" : "target-test_queuearr-Release-a0c7e1cdc0b693c8c474.json",
+					"name" : "test_queuearr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "test_queuelstr::@03e42033715ba8c02d37",
+					"jsonFile" : "target-test_queuelstr-Release-63692b0fd2f20ee8eeaf.json",
+					"name" : "test_queuelstr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "test_stackarr::@03e42033715ba8c02d37",
+					"jsonFile" : "target-test_stackarr-Release-cb839185cf993b0aeeb6.json",
+					"name" : "test_stackarr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "test_stacklst::@03e42033715ba8c02d37",
+					"jsonFile" : "target-test_stacklst-Release-76f04a5cefac76538e36.json",
+					"name" : "test_stacklst",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release",
+		"source" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

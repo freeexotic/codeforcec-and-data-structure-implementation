@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "prj.lab/stacklst/libstacklst.a"
+			"path" : "prj.lab/stackarr/libstackarr.a"
 		}
 	],
 	"backtrace" : 1,
@@ -19,7 +19,7 @@
 		],
 		"files" : 
 		[
-			"prj.lab/stacklst/CMakeLists.txt"
+			"prj.lab/stackarr/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -71,11 +71,11 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/prj.lab/stacklst/.."
+					"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarr/.."
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/Users/vsevolodsilaev/Desktop/C++/misis/try again/misis2024s-23-03-silaev-v-v/prj.lab/complex/.."
+					"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/complex/.."
 				}
 			],
 			"language" : "CXX",
@@ -100,7 +100,7 @@
 			"id" : "complex::@f01986494a78af0cc1db"
 		}
 	],
-	"id" : "stacklst::@6bb98f6a26e8fa7c255c",
+	"id" : "stackarr::@5cb587019536b540a06d",
 	"install" : 
 	{
 		"destinations" : 
@@ -115,12 +115,12 @@
 			"path" : "/usr/local"
 		}
 	},
-	"name" : "stacklst",
-	"nameOnDisk" : "libstacklst.a",
+	"name" : "stackarr",
+	"nameOnDisk" : "libstackarr.a",
 	"paths" : 
 	{
-		"build" : "prj.lab/stacklst",
-		"source" : "prj.lab/stacklst"
+		"build" : "prj.lab/stackarr",
+		"source" : "prj.lab/stackarr"
 	},
 	"sourceGroups" : 
 	[
@@ -144,12 +144,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "prj.lab/stacklst/stacklst.cpp",
+			"path" : "prj.lab/stackarr/stackarr.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "prj.lab/stacklst/stacklst.hpp",
+			"path" : "prj.lab/stackarr/stackarr.hpp",
 			"sourceGroupIndex" : 1
 		}
 	],

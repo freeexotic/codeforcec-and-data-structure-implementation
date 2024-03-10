@@ -5,12 +5,12 @@
 #include <stdexcept>
 
 bool StackArr::IsEmpty() const noexcept {
-  return 0 <= i_top_;
+  return 0 > i_top_;
 }
 
 void StackArr::Pop() noexcept {
   if (!IsEmpty()) {
-    i_top_ -= 1;
+    i_top_--;
     counter_--;
   }
 }
@@ -57,6 +57,3 @@ void StackArr::Clear() noexcept {
   counter_ = 0;
 }
 
-int StackArr::Counter() noexcept {
-    return counter_;
-}
