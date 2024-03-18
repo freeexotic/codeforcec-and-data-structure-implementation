@@ -5,7 +5,7 @@
 #include <iostream>
 
 bool QueueLstR::IsEmpty() const noexcept {
-    return head->up == nullptr;
+    return size_ == 0;
 }
 
 int QueueLstR::Size() noexcept {
@@ -26,37 +26,31 @@ float QueueLstR::Top() noexcept {
 }
 
 void QueueLstR::Push(const float &val) {
-    if (size_ == 0){
+    Node* new_node = new Node(val);
+    Node* finder = head; //?
+    Node* buf;
+    if (IsEmpty()){
         head->data = val;
-        head->up = nullptr;
         size_++;
     }
+    else if (size_ == 1){
+        if (head->data <= val){
+            buf = head;
+            new_node->up = buf;
+            head = new_node;
+            size_++;
+        }
+    }
+    else if (finder->up == nullptr){
+        finder->up = new_node;
+    }
     else {
-        Node* new_node = new Node(val);
-        Node* finder = head; //?
-
-
-        for (int i = 0; i!=size_ ; ++i){
-            if (finder->up == nullptr){ // доделать 
-                if (val <= finder->data){
-                    new_node->up = head;
-                    head = new_node;
-                    break;
-                }
-                else{
-                    finder->up = new_node;
-                    new_node->up = nullptr;
-                    break;
-                }
-            }
-            else {
-                Node* buf = finder->up;
-                if (val <= buf->data)
-                {
-                    finder->up = new_node;
-                    new_node->up = buf;
-                    break;
-                }
+        for (int i = 0; i!= size_-1 ; ++i){
+            if (val <= finder->data) {
+                new_node->up = finder->up;
+                finder = new_node;
+                size_++;
+                break;
             }
             finder = finder->up;
         }
