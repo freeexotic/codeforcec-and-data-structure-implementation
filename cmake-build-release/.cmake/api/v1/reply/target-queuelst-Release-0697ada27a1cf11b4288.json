@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "prj.lab/queue/libqueue.a"
+			"path" : "prj.lab/queuelst/libqueuelst.a"
 		}
 	],
 	"backtrace" : 1,
@@ -19,7 +19,7 @@
 		],
 		"files" : 
 		[
-			"prj.lab/queue/CMakeLists.txt"
+			"prj.lab/queuelst/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -71,7 +71,7 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queue/.."
+					"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuelst/.."
 				},
 				{
 					"backtrace" : 3,
@@ -100,7 +100,7 @@
 			"id" : "complex::@f01986494a78af0cc1db"
 		}
 	],
-	"id" : "queue::@5854f05d036e03a5574c",
+	"id" : "queuelst::@9e116aa3968b19d2aca8",
 	"install" : 
 	{
 		"destinations" : 
@@ -115,12 +115,12 @@
 			"path" : "/usr/local"
 		}
 	},
-	"name" : "queue",
-	"nameOnDisk" : "libqueue.a",
+	"name" : "queuelst",
+	"nameOnDisk" : "libqueuelst.a",
 	"paths" : 
 	{
-		"build" : "prj.lab/queue",
-		"source" : "prj.lab/queue"
+		"build" : "prj.lab/queuelst",
+		"source" : "prj.lab/queuelst"
 	},
 	"sourceGroups" : 
 	[
@@ -144,12 +144,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "prj.lab/queue/queue.cpp",
+			"path" : "prj.lab/queuelst/queuelst.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "prj.lab/queue/queue.hpp",
+			"path" : "prj.lab/queuelst/queuelst.hpp",
 			"sourceGroupIndex" : 1
 		}
 	],

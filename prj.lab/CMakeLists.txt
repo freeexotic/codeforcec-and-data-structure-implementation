@@ -1,6 +1,6 @@
 add_subdirectory(complex)
 add_subdirectory(stackarr)
 add_subdirectory(stacklst)
-add_subdirectory(queue)
+add_subdirectory(queuelst)
 add_subdirectory(queuearr)
 add_subdirectory(queuelstr)

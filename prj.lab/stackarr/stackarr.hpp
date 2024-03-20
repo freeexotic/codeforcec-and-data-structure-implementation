@@ -8,13 +8,18 @@ struct Complex;
 
 class StackArr {
 public:
-  [[nodiscard]] StackArr() = default;
+  StackArr() = default;
 
-  [[nodiscard]] StackArr(const StackArr&) = default;
+  StackArr(const StackArr&);
+
+  StackArr (StackArr&&);
   
-  ~StackArr() = default;
-  
-  [[nodiscard]] StackArr& operator=(const StackArr&) = default;
+  ~StackArr();
+
+  StackArr& operator=(const StackArr&);
+
+  StackArr& operator=(StackArr&&);
+
 
   bool IsEmpty() const noexcept;
 
@@ -30,11 +35,11 @@ public:
   
   int Size() noexcept;
 
-  int Counter() noexcept;
+  int Capacity() noexcept;
 
 private:
   std::ptrdiff_t size_ = 0;   //!< вместимость элементов в буфере
-  std::ptrdiff_t counter_ = 0; //! < количество элементов в стеке
+  std::ptrdiff_t capacity = 0; //! < количество элементов в стеке
   std::ptrdiff_t i_top_ = -1; //!< индекс top элемента
   Complex* data_ = nullptr;   //!< элементы стека
 };

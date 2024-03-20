@@ -1,6 +1,6 @@
 
-#ifndef SILAEV_V_V_23_03_QUEUE_HPP
-#define SILAEV_V_V_23_03_QUEUE_HPP
+#ifndef SILAEV_V_V_23_03_QUEUELST_HPP
+#define SILAEV_V_V_23_03_QUEUELST_HPP
 
 #include <complex/complex.hpp>
 #include <iostream>
@@ -32,9 +32,9 @@ public:
 
     void Push(const Complex& val); // done
 
-    [[nodiscard]] Complex& Top();
+    Complex& Top();
 
-    [[nodiscard]] const Complex& Top() const;
+    const Complex& Top() const;
 
     void Clear() noexcept;
 
@@ -47,4 +47,4 @@ private:
 
 };
 
-#endif //SILAEV_V_V_23_03_QUEUE_HPP
+#endif //SILAEV_V_V_23_03_QUEUELST_HPP

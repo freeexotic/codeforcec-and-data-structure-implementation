@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"prj.lab/queue/CMakeLists.txt"
+			"prj.lab/queuearr/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -30,16 +30,16 @@
 			"destination" : "lib",
 			"paths" : 
 			[
-				"prj.lab/queue/libqueue.a"
+				"prj.lab/queuearr/libqueuearr.a"
 			],
-			"targetId" : "queue::@5854f05d036e03a5574c",
+			"targetId" : "queuearr::@61168318a0e8eb0e03ed",
 			"targetIndex" : 1,
 			"type" : "target"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "prj.lab/queue",
-		"source" : "prj.lab/queue"
+		"build" : "prj.lab/queuearr",
+		"source" : "prj.lab/queuearr"
 	}
 }

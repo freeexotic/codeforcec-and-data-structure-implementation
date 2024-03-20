@@ -1,6 +1,6 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "doctest.h"
-#include <queue/queue.hpp>
+#include <queuelst/queuelst.hpp>
 #include <complex/complex.hpp>
 
 
@@ -24,8 +24,11 @@ TEST_CASE("pop") {
 
     SUBCASE("pop") {
         Queue a;
-        for (int i = 0; i < 500; i++)
-            a.Push(Complex());
+        for (int i = 0; i < 500; i++){
+            a.Push(Complex(i,i));
+            a.Top() == Complex(i,2);
+        }
+
 
         Queue b(a);
         CHECK(b.Size() == 500);

@@ -10,6 +10,10 @@ struct Complex {
 
   [[nodiscard]] Complex(const Complex&) = default;
 
+  Complex(Complex&&) = default;
+
+
+
 
   [[nodiscard]] explicit Complex(const double real) : re(real) { }
 
@@ -17,6 +21,8 @@ struct Complex {
   [[nodiscard]] Complex(const double real, const double imaginary) : re(real), im(imaginary) {}
 
   Complex& operator=(const Complex&) = default;
+
+    Complex& operator=(Complex&&) = default;
 
 
   ~Complex() = default;

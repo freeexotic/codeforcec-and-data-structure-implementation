@@ -1,5 +1,5 @@
 #include <complex/complex.hpp>
-#include <queue/queue.hpp>
+#include <queuelst/queuelst.hpp>
 
 
 bool Queue::IsEmpty() const noexcept{
@@ -36,4 +36,11 @@ void Queue::Pop() noexcept {
     size_--;
 }
 
+Complex& Queue::Top() {
+    return head->data;
+}
+
+const Complex& Queue::Top() const {
+    return head->data;
+}
 

@@ -159,7 +159,7 @@
 			"path" : "prj.lab/stacklst/CMakeLists.txt"
 		},
 		{
-			"path" : "prj.lab/queue/CMakeLists.txt"
+			"path" : "prj.lab/queuelst/CMakeLists.txt"
 		},
 		{
 			"path" : "prj.lab/queuearr/CMakeLists.txt"
