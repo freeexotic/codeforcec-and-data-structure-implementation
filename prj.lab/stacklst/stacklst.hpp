@@ -9,11 +9,9 @@ struct Complex;
 
 class Node {
   public:
-    Node* back;
-    Complex data;
-    Node() = default;
-    Node(Complex data_) : data(data_), back(nullptr) {}
-    ~Node() = default;
+    Node* next = nullptr;
+    Complex data ;
+    Node(Complex data_) : data(data_), next(nullptr) {}
   };
 
 class StackLst {
@@ -22,10 +20,15 @@ public:
   [[nodiscard]] StackLst() = default;
 
   [[nodiscard]] StackLst(const StackLst&) = default;
+
+  StackLst(StackLst&& obj) noexcept; // ???
+
   
   ~StackLst() = default;
   
   [[nodiscard]] StackLst& operator=(const StackLst&) = default;
+
+  StackLst& operator=(StackLst&& obj) noexcept; // ???
 
   bool IsEmpty() const noexcept;
 
@@ -37,10 +40,12 @@ public:
 
   [[nodiscard]] const Complex& Top() const;
 
+  int Size() noexcept;
+
   void Clear() noexcept;
 
 private:
-  std::ptrdiff_t size_ = 0;   //!< число элементов в буфере
+  int size_ = 0;   //!< число элементов в буфере
   Node* head = nullptr;
 
 };

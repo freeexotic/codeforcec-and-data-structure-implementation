@@ -1,8 +1,20 @@
 #include <complex/complex.hpp>
 #include <stacklst/stacklst.hpp>
+#include <memory> // Почему при добавлении все работает
 
 #include <stdexcept>
-  
+
+
+StackLst::StackLst(StackLst &&obj) noexcept{
+    std::swap(size_, obj.size_);
+    std::swap(head, obj.head);
+}
+
+StackLst& StackLst::operator=(StackLst&& obj) noexcept{
+    std::swap(size_, obj.size_);
+    std::swap(head, obj.head);
+    return *this;
+}
 
 bool StackLst::IsEmpty () const noexcept{
     return head == nullptr;
@@ -10,7 +22,7 @@ bool StackLst::IsEmpty () const noexcept{
 
 void StackLst::Push (const Complex& val){
     Node* new_node = new Node(val);
-    (new_node->back) = head;
+    (new_node->next) = head;
     head = new_node;
     size_+=1;
 }
@@ -18,7 +30,7 @@ void StackLst::Push (const Complex& val){
 void StackLst::Pop() noexcept {
     if (!IsEmpty()){
         Node* buf = head;
-        head = (head->back);
+        head = (head->next);
         delete buf;
         --size_;
     }
@@ -43,4 +55,7 @@ const Complex& StackLst::Top() const{
     }
 }
 
+int StackLst::Size() noexcept {
+    return size_;
+}
 

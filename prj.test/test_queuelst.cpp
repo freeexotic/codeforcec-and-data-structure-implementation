@@ -26,7 +26,6 @@ TEST_CASE("pop") {
         Queue a;
         for (int i = 0; i < 500; i++){
             a.Push(Complex(i,i));
-            a.Top() == Complex(i,2);
         }
 
 
