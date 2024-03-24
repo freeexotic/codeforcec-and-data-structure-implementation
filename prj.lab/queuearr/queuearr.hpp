@@ -17,7 +17,7 @@ public:
 
   [[nodiscard]] QueueArr& operator=(const QueueArr&);
 
-  QueueArr& operator=(const QueueArr&&) noexcept;
+  QueueArr& operator=(QueueArr&&) noexcept;
 
   [[nodiscard]] bool IsEmpty() const noexcept;
 

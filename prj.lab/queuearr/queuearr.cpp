@@ -2,6 +2,23 @@
 #include <queuearr/queuearr.hpp>
 #include <algorithm>
 
+QueueArr::QueueArr(QueueArr &&obj) noexcept {
+    std::swap(begin, obj.begin);
+    std::swap(end, obj.end);
+    std::swap(capacity_, obj.capacity_);
+    std::swap(mass_, obj.mass_);
+}
+
+QueueArr &QueueArr::operator=(QueueArr && obj) noexcept {
+    if(this != &obj){
+        std::swap(begin, obj.begin);
+        std::swap(end, obj.end);
+        std::swap(capacity_, obj.capacity_);
+        std::swap(mass_, obj.mass_);
+    }
+    return *this;
+}
+
 QueueArr::QueueArr() {
   mass_ = new Complex[capacity_];
 }
