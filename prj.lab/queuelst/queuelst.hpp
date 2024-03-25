@@ -18,13 +18,17 @@ public:
 
 class Queue {
 public:
-    [[nodiscard]] Queue() = default;
+    Queue() = default;
 
-    [[nodiscard]] Queue(const Queue&) = default;
+    Queue(Queue&& obj);
+
+    Queue (const Queue&);
 
     ~Queue() = default;
 
-   //?????? [[nodiscard]] Queue& operator=(const Queue&) = default;
+    Queue& operator=(const Queue&) = default;
+
+    Queue& operator=(Queue&& obj);
 
     bool IsEmpty() const noexcept; //done
 

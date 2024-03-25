@@ -6,6 +6,22 @@ bool Queue::IsEmpty() const noexcept{
     return head == nullptr;
 }
 
+Queue::Queue(Queue && obj) {
+    std::swap(head, obj.head);
+    std::swap(tail, obj.tail);
+    std::swap(size_, obj.size_);
+}
+
+
+Queue &Queue::operator=(Queue && obj) {
+    if (this != &obj){
+        std::swap(head, obj.head);
+        std::swap(tail, obj.tail);
+        std::swap(size_, obj.size_);
+    }
+    return *this;
+}
+
 int Queue::Size() noexcept{
     return size_;
 }
@@ -30,10 +46,15 @@ void Queue::Clear() noexcept{
     }
 }
 void Queue::Pop() noexcept {
-    Node* buf  = head;
-    head = buf->up;
-    delete buf;
-    size_--;
+    if (!IsEmpty()){
+        Node* buf  = head;
+        head = buf->up;
+        delete buf;
+        size_--;
+    }
+    if (IsEmpty()){
+        tail = nullptr;
+    }
 }
 
 Complex& Queue::Top() {

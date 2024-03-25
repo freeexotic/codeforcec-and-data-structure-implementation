@@ -19,7 +19,7 @@ public:
   
   [[nodiscard]] StackLst() = default;
 
-  [[nodiscard]] StackLst(const StackLst&) = default;
+  StackLst(const StackLst&) = default;
 
   StackLst(StackLst&& obj) noexcept; // ???
 

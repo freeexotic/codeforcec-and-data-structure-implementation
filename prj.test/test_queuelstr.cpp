@@ -35,7 +35,7 @@ TEST_CASE("first test") {
         CHECK(a.Top() == b );
         float c = 3.5;
         a.Push(c);
-        CHECK(a.Top() == c);
+        CHECK(a.Top() == 3.5);
         a.Pop();
         CHECK(a.Top() == b );
     }
