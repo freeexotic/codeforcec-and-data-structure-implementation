@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"prj.lab/stacklst/CMakeLists.txt"
+			"prj.lab/queuearr/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -30,16 +30,16 @@
 			"destination" : "lib",
 			"paths" : 
 			[
-				"prj.lab/stacklst/libstacklst.a"
+				"prj.lab/queuearr/libqueuearr.a"
 			],
-			"targetId" : "stacklst::@6bb98f6a26e8fa7c255c",
-			"targetIndex" : 5,
+			"targetId" : "queuearr::@61168318a0e8eb0e03ed",
+			"targetIndex" : 2,
 			"type" : "target"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "prj.lab/stacklst",
-		"source" : "prj.lab/stacklst"
+		"build" : "prj.lab/queuearr",
+		"source" : "prj.lab/queuearr"
 	}
 }

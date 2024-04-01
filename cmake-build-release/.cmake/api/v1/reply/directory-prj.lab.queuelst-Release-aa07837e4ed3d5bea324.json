@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"prj.lab/complex/CMakeLists.txt"
+			"prj.lab/queuelst/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -17,7 +17,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 9,
+				"line" : 8,
 				"parent" : 0
 			}
 		]
@@ -30,16 +30,16 @@
 			"destination" : "lib",
 			"paths" : 
 			[
-				"prj.lab/complex/libcomplex.a"
+				"prj.lab/queuelst/libqueuelst.a"
 			],
-			"targetId" : "complex::@f01986494a78af0cc1db",
-			"targetIndex" : 0,
+			"targetId" : "queuelst::@9e116aa3968b19d2aca8",
+			"targetIndex" : 3,
 			"type" : "target"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "prj.lab/complex",
-		"source" : "prj.lab/complex"
+		"build" : "prj.lab/queuelst",
+		"source" : "prj.lab/queuelst"
 	}
 }

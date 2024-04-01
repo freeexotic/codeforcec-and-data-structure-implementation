@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"prj.lab/queuearr/CMakeLists.txt"
+			"prj.lab/complex/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -17,7 +17,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 9,
 				"parent" : 0
 			}
 		]
@@ -30,16 +30,16 @@
 			"destination" : "lib",
 			"paths" : 
 			[
-				"prj.lab/queuearr/libqueuearr.a"
+				"prj.lab/complex/libcomplex.a"
 			],
-			"targetId" : "queuearr::@61168318a0e8eb0e03ed",
+			"targetId" : "complex::@f01986494a78af0cc1db",
 			"targetIndex" : 1,
 			"type" : "target"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "prj.lab/queuearr",
-		"source" : "prj.lab/queuearr"
+		"build" : "prj.lab/complex",
+		"source" : "prj.lab/complex"
 	}
 }

@@ -9,7 +9,7 @@
 					"childIndexes" : 
 					[
 						1,
-						8
+						9
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
@@ -29,7 +29,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-prj.lab-Release-6b850684795bf15e457d.json",
@@ -44,7 +45,7 @@
 				{
 					"build" : "prj.lab/complex",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-prj.lab.complex-Release-8beea3e4d402cc07cd86.json",
+					"jsonFile" : "directory-prj.lab.complex-Release-a82ca0d035fb00870618.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -54,13 +55,13 @@
 					"source" : "prj.lab/complex",
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				},
 				{
 					"build" : "prj.lab/stackarr",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-prj.lab.stackarr-Release-bc221aa2c6007a3102a8.json",
+					"jsonFile" : "directory-prj.lab.stackarr-Release-342de1ffcb17d96d7037.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -70,13 +71,13 @@
 					"source" : "prj.lab/stackarr",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
 					"build" : "prj.lab/stacklst",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-prj.lab.stacklst-Release-d79eb4bcc7c0efd0954e.json",
+					"jsonFile" : "directory-prj.lab.stacklst-Release-fd86a5624eafef96a38b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -86,13 +87,13 @@
 					"source" : "prj.lab/stacklst",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
 					"build" : "prj.lab/queuelst",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-prj.lab.queuelst-Release-e38dd0cffe2d3f9f135e.json",
+					"jsonFile" : "directory-prj.lab.queuelst-Release-aa07837e4ed3d5bea324.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -102,13 +103,13 @@
 					"source" : "prj.lab/queuelst",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
 					"build" : "prj.lab/queuearr",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-prj.lab.queuearr-Release-77b66b795b17002760c8.json",
+					"jsonFile" : "directory-prj.lab.queuearr-Release-4e0bb68453c2742b2eae.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -118,13 +119,13 @@
 					"source" : "prj.lab/queuearr",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
 					"build" : "prj.lab/queuelstr",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-prj.lab.queuelstr-Release-596500161b1c0f147ebd.json",
+					"jsonFile" : "directory-prj.lab.queuelstr-Release-f3169c4cb24415f78716.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -134,7 +135,23 @@
 					"source" : "prj.lab/queuelstr",
 					"targetIndexes" : 
 					[
-						3
+						4
+					]
+				},
+				{
+					"build" : "prj.lab/bitset",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.bitset-Release-4ad64f46ca80534b59c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "prj.lab/bitset",
+					"targetIndexes" : 
+					[
+						0
 					]
 				},
 				{
@@ -149,11 +166,12 @@
 					"source" : "prj.test",
 					"targetIndexes" : 
 					[
-						6,
 						7,
 						8,
 						9,
-						10
+						10,
+						11,
+						12
 					]
 				}
 			],
@@ -171,7 +189,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					],
 					"name" : "silaev-v-v-23-03",
 					"targetIndexes" : 
@@ -186,12 +205,21 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11,
+						12
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 8,
+					"id" : "bitset::@8bae2d904ec3cb060243",
+					"jsonFile" : "target-bitset-Release-5a2d46d5227333ffd413.json",
+					"name" : "bitset",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 2,
 					"id" : "complex::@f01986494a78af0cc1db",
@@ -235,37 +263,44 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 9,
+					"id" : "test_bitset::@03e42033715ba8c02d37",
+					"jsonFile" : "target-test_bitset-Release-a1460f21fe208e996796.json",
+					"name" : "test_bitset",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
 					"id" : "test_queuearr::@03e42033715ba8c02d37",
-					"jsonFile" : "target-test_queuearr-Release-a0c7e1cdc0b693c8c474.json",
+					"jsonFile" : "target-test_queuearr-Release-37609e269d4a40544a9d.json",
 					"name" : "test_queuearr",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 9,
 					"id" : "test_queuelst::@03e42033715ba8c02d37",
-					"jsonFile" : "target-test_queuelst-Release-ee7a057024107eba9ac2.json",
+					"jsonFile" : "target-test_queuelst-Release-554aee10e63ee6538d80.json",
 					"name" : "test_queuelst",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 9,
 					"id" : "test_queuelstr::@03e42033715ba8c02d37",
-					"jsonFile" : "target-test_queuelstr-Release-63692b0fd2f20ee8eeaf.json",
+					"jsonFile" : "target-test_queuelstr-Release-96a9fcdc31d40159012f.json",
 					"name" : "test_queuelstr",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 9,
 					"id" : "test_stackarr::@03e42033715ba8c02d37",
-					"jsonFile" : "target-test_stackarr-Release-cb839185cf993b0aeeb6.json",
+					"jsonFile" : "target-test_stackarr-Release-4bb415751680770e512a.json",
 					"name" : "test_stackarr",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 9,
 					"id" : "test_stacklst::@03e42033715ba8c02d37",
-					"jsonFile" : "target-test_stacklst-Release-76f04a5cefac76538e36.json",
+					"jsonFile" : "target-test_stacklst-Release-4e0bbe7e253122cf4cd5.json",
 					"name" : "test_stacklst",
 					"projectIndex" : 0
 				}

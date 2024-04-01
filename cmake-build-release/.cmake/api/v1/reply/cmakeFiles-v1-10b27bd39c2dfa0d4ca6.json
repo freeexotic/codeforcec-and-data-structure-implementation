@@ -168,6 +168,9 @@
 			"path" : "prj.lab/queuelstr/CMakeLists.txt"
 		},
 		{
+			"path" : "prj.lab/bitset/CMakeLists.txt"
+		},
+		{
 			"path" : "prj.test/CMakeLists.txt"
 		}
 	],
