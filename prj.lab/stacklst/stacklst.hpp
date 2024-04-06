@@ -1,53 +1,43 @@
-#pragma once
-#ifndef STACKLST_STACKLSST_HPP_20240215
-#define STACKLST_STACKLSST_HPP_20240215
+#ifndef STACKLST_STACKLST_HPP_20240213
+#define STACKLST_STACKLST_HPP_20240213
+
+#include <complex/complex.hpp>
 
 #include <cstddef>
-#include "complex/complex.hpp"
 
-struct Complex;
-
-class Node {
-  public:
-    Node* next = nullptr;
-    Complex data ;
-    Node(Complex data_) : data(data_), next(nullptr) {}
-  };
-
-class StackLst {
+class StackLst final {
 public:
-  
-  [[nodiscard]] StackLst() = default;
+    StackLst() = default;
 
-  StackLst(const StackLst&) = default;
+    StackLst(const StackLst& src);
 
-  StackLst(StackLst&& obj) noexcept; // ???
+    StackLst(StackLst&& src) noexcept;
 
-  
-  ~StackLst() = default;
-  
-  [[nodiscard]] StackLst& operator=(const StackLst&) = default;
+    ~StackLst() = default;
 
-  StackLst& operator=(StackLst&& obj) noexcept; // ???
+    StackLst& operator=(const StackLst& src);
 
-  bool IsEmpty() const noexcept;
+    StackLst& operator=(StackLst&& src) noexcept;
 
-  void Pop() noexcept;
+    [[nodiscard]] bool IsEmpty() const noexcept;
 
-  void Push(const Complex& val);
-  
-  [[nodiscard]] Complex& Top();
+    void Pop() noexcept;
 
-  [[nodiscard]] const Complex& Top() const;
+    void Push(const Complex& val);
 
-  int Size() noexcept;
+    [[nodiscard]] Complex& Top() &;
 
-  void Clear() noexcept;
+    [[nodiscard]] const Complex& Top() const &;
+
+    void Clear() noexcept;
 
 private:
-  int size_ = 0;   //!< число элементов в буфере
-  Node* head = nullptr;
+    struct Node {
+        Complex val;
+        Node* next = nullptr;
+    };
 
+    Node* head_ = nullptr;
 };
 
-#endif 
+#endif

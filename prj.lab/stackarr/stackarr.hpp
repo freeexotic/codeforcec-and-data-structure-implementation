@@ -1,47 +1,40 @@
-#pragma once
 #ifndef STACKARR_STACKARR_HPP_20240203
 #define STACKARR_STACKARR_HPP_20240203
 
+#include <complex/complex.hpp>
+
 #include <cstddef>
 
-struct Complex;
-
-class StackArr {
+class StackArr final {
 public:
-  StackArr() = default;
+    StackArr() = default;
 
-  StackArr(const StackArr&);
+    StackArr(const StackArr& src);
 
-  StackArr (StackArr&&);
-  
-  ~StackArr();
+    StackArr(StackArr&& src) noexcept;
 
-  StackArr& operator=(const StackArr&);
+    ~StackArr();
 
-  StackArr& operator=(StackArr&&);
+    StackArr& operator=(const StackArr& src);
 
+    StackArr& operator=(StackArr&& src) noexcept;
 
-  bool IsEmpty() const noexcept;
+    [[nodiscard]] bool IsEmpty() const noexcept;
 
-  void Pop() noexcept;
+    void Pop() noexcept;
 
-  void Push(const Complex& val);
-  
-  [[nodiscard]] Complex& Top();
+    void Push(const Complex& val);
 
-  [[nodiscard]] const Complex& Top() const;
+    [[nodiscard]] Complex& Top() &;
 
-  void Clear() noexcept;
-  
-  int Size() noexcept;
+    [[nodiscard]] const Complex& Top() const &;
 
-  int Capacity() noexcept;
+    void Clear() noexcept;
 
 private:
-  std::ptrdiff_t size_ = 0;   //!< вместимость элементов в буфере
-  std::ptrdiff_t capacity = 0; //! < количество элементов в стеке
-  std::ptrdiff_t i_top_ = -1; //!< индекс top элемента
-  Complex* data_ = nullptr;   //!< элементы стека
+    std::ptrdiff_t size_ = 0;   //!< число элементов в буфере
+    std::ptrdiff_t i_top_ = -1; //!< индекс top элемента
+    Complex* data_ = nullptr;   //!< элементы стека
 };
 
 #endif // !STACKARR_STACKARR_HPP_20240203

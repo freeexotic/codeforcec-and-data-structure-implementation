@@ -38,11 +38,11 @@ public:
 
     void Fill(const bool val) noexcept; // done
 
-    [[nodiscard]] BitSet& operator&=(const BitSet& rhs);
+    [[nodiscard]] BitSet& operator&=(const BitSet& rhs); // доделать в тесте
 
-    [[nodiscard]] BitSet& operator|=(const BitSet& rhs);
+    [[nodiscard]] BitSet& operator|=(const BitSet& rhs); // доделать в тесте
 
-    [[nodiscard]] BitSet& operator^=(const BitSet& rhs);
+    [[nodiscard]] BitSet& operator^=(const BitSet& rhs); // доделать в тесте
 
 
     // ? operator[](const uint32_t) - what can return

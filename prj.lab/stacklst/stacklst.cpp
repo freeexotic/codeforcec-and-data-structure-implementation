@@ -1,61 +1,96 @@
-#include <complex/complex.hpp>
 #include <stacklst/stacklst.hpp>
-#include <memory> // Почему при добавлении все работает
 
+#include <memory>
 #include <stdexcept>
 
-
-StackLst::StackLst(StackLst &&obj) noexcept{
-    std::swap(size_, obj.size_);
-    std::swap(head, obj.head);
+StackLst::StackLst(const StackLst& src) {
+    if (!src.IsEmpty()) {
+        head_ = new Node{src.Top()};
+        Node* p_src = src.head_;
+        Node* p_dst = head_;
+        while (p_src->next) {
+            p_dst->next = new Node{p_src->next->val};
+            p_src = p_src->next;
+            p_dst = p_dst->next;
+        }
+    }
 }
 
-StackLst& StackLst::operator=(StackLst&& obj) noexcept{
-    std::swap(size_, obj.size_);
-    std::swap(head, obj.head);
+StackLst::StackLst(StackLst&& src) noexcept {
+    std::swap(head_, src.head_);
+}
+
+StackLst& StackLst::operator=(const StackLst& src) {
+    if (this != &src) {
+        if (src.IsEmpty()) {
+            Clear();
+        } else {
+            Node* p_src = src.head_;
+            if (IsEmpty()) {
+                head_ = new Node{src.head_->val};
+            } else {
+                head_->val = src.head_->val;
+            }
+            Node* p_dst = head_;
+            while (p_src->next) {
+                if (p_dst->next) {
+                    p_dst->next->val = p_src->next->val;
+                } else {
+                    p_dst->next = new Node{ p_src->next->val };
+                }
+                p_src = p_src->next;
+                p_dst = p_dst->next;
+            }
+            if (p_dst->next) {
+                Node* tail = p_dst->next->next;
+                while (p_dst->next) {
+                    delete p_dst->next;
+                    p_dst->next = nullptr;
+                    p_dst = tail;
+                }
+            }
+        }
+    }
     return *this;
 }
 
-bool StackLst::IsEmpty () const noexcept{
-    return head == nullptr;
+StackLst& StackLst::operator=(StackLst&& src) noexcept {
+    std::swap(head_, src.head_);
+    return *this;
 }
 
-void StackLst::Push (const Complex& val){
-    Node* new_node = new Node(val);
-    (new_node->next) = head;
-    head = new_node;
-    size_+=1;
+bool StackLst::IsEmpty() const noexcept {
+    return nullptr == head_;
 }
 
 void StackLst::Pop() noexcept {
-    if (!IsEmpty()){
-        Node* buf = head;
-        head = (head->next);
-        delete buf;
-        --size_;
+    if (!IsEmpty()) {
+        Node* deleted = head_;
+        head_ = head_->next;
+        delete deleted;
     }
 }
 
-
-Complex& StackLst::Top(){
-    if (!IsEmpty()){
-        return head->data;
-    }
-    else{
-        throw std::logic_error("StackList is Empty.");
-    }
+void StackLst::Push(const Complex& val) {
+    head_ = new Node{val, head_};
 }
 
-const Complex& StackLst::Top() const{
-    if (!IsEmpty()){
-        return head->data;
+Complex& StackLst::Top() & {
+    if (IsEmpty()) {
+        throw std::logic_error("StackLst - try get top form empty stack.");
     }
-    else{
-        throw std::logic_error("StackList is Empty.");
-    }
+    return head_->val;
 }
 
-int StackLst::Size() noexcept {
-    return size_;
+const Complex& StackLst::Top() const & {
+    if (IsEmpty()) {
+        throw std::logic_error("StackLst - try get top form empty stack.");
+    }
+    return head_->val;
 }
 
+void StackLst::Clear() noexcept {
+    while (!IsEmpty()) {
+        Pop();
+    }
+}
