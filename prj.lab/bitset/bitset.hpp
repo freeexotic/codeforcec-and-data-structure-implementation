@@ -22,9 +22,9 @@ public:
 
     ~BitSet() = default; // done ?
 
-    [[nodiscard]] bool operator==(const BitSet& rhs) const noexcept;
+    [[nodiscard]] bool operator==(const BitSet& rhs) const noexcept; // done
 
-    [[nodiscard]] bool operator!=(const BitSet& rhs) const noexcept;
+    [[nodiscard]] bool operator!=(const BitSet& rhs) const noexcept; // done
 
     int Size() const noexcept; // done
 
@@ -58,10 +58,10 @@ private:
 // std::ostream& operaror<<(std::ostream&, const BitSet&);
 // std::istream& operaror>>(std::istream&, BitSet&);
 
-// [[nodiscard]] BitSet operator&(const BitSet& rhs);
+   // [[nodiscard]] BitSet operator&(const BitSet& rhs);
 
-// [[nodiscard]] BitSet operator|(const BitSet& rhs);
+  //  [[nodiscard]] BitSet operator|(const BitSet& rhs , BitSet& lhs);
 
-// [[nodiscard]] BitSet operator^(const BitSet& rhs);
+   // [[nodiscard]] BitSet operator^(const BitSet& rhs, BitSet& lhs);
 
 #endif

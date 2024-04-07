@@ -34,14 +34,15 @@
   <component name="ChangeListManager">
     <list default="true" id="14f6de4e-848c-4b33-ac7d-5406e9e5545e" name="Changes" comment="add queuearr">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1948b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/complex/libcomplex.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/prj.lab/complex/libcomplex.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/bitset/bitset.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/bitset/bitset.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prj.lab/bitset/bitset.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/bitset/bitset.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.lab/queuearr/queuearr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/queuearr/queuearr.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.lab/queuearr/queuearr.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/queuearr/queuearr.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.lab/stackarr/stackarr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/stackarr/stackarr.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.lab/stackarr/stackarr.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/stackarr/stackarr.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.lab/stacklst/stacklst.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/stacklst/stacklst.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.lab/stacklst/stacklst.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/stacklst/stacklst.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.test/test_bitset.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.test/test_bitset.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1948" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +79,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="OCResolveContextSettings">
-    <option name="configuration" value="0-Release-stacklst" />
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
@@ -139,7 +137,7 @@
       <recent name="$PROJECT_DIR$/prj.test" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.1948b.cpp">
+  <component name="RunManager" selected="Doctest.Create">
     <configuration name="Create" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_bitset" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_bitset" TEST_METHOD="Create" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -237,9 +235,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Doctest.Create" />
         <item itemvalue="C/C++ File.1948b.cpp" />
         <item itemvalue="C/C++ File.test1948.cpp" />
-        <item itemvalue="Doctest.Create" />
         <item itemvalue="Doctest.first test" />
         <item itemvalue="Doctest.cons" />
       </list>
@@ -276,7 +274,8 @@
       <workItem from="1711912313007" duration="11000" />
       <workItem from="1711962102825" duration="1664000" />
       <workItem from="1712134221701" duration="12708000" />
-      <workItem from="1712396937672" duration="623000" />
+      <workItem from="1712396937672" duration="4220000" />
+      <workItem from="1712476193073" duration="4020000" />
     </task>
     <task id="LOCAL-00001" summary="add queue + test_queue">
       <option name="closed" value="true" />

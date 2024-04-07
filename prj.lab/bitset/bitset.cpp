@@ -23,7 +23,7 @@ void BitSet::Set(const int idx, const bool val) {
         uint32_t mask = 1;
         bits_[0] = bits_[0] ^ mask;
     }
-    else if((32*bits_.size() % idx < 1)){
+    else if(32*bits_.size() <= idx){
         std::cout << "Err";
     }
     else{
@@ -72,6 +72,50 @@ bool BitSet::Get(const int idx) const {
         }
     }
 }
+bool BitSet::operator!=(const BitSet &rhs) const noexcept {
+    if (size_ == rhs.size_){
+        if (rhs.bits_ != bits_){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+}
+bool BitSet::operator==(const BitSet &rhs) const noexcept {
+    if (size_ == rhs.size_){
+        if (rhs.bits_ == bits_){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+}
+
+BitSet &BitSet::operator&=(const BitSet &rhs) {
+    if (size_ == rhs.size_){
+        for (int i = 0; i != rhs.size_; i++) {
+            bits_[i] = bits_[i] & rhs.bits_[i];
+        }
+    }
+}
+
+BitSet &BitSet::operator|=(const BitSet &rhs) {
+    if (size_ == rhs.size_){
+        for (int i = 0; i != rhs.size_; i++) {
+            bits_[i] = bits_[i] | rhs.bits_[i];
+        }
+    }
+}
+BitSet &BitSet::operator^=(const BitSet &rhs) {
+    if (size_ == rhs.size_){
+        for (int i = 0; i != rhs.size_; i++) {
+            bits_[i] = bits_[i] ^ rhs.bits_[i];
+        }
+    }
+}
+
 
 // доступ по индексу
 // Думать, как сохранить экземпля в виде текстовом и нетекстовом
