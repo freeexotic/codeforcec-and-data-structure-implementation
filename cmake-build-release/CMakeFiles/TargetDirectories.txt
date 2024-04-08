@@ -59,6 +59,13 @@
 /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.lab/bitset/CMakeFiles/install.dir
 /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.lab/bitset/CMakeFiles/install/local.dir
 /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.lab/bitset/CMakeFiles/install/strip.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.lab/stackarrt/CMakeFiles/stackarrt.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.lab/stackarrt/CMakeFiles/edit_cache.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.lab/stackarrt/CMakeFiles/rebuild_cache.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.lab/stackarrt/CMakeFiles/list_install_components.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.lab/stackarrt/CMakeFiles/install.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.lab/stackarrt/CMakeFiles/install/local.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.lab/stackarrt/CMakeFiles/install/strip.dir
 /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.test/CMakeFiles/test_stackarr.dir
 /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.test/CMakeFiles/test_stacklst.dir
 /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.test/CMakeFiles/test_queuelst.dir

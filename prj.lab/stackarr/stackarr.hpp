@@ -5,7 +5,7 @@
 
 #include <cstddef>
 
-class StackArr final {
+class StackArr {
 public:
     StackArr() = default;
 

@@ -9,7 +9,7 @@
 					"childIndexes" : 
 					[
 						1,
-						9
+						10
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
@@ -30,7 +30,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-prj.lab-Release-6b850684795bf15e457d.json",
@@ -77,7 +78,7 @@
 				{
 					"build" : "prj.lab/stacklst",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-prj.lab.stacklst-Release-fd86a5624eafef96a38b.json",
+					"jsonFile" : "directory-prj.lab.stacklst-Release-700fe5f9415cc8d8e772.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -87,7 +88,7 @@
 					"source" : "prj.lab/stacklst",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -155,6 +156,21 @@
 					]
 				},
 				{
+					"build" : "prj.lab/stackarrt",
+					"jsonFile" : "directory-prj.lab.stackarrt-Release-c8aab8cfca8ea61cfe4e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "prj.lab/stackarrt",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
 					"build" : "prj.test",
 					"jsonFile" : "directory-prj.test-Release-5c21977a58eb6220d410.json",
 					"minimumCMakeVersion" : 
@@ -166,12 +182,12 @@
 					"source" : "prj.test",
 					"targetIndexes" : 
 					[
-						7,
 						8,
 						9,
 						10,
 						11,
-						12
+						12,
+						13
 					]
 				}
 			],
@@ -190,7 +206,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					],
 					"name" : "silaev-v-v-23-03",
 					"targetIndexes" : 
@@ -207,7 +224,8 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13
 					]
 				}
 			],
@@ -256,6 +274,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 9,
+					"id" : "stackarrt::@22b8ac2838b41b53b15a",
+					"jsonFile" : "target-stackarrt-Release-6e9df19dcbe5032786ab.json",
+					"name" : "stackarrt",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 4,
 					"id" : "stacklst::@6bb98f6a26e8fa7c255c",
 					"jsonFile" : "target-stacklst-Release-e6f17651cdbf553a955c.json",
@@ -263,42 +288,42 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 10,
 					"id" : "test_bitset::@03e42033715ba8c02d37",
 					"jsonFile" : "target-test_bitset-Release-a1460f21fe208e996796.json",
 					"name" : "test_bitset",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 10,
 					"id" : "test_queuearr::@03e42033715ba8c02d37",
 					"jsonFile" : "target-test_queuearr-Release-37609e269d4a40544a9d.json",
 					"name" : "test_queuearr",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 10,
 					"id" : "test_queuelst::@03e42033715ba8c02d37",
 					"jsonFile" : "target-test_queuelst-Release-554aee10e63ee6538d80.json",
 					"name" : "test_queuelst",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 10,
 					"id" : "test_queuelstr::@03e42033715ba8c02d37",
 					"jsonFile" : "target-test_queuelstr-Release-96a9fcdc31d40159012f.json",
 					"name" : "test_queuelstr",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 10,
 					"id" : "test_stackarr::@03e42033715ba8c02d37",
 					"jsonFile" : "target-test_stackarr-Release-4bb415751680770e512a.json",
 					"name" : "test_stackarr",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 10,
 					"id" : "test_stacklst::@03e42033715ba8c02d37",
 					"jsonFile" : "target-test_stacklst-Release-4e0bbe7e253122cf4cd5.json",
 					"name" : "test_stacklst",

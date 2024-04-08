@@ -5,7 +5,7 @@
 
 #include <cstddef>
 
-class QueueArr final {
+class QueueArr {
 public:
     QueueArr() = default;
 
