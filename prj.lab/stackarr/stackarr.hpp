@@ -31,9 +31,13 @@ public:
 
     void Clear() noexcept;
 
+    int Size() noexcept;
+
+    int Capacity() noexcept;
+
 private:
-    std::ptrdiff_t size_ = 0;   //!< число элементов в буфере
-    std::ptrdiff_t i_top_ = -1; //!< индекс top элемента
+    int size_ = 0;   //!< число элементов в буфере
+    int i_top_ = -1; //!< индекс top элемента
     Complex* data_ = nullptr;   //!< элементы стека
 };
 

@@ -29,6 +29,8 @@ public:
 
     [[nodiscard]] const Complex& Top() const;
 
+    int Size();
+
     void Clear() noexcept;
 
 private:

@@ -86,3 +86,11 @@ const Complex& StackArr::Top() const & {
 void StackArr::Clear() noexcept {
     i_top_ = -1;
 }
+
+int StackArr::Size() noexcept{
+    return (i_top_+1);
+}
+
+int StackArr::Capacity() noexcept {
+    return size_;
+}

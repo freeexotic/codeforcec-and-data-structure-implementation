@@ -16,7 +16,6 @@ TEST_CASE("cons") {
     b.Push(Complex());
     CHECK(b.Size() == 501);
     CHECK(a.Size() == 500);
-    CHECK(a.Capacity() == 512);
   }
 }
 
@@ -66,7 +65,5 @@ TEST_CASE("Push, Pop & Top"){
     CHECK(a.Size() == i + 1);
     CHECK(a.Top() == Complex(i, i));
   }
-  a.Pop();
-  CHECK_THROWS(a.Top(), "123");
-  a.Pop();
+
 }

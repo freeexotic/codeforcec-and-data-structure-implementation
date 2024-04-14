@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_queuelst"
+			"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_stacklst"
 		}
 	],
 	"backtrace" : 1,
@@ -16,7 +16,7 @@
 		"files" : 
 		[
 			"prj.test/CMakeLists.txt",
-			"prj.lab/queuelst/CMakeLists.txt"
+			"prj.lab/stacklst/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -26,13 +26,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 5,
+				"line" : 3,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 16,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
@@ -59,7 +59,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuelst/.."
+					"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stacklst/.."
 				},
 				{
 					"backtrace" : 2,
@@ -89,10 +89,10 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "queuelst::@9e116aa3968b19d2aca8"
+			"id" : "stacklst::@6bb98f6a26e8fa7c255c"
 		}
 	],
-	"id" : "test_queuelst::@03e42033715ba8c02d37",
+	"id" : "test_stacklst::@03e42033715ba8c02d37",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -107,7 +107,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "prj.lab/queuelst/libqueuelst.a",
+				"fragment" : "prj.lab/stacklst/libstacklst.a",
 				"role" : "libraries"
 			},
 			{
@@ -118,8 +118,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "test_queuelst",
-	"nameOnDisk" : "test_queuelst",
+	"name" : "test_stacklst",
+	"nameOnDisk" : "test_stacklst",
 	"paths" : 
 	{
 		"build" : "prj.test",
@@ -140,7 +140,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "prj.test/test_queuelst.cpp",
+			"path" : "prj.test/test_stacklst.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

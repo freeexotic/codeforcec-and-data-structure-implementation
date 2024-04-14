@@ -1182,6 +1182,38 @@ build /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/te
   TARGET_FILE = /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_bitset
   TARGET_PDB = test_bitset.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test_stackarrt
+
+
+#############################################
+# Order-only phony target for test_stackarrt
+
+build cmake_object_order_depends_target_test_stackarrt: phony || prj.lab/stackarrt/stackarrt
+
+build prj.test/CMakeFiles/test_stackarrt.dir/test_stackarrt.cpp.o: CXX_COMPILER__test_stackarrt_unscanned_Release /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.test/test_stackarrt.cpp || cmake_object_order_depends_target_test_stackarrt
+  DEP_FILE = prj.test/CMakeFiles/test_stackarrt.dir/test_stackarrt.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarrt/..
+  OBJECT_DIR = prj.test/CMakeFiles/test_stackarrt.dir
+  OBJECT_FILE_DIR = prj.test/CMakeFiles/test_stackarrt.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_stackarrt
+
+
+#############################################
+# Link the executable /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_stackarrt
+
+build /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_stackarrt: CXX_EXECUTABLE_LINKER__test_stackarrt_Release prj.test/CMakeFiles/test_stackarrt.dir/test_stackarrt.cpp.o || prj.lab/stackarrt/stackarrt
+  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = prj.test/CMakeFiles/test_stackarrt.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_stackarrt
+  TARGET_PDB = test_stackarrt.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1290,6 +1322,8 @@ build test_queuelstr: phony /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03
 
 build test_stackarr: phony /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_stackarr
 
+build test_stackarrt: phony /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_stackarrt
+
 build test_stacklst: phony /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_stacklst
 
 # =============================================================================
@@ -1370,7 +1404,7 @@ build prj.lab/stacklst/all: phony prj.lab/stacklst/libstacklst.a
 #############################################
 # Folder: /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.test
 
-build prj.test/all: phony /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_stackarr /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_stacklst /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_queuelst /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_queuearr /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_queuelstr /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_bitset
+build prj.test/all: phony /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_stackarr /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_stacklst /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_queuelst /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_queuearr /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_queuelstr /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_bitset /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_stackarrt
 
 # =============================================================================
 # Built-in targets

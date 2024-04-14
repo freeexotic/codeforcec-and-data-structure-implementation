@@ -27,6 +27,8 @@ public:
 
     void Push(const T& val);
 
+    int Size() noexcept;
+
     [[nodiscard]] T& Top() &;
 
     [[nodiscard]] const T& Top() const &;
@@ -34,8 +36,8 @@ public:
     void Clear() noexcept;
 
 private:
-    std::ptrdiff_t size_ = 0;   //!< число элементов в буфере
-    std::ptrdiff_t i_top_ = -1; //!< индекс top элемента
+    int size_ = 0;   //!< число элементов в буфере
+    int i_top_ = -1; //!< индекс top элемента
     T* data_ = nullptr;   //!< элементы стека
 };
 
@@ -43,14 +45,14 @@ template <class T>
 StackArrT<T>::StackArrT(const StackArrT<T>& st)
         : i_top_(st.i_top_) {
     if (!st.IsEmpty()) {
-        size_ = ((i_top_ + 1) / 4 + 1) * 4;
+        size_ = st.size_;
         data_ = new T[size_];
         std::copy(st.data_, st.data_ + i_top_ + 1, data_);
     }
 }
 
 template <class T>
-StackArrT<T>& StackArrT<T>::operator=(const StackArr<T>& st) {
+StackArrT<T>& StackArrT<T>::operator=(const StackArrT<T>& st) {
     if (this != &st) {
         if (st.IsEmpty()) {
             Clear();
@@ -131,5 +133,11 @@ void StackArrT<T>::Clear() noexcept {
     i_top_ = -1;
 }
 
+template <class T>
+int StackArrT<T>::Size() noexcept {
+    return size_;
+}
 
-#endif // !STACKARR_STACKARR_HPP_20240203
+
+
+#endif
