@@ -34,31 +34,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14f6de4e-848c-4b33-ac7d-5406e9e5545e" name="Changes" comment="add queuearr">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-bc658c63a298fdccadad.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/index-2024-04-08T08-27-29-0718.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_bitset-Release-a1460f21fe208e996796.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queuearr-Release-37609e269d4a40544a9d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queuelst-Release-554aee10e63ee6538d80.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queuelstr-Release-96a9fcdc31d40159012f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stackarr-Release-4bb415751680770e512a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stacklst-Release-4e0bbe7e253122cf4cd5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/complex/libcomplex.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/prj.lab/complex/libcomplex.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.lab/queuearr/queuearr.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/queuearr/queuearr.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.lab/stackarr/stackarr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/stackarr/stackarr.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.lab/stackarr/stackarr.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/stackarr/stackarr.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.lab/stackarrt/stackarrt.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/stackarrt/stackarrt.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/prj.test/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.test/test_stackarr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.test/test_stackarr.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.test/test_stacklst.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.test/test_stacklst.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="14f6de4e-848c-4b33-ac7d-5406e9e5545e" name="Changes" comment="add queuearr" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -313,7 +289,7 @@
       <workItem from="1712396937672" duration="4220000" />
       <workItem from="1712476193073" duration="5066000" />
       <workItem from="1712563307051" duration="4555000" />
-      <workItem from="1713120668708" duration="1312000" />
+      <workItem from="1713120668708" duration="1367000" />
     </task>
     <task id="LOCAL-00001" summary="add queue + test_queue">
       <option name="closed" value="true" />
