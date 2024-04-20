@@ -30,6 +30,10 @@ StackArr& StackArr::operator=(const StackArr& st) {
     return *this;
 }
 
+bool StackArr::operator==(const Complex &src) const{
+    return (data_->re == src.re) && (data_->im == src.im);
+}
+
 StackArr& StackArr::operator=(StackArr&& src) noexcept {
     if (this != &src) {
         if (!src.IsEmpty()) {
@@ -87,10 +91,4 @@ void StackArr::Clear() noexcept {
     i_top_ = -1;
 }
 
-int StackArr::Size() noexcept{
-    return (i_top_+1);
-}
-
-int StackArr::Capacity() noexcept {
-    return size_;
-}
+///////////!!!!!!!!!!!!!!!!!!!!

@@ -31,9 +31,7 @@ public:
 
     void Clear() noexcept;
 
-    int Size() noexcept;
-
-    int Capacity() noexcept;
+    bool operator==(const Complex& src) const;
 
 private:
     int size_ = 0;   //!< число элементов в буфере

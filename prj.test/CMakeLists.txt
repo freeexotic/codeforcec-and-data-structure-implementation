@@ -12,6 +12,9 @@ add_executable(test_bitset test_bitset.cpp)
 
 add_executable(test_stackarrt test_stackarrt.cpp)
 
+add_executable(test_stacklstt test_stacklstt.cpp)
+
+target_link_libraries(test_stacklstt stacklstt)
 target_link_libraries(test_stackarrt stackarrt)
 target_link_libraries(test_stackarr stackarr)
 target_link_libraries(test_stacklst stacklst)

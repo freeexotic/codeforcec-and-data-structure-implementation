@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_stackarr"
+			"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_queuearr"
 		}
 	],
 	"backtrace" : 1,
@@ -16,7 +16,7 @@
 		"files" : 
 		[
 			"prj.test/CMakeLists.txt",
-			"prj.lab/stackarr/CMakeLists.txt"
+			"prj.lab/queuearr/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -26,13 +26,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 1,
+				"line" : 7,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 16,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
@@ -59,7 +59,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarr/.."
+					"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuearr/.."
 				},
 				{
 					"backtrace" : 2,
@@ -89,10 +89,10 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "stackarr::@5cb587019536b540a06d"
+			"id" : "queuearr::@61168318a0e8eb0e03ed"
 		}
 	],
-	"id" : "test_stackarr::@03e42033715ba8c02d37",
+	"id" : "test_queuearr::@03e42033715ba8c02d37",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -107,7 +107,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "prj.lab/stackarr/libstackarr.a",
+				"fragment" : "prj.lab/queuearr/libqueuearr.a",
 				"role" : "libraries"
 			},
 			{
@@ -118,8 +118,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "test_stackarr",
-	"nameOnDisk" : "test_stackarr",
+	"name" : "test_queuearr",
+	"nameOnDisk" : "test_queuearr",
 	"paths" : 
 	{
 		"build" : "prj.test",
@@ -140,7 +140,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "prj.test/test_stackarr.cpp",
+			"path" : "prj.test/test_queuearr.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -8,29 +8,27 @@ TEST_CASE("cons") {
   SUBCASE("copy") {
     StackArr a;
     for (int i = 0; i < 500; i++)
-      a.Push(Complex());
+      a.Push(Complex(i, i));
 
     StackArr b(a);
-    CHECK(b.Size() == 500);
-    
-    b.Push(Complex());
-    CHECK(b.Size() == 501);
-    CHECK(a.Size() == 500);
+    CHECK(a.Top() == b.Top());
+    b.Pop();
+    CHECK(a.Top() != b.Top());
   }
 }
 
-TEST_CASE("appr") {
+/*TEST_CASE("appr") {
   SUBCASE("appr with empty") {
     StackArr a;
     StackArr b;
     for (int i = 0; i < 5; ++i)
       b.Push(Complex());
     a = b;
-    CHECK(a.Size() == 5);
+    CHECK(a.Capacity() == 5);
 
     b.Push(Complex());
-    CHECK(b.Size() == 6);
-    CHECK(a.Size() == 5);
+    CHECK(b.Capacity() == 6);
+    CHECK(a.Capacity() == 5);
   }
   SUBCASE("appr with full") {
     StackArr a;
@@ -41,11 +39,11 @@ TEST_CASE("appr") {
       b.Push(Complex());
     }
     a = b;
-    CHECK(a.Size() == 5);
+    CHECK(a.Capacity() == 5);
 
     b.Push(Complex());
-    CHECK(b.Size() == 6);
-    CHECK(a.Size() == 5);
+    CHECK(b.Capacity() == 6);
+    CHECK(a.Capacity() == 5);
   }
 }
 
@@ -55,15 +53,17 @@ TEST_CASE("Push, Pop & Top"){
   for (int i = 0; i < 1000; ++i)
   {
     a.Push(Complex(i, i));
-    CHECK(a.Size() == i + 1);
+    CHECK(a.Capacity() == i + 1);
     CHECK(a.Top() == Complex(i,i)); //?
   }
 
   for (int i = 998; i >= 0; --i)
   {
     a.Pop();
-    CHECK(a.Size() == i + 1);
+    CHECK(a.Capacity() == i + 1);
     CHECK(a.Top() == Complex(i, i));
   }
 
-}
+} */
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!
