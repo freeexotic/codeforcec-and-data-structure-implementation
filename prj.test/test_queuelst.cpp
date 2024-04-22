@@ -7,11 +7,11 @@
 TEST_CASE("cons") {
 
     SUBCASE("copy") {
-        Queue a;
+        QueueLst a;
         for (int i = 0; i < 500; i++)
             a.Push(Complex());
 
-        Queue b(a);
+        QueueLst b(a);
         CHECK(b.Size() == 500);
 
         b.Push(Complex());
@@ -23,13 +23,13 @@ TEST_CASE("cons") {
 TEST_CASE("pop") {
 
     SUBCASE("pop") {
-        Queue a;
+        QueueLst a;
         for (int i = 0; i < 500; i++){
             a.Push(Complex(i,i));
         }
 
 
-        Queue b(a);
+        QueueLst b(a);
         CHECK(b.Size() == 500);
 
         for(int i = 0 ; i != 500 ; ++i){

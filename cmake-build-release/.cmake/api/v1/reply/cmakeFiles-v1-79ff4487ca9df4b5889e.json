@@ -177,6 +177,9 @@
 			"path" : "prj.lab/stacklstt/CMakeLists.txt"
 		},
 		{
+			"path" : "prj.lab/queuearrt/CMakeLists.txt"
+		},
+		{
 			"path" : "prj.test/CMakeLists.txt"
 		}
 	],

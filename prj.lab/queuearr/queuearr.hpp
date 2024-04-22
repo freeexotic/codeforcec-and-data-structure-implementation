@@ -2,7 +2,8 @@
 #define QUEUEARR_QUEUEARR_HPP_20240230
 
 #include <complex/complex.hpp>
-
+#include <algorithm>
+#include <stdexcept>
 #include <cstddef>
 
 class QueueArr {

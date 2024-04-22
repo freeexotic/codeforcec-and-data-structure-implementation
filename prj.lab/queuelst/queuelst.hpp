@@ -1,54 +1,44 @@
-
 #ifndef SILAEV_V_V_23_03_QUEUELST_HPP
 #define SILAEV_V_V_23_03_QUEUELST_HPP
 
 #include <complex/complex.hpp>
 #include <iostream>
+#include <cstddef>
 
-struct Complex;
-
-class Node {
+class QueueLst final {
 public:
-    Node* up;
-    Complex data;
-    Node() = default;
-    Node(Complex data_) : data(data_), up(nullptr) {}
-    ~Node() = default;
-};
+    QueueLst() = default;
 
-class Queue {
-public:
-    Queue() = default;
+    QueueLst(const QueueLst& qul);
 
-    Queue(Queue&& obj);
+    QueueLst(QueueLst&& qul) noexcept;
 
-    Queue (const Queue&);
+    ~QueueLst() = default;
 
-    ~Queue() = default;
+    QueueLst& operator=(const QueueLst& qul);
 
-    Queue& operator=(const Queue&) = default;
+    QueueLst& operator=(QueueLst&& qul) noexcept;
 
-    Queue& operator=(Queue&& obj);
-
-    bool IsEmpty() const noexcept; //done
+    [[nodiscard]] bool IsEmpty() const noexcept;
 
     void Pop() noexcept;
 
-    void Push(const Complex& val); // done
+    void Push(const Complex& data);
 
-    Complex& Top();
+    [[nodiscard]] Complex& Top() &;
 
-    const Complex& Top() const;
+    [[nodiscard]] const Complex& Top() const &;
 
     void Clear() noexcept;
 
-    int Size() noexcept; // done
-
 private:
-    int size_ = 0; //! < количество ячеек в очереди
-    Node* head = nullptr;
-    Node* tail = nullptr;
+    struct Node {
+        Complex val;
+        Node* next = nullptr;
+    };
 
+    Node* head_ = nullptr;
+    Node* tail_ = nullptr;
 };
 
 #endif //SILAEV_V_V_23_03_QUEUELST_HPP

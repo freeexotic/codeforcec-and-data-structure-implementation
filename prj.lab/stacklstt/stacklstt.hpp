@@ -106,7 +106,7 @@ bool StackLstT<T>::IsEmpty() const noexcept {
 
 template <class T>
 void StackLstT<T>::Pop() noexcept {
-    if (!IsEmpty()) {
+    if (head_ != nullptr) {
         Node* deleted = head_;
         head_ = head_->next;
         delete deleted;
@@ -120,7 +120,7 @@ void StackLstT<T>::Push(const T& val) {
 
 template <class T>
 T& StackLstT<T>::Top() & {
-    if (IsEmpty()) {
+    if (head_ == nullptr) {
         throw std::logic_error("StackLst - try get top form empty stack.");
     }
     return head_->val;
@@ -128,7 +128,7 @@ T& StackLstT<T>::Top() & {
 
 template <class T>
 const T& StackLstT<T>::Top() const & {
-    if (IsEmpty()) {
+    if (head_ == nullptr) {
         throw std::logic_error("StackLst - try get top form empty stack.");
     }
     return head_->val;
@@ -136,10 +136,9 @@ const T& StackLstT<T>::Top() const & {
 
 template <class T>
 void StackLstT<T>::Clear() noexcept {
-    while (!IsEmpty()) {
+    while (head_ != nullptr) {
         Pop();
     }
 }
-
 
 #endif //SILAEV_V_V_23_03_STACKLSTT_HPP
