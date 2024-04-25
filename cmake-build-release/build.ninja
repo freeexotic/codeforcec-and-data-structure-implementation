@@ -1496,6 +1496,178 @@ build prj.test/CMakeFiles/install/strip.util: CUSTOM_COMMAND prj.test/all
 build prj.test/install/strip: phony prj.test/CMakeFiles/install/strip.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build prj.app/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build prj.app/edit_cache: phony prj.app/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build prj.app/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v -B/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build prj.app/rebuild_cache: phony prj.app/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build prj.app/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build prj.app/CMakeFiles/install.util: CUSTOM_COMMAND prj.app/all
+  COMMAND = cd /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build prj.app/install: phony prj.app/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build prj.app/CMakeFiles/install/local.util: CUSTOM_COMMAND prj.app/all
+  COMMAND = cd /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build prj.app/install/local: phony prj.app/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build prj.app/CMakeFiles/install/strip.util: CUSTOM_COMMAND prj.app/all
+  COMMAND = cd /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build prj.app/install/strip: phony prj.app/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.app/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target timing_q
+
+
+#############################################
+# Order-only phony target for timing_q
+
+build cmake_object_order_depends_target_timing_q: phony || prj.lab/stackarrt/stackarrt
+
+build prj.app/timing_q/CMakeFiles/timing_q.dir/timing_q.cpp.o: CXX_COMPILER__timing_q_unscanned_Release /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.app/timing_q/timing_q.cpp || cmake_object_order_depends_target_timing_q
+  DEP_FILE = prj.app/timing_q/CMakeFiles/timing_q.dir/timing_q.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarrt/..
+  OBJECT_DIR = prj.app/timing_q/CMakeFiles/timing_q.dir
+  OBJECT_FILE_DIR = prj.app/timing_q/CMakeFiles/timing_q.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target timing_q
+
+
+#############################################
+# Link the executable /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/timing_q
+
+build /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/timing_q: CXX_EXECUTABLE_LINKER__timing_q_Release prj.app/timing_q/CMakeFiles/timing_q.dir/timing_q.cpp.o || prj.lab/stackarrt/stackarrt
+  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = prj.app/timing_q/CMakeFiles/timing_q.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/timing_q
+  TARGET_PDB = timing_q.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build prj.app/timing_q/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/timing_q && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build prj.app/timing_q/edit_cache: phony prj.app/timing_q/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build prj.app/timing_q/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/timing_q && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v -B/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build prj.app/timing_q/rebuild_cache: phony prj.app/timing_q/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build prj.app/timing_q/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build prj.app/timing_q/CMakeFiles/install.util: CUSTOM_COMMAND prj.app/timing_q/all
+  COMMAND = cd /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/timing_q && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build prj.app/timing_q/install: phony prj.app/timing_q/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build prj.app/timing_q/CMakeFiles/install/local.util: CUSTOM_COMMAND prj.app/timing_q/all
+  COMMAND = cd /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/timing_q && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build prj.app/timing_q/install/local: phony prj.app/timing_q/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build prj.app/timing_q/CMakeFiles/install/strip.util: CUSTOM_COMMAND prj.app/timing_q/all
+  COMMAND = cd /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/timing_q && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build prj.app/timing_q/install/strip: phony prj.app/timing_q/CMakeFiles/install/strip.util
+
+# =============================================================================
 # Target aliases.
 
 build bitset: phony prj.lab/bitset/libbitset.a
@@ -1550,6 +1722,8 @@ build test_stacklst: phony /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-
 
 build test_stacklstt: phony /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_stacklstt
 
+build timing_q: phony /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/timing_q
+
 # =============================================================================
 # Folder targets.
 
@@ -1558,7 +1732,21 @@ build test_stacklstt: phony /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03
 #############################################
 # Folder: /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release
 
-build all: phony prj.lab/all prj.test/all
+build all: phony prj.lab/all prj.test/all prj.app/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app
+
+build prj.app/all: phony prj.app/timing_q/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/timing_q
+
+build prj.app/timing_q/all: phony /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/timing_q
 
 # =============================================================================
 
@@ -1651,14 +1839,14 @@ build prj.test/all: phony /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-s
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/bitset/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/complex/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuearr/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuearrt/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuelst/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuelstr/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarr/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarrt/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stacklst/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stacklstt/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.test/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.app/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.app/timing_q/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/bitset/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/complex/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuearr/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuearrt/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuelst/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuelstr/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarr/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarrt/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stacklst/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stacklstt/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.test/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/bitset/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/complex/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuearr/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuearrt/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuelst/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuelstr/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarr/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarrt/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stacklst/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stacklstt/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.test/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.app/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.app/timing_q/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/bitset/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/complex/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuearr/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuearrt/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuelst/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuelstr/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarr/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarrt/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stacklst/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stacklstt/CMakeLists.txt /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.test/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################

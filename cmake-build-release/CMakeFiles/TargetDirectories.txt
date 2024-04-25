@@ -95,3 +95,16 @@
 /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.test/CMakeFiles/install.dir
 /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.test/CMakeFiles/install/local.dir
 /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.test/CMakeFiles/install/strip.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/CMakeFiles/edit_cache.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/CMakeFiles/rebuild_cache.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/CMakeFiles/list_install_components.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/CMakeFiles/install.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/CMakeFiles/install/local.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/CMakeFiles/install/strip.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/timing_q/CMakeFiles/timing_q.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/timing_q/CMakeFiles/edit_cache.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/timing_q/CMakeFiles/rebuild_cache.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/timing_q/CMakeFiles/list_install_components.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/timing_q/CMakeFiles/install.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/timing_q/CMakeFiles/install/local.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/timing_q/CMakeFiles/install/strip.dir

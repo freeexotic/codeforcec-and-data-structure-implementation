@@ -14,3 +14,4 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELWITHDEBINFO ${CMAKE_CURRENT_SOURCE_DIR}bin
 
 add_subdirectory(prj.lab)
 add_subdirectory(prj.test)
+add_subdirectory(prj.app)

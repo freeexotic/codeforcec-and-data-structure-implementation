@@ -181,6 +181,12 @@
 		},
 		{
 			"path" : "prj.test/CMakeLists.txt"
+		},
+		{
+			"path" : "prj.app/CMakeLists.txt"
+		},
+		{
+			"path" : "prj.app/timing_q/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

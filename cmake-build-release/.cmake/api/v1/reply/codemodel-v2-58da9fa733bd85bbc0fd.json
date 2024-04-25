@@ -9,7 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						12
+						12,
+						13
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
@@ -224,6 +225,36 @@
 						17,
 						18
 					]
+				},
+				{
+					"build" : "prj.app",
+					"childIndexes" : 
+					[
+						14
+					],
+					"jsonFile" : "directory-prj.app-Release-6c7aeb6676c436d330d1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "prj.app"
+				},
+				{
+					"build" : "prj.app/timing_q",
+					"jsonFile" : "directory-prj.app.timing_q-Release-ba06148fd1f8f7a3d61b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "prj.app/timing_q",
+					"targetIndexes" : 
+					[
+						19
+					]
 				}
 			],
 			"name" : "Release",
@@ -244,7 +275,9 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13,
+						14
 					],
 					"name" : "silaev-v-v-23-03",
 					"targetIndexes" : 
@@ -267,7 +300,8 @@
 						15,
 						16,
 						17,
-						18
+						18,
+						19
 					]
 				}
 			],
@@ -404,6 +438,13 @@
 					"id" : "test_stacklstt::@03e42033715ba8c02d37",
 					"jsonFile" : "target-test_stacklstt-Release-de7e897335726c199041.json",
 					"name" : "test_stacklstt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "timing_q::@bf56b48576469ddf7b1f",
+					"jsonFile" : "target-timing_q-Release-1f261129adf2b55aa56c.json",
+					"name" : "timing_q",
 					"projectIndex" : 0
 				}
 			]
