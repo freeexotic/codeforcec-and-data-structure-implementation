@@ -10,7 +10,7 @@ add_executable(test_queuelstr test_queuelstr.cpp)
 
 add_executable(test_bitset test_bitset.cpp)
 
-add_executable(test_stackarrt test_stackarrt.cpp)
+add_executable(test_stackarrt test_stackarrt.cpp utils.hpp)
 
 add_executable(test_stacklstt test_stacklstt.cpp)
 

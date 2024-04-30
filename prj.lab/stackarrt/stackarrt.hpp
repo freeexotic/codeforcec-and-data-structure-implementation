@@ -36,9 +36,9 @@ public:
     void Clear() noexcept;
 
 private:
-    int size_ = 0;   //!< число элементов в буфере
-    int i_top_ = -1; //!< индекс top элемента
-    T* data_ = nullptr;   //!< элементы стека
+    int size_ = 0;
+    int i_top_ = -1;
+    T* data_ = nullptr;
 };
 
 template <class T>
