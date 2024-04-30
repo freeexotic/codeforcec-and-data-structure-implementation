@@ -3,36 +3,39 @@
 #include <algorithm>
 #include <stdexcept>
 
-StackArr::StackArr(const StackArr& st)
-        : i_top_(st.i_top_) {
-    if (!st.IsEmpty()) {
+StackArr::StackArr(const StackArr& mas) : i_top_(mas.i_top_) {
+    if (!mas.IsEmpty()) {
         size_ = ((i_top_ + 1) / 4 + 1) * 4;
         data_ = new Complex[size_];
-        std::copy(st.data_, st.data_ + i_top_ + 1, data_);
+        std::copy(mas.data_, mas.data_ + i_top_ + 1, data_);
     }
 }
 
 
-StackArr& StackArr::operator=(const StackArr& st) {
-    if (this != &st) {
-        if (st.IsEmpty()) {
+StackArr& StackArr::operator=(const StackArr& mas) {
+    if (this != &mas) {
+        if (mas.IsEmpty()) {
             Clear();
         }
-        if (size_ <= st.i_top_) {
-            size_ = (st.i_top_ + 4) / 4 * 4;
+        if (size_ <= mas.i_top_) {
+            size_ = (mas.i_top_ + 4) / 4 * 4;
             Complex* buf = new Complex[size_];
             std::swap(data_, buf);
             delete[] buf;
         }
-        i_top_ = st.i_top_;
-        std::copy(st.data_, st.data_ + i_top_ + 1, data_);
+        i_top_ = mas.i_top_;
+        std::copy(mas.data_, mas.data_ + i_top_ + 1, data_);
     }
     return *this;
 }
 
-bool StackArr::operator==(const Complex &src) const{
-    return (data_->re == src.re) && (data_->im == src.im);
+StackArr::StackArr(StackArr&& mas) noexcept {
+    std::swap(mas.size_, size_);
+    std::swap(mas.i_top_, i_top_);
+    std::swap(mas.data_, data_);
 }
+
+
 
 StackArr& StackArr::operator=(StackArr&& src) noexcept {
     if (this != &src) {
@@ -79,16 +82,20 @@ Complex& StackArr::Top() & {
     if (i_top_ >=0) {
         return data_[i_top_];
     }
+    else {
+        throw std::logic_error("StackArr - пуст");
+    }
 }
 
 const Complex& StackArr::Top() const & {
     if (i_top_ >= 0) {
         return data_[i_top_];
     }
+    else {
+        throw std::logic_error("StackArr - пуст");
+    }
 }
 
 void StackArr::Clear() noexcept {
     i_top_ = -1;
 }
-
-///////////!!!!!!!!!!!!!!!!!!!!

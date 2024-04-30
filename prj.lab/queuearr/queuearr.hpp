@@ -1,12 +1,13 @@
-#ifndef QUEUEARR_QUEUEARR_HPP_20240230
-#define QUEUEARR_QUEUEARR_HPP_20240230
+#pragma once
+#ifndef SILAEV_QUEUEARR_HPP_20240230
+#define SILAEV_QUEUEARR_HPP_20240230
 
 #include <complex/complex.hpp>
 #include <algorithm>
 #include <stdexcept>
 #include <cstddef>
 
-class QueueArr {
+class QueueArr final {
 public:
     QueueArr() = default;
 
@@ -30,16 +31,13 @@ public:
 
     [[nodiscard]] const Complex& Top() const;
 
-    int Size();
-
     void Clear() noexcept;
 
 private:
-    std::ptrdiff_t size_ = 0;  //!<
-    Complex* data_ = nullptr;  //!<
-    std::ptrdiff_t head_ = -1; //!<
-    std::ptrdiff_t tail_ = -1; //!<
-private:
+    std::ptrdiff_t size_ = 0;
+    Complex* data_ = nullptr;
+    std::ptrdiff_t head_ = -1;
+    std::ptrdiff_t tail_ = -1;
     std::ptrdiff_t Count() const;
 };
 

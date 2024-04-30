@@ -17,53 +17,35 @@ TEST_CASE("cons") {
   }
 }
 
-/*TEST_CASE("appr") {
+TEST_CASE("appr") {
   SUBCASE("appr with empty") {
     StackArr a;
     StackArr b;
-    for (int i = 0; i < 5; ++i)
-      b.Push(Complex());
+    for (int i = 0; i < 5; ++i) {
+        b.Push(Complex(i, i));
+    }
     a = b;
-    CHECK(a.Capacity() == 5);
+    CHECK(a.Top() == b.Top());
 
-    b.Push(Complex());
-    CHECK(b.Capacity() == 6);
-    CHECK(a.Capacity() == 5);
+    b.Push(Complex(11,11));
+    CHECK(b.Top() == Complex(11,11));
+
   }
-  SUBCASE("appr with full") {
+  SUBCASE("Clear") {
     StackArr a;
     StackArr b;
     for (int i = 0; i < 5; ++i)
     {
-      a.Push(Complex());
-      b.Push(Complex());
+      a.Push(Complex(i,i));
+      b.Push(Complex(i,i));
     }
-    a = b;
-    CHECK(a.Capacity() == 5);
-
-    b.Push(Complex());
-    CHECK(b.Capacity() == 6);
-    CHECK(a.Capacity() == 5);
+    CHECK(a.Top() == Complex(4,4));
+    CHECK(a.IsEmpty() == false);
+    a.Clear();
+    CHECK(a.IsEmpty() == true);
+    CHECK_THROWS(a.Top());
+    CHECK(b.IsEmpty() == false);
+    b = a;
+    CHECK(b.IsEmpty() == true);
   }
 }
-
-TEST_CASE("Push, Pop & Top"){
-  StackArr a;
-  CHECK(a.Size() == 0);
-  for (int i = 0; i < 1000; ++i)
-  {
-    a.Push(Complex(i, i));
-    CHECK(a.Capacity() == i + 1);
-    CHECK(a.Top() == Complex(i,i)); //?
-  }
-
-  for (int i = 998; i >= 0; --i)
-  {
-    a.Pop();
-    CHECK(a.Capacity() == i + 1);
-    CHECK(a.Top() == Complex(i, i));
-  }
-
-} */
-
-//!!!!!!!!!!!!!!!!!!!!!!!!!!!

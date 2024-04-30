@@ -1,3 +1,4 @@
+#pragma once
 #ifndef SILAEV_V_V_23_03_QUEUELST_HPP
 #define SILAEV_V_V_23_03_QUEUELST_HPP
 

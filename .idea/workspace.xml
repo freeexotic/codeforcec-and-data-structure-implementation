@@ -41,12 +41,21 @@
   <component name="ChangeListManager">
     <list default="true" id="14f6de4e-848c-4b33-ac7d-5406e9e5545e" name="Changes" comment="add queuearr">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-58da9fa733bd85bbc0fd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/index-2024-04-22T08-52-22-0695.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-timing_q-Release-1f261129adf2b55aa56c.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/queuearr/queuearr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/queuearr/queuearr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/queuearr/queuearr.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/queuearr/queuearr.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/queuelst/queuelst.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/queuelst/queuelst.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/stackarr/stackarr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/stackarr/stackarr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/stackarr/stackarr.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/stackarr/stackarr.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/stacklst/stacklst.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/stacklst/stacklst.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/stacklst/stacklst.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/stacklst/stacklst.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.test/test_queuearr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.test/test_queuearr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.test/test_queuelst.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.test/test_queuelst.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.test/test_stackarr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.test/test_stackarr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.test/test_stacklst.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.test/test_stacklst.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/status.md" beforeDir="false" afterPath="$PROJECT_DIR$/status.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,49 +108,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;C/C++ File.1914b.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.1928c.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.1948b.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.binfinder_ecv_number.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.queuelstr.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.test1948.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.test_queuelstr.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.timing_q.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.complex.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.test_complex.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.timing_q.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.Check operations.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.Create.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.Push, Pop &amp; Top.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.Run around.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.appr.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.atr.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.cons.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.first test.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.pop.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.test_queuelstr.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarrt&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "C/C++ File.1914b.cpp.executor": "Run",
+    "C/C++ File.1928c.cpp.executor": "Run",
+    "C/C++ File.1948b.cpp.executor": "Run",
+    "C/C++ File.binfinder_ecv_number.cpp.executor": "Run",
+    "C/C++ File.queuelstr.cpp.executor": "Run",
+    "C/C++ File.test1948.cpp.executor": "Run",
+    "C/C++ File.test_queuelstr.cpp.executor": "Run",
+    "C/C++ File.timing_q.cpp.executor": "Run",
+    "CMake Application.complex.executor": "Run",
+    "CMake Application.test_complex.executor": "Run",
+    "CMake Application.timing_q.executor": "Run",
+    "Doctest.Check operations.executor": "Run",
+    "Doctest.Clear.executor": "Run",
+    "Doctest.Create.executor": "Run",
+    "Doctest.Push, Pop & Top.executor": "Run",
+    "Doctest.Run around.executor": "Run",
+    "Doctest.appr.executor": "Run",
+    "Doctest.atr.executor": "Run",
+    "Doctest.clear.executor": "Run",
+    "Doctest.cons.executor": "Run",
+    "Doctest.first test.executor": "Run",
+    "Doctest.pop.executor": "Run",
+    "Doctest.test_queuelstr.executor": "Run",
+    "Doctest.throw.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarrt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "structure.view.defaults.are.configured": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/prj.lab/stackarrt" />
@@ -150,25 +162,31 @@
       <recent name="$PROJECT_DIR$/prj.test" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.binfinder_ecv_number.cpp">
+  <component name="RunManager" selected="Doctest.throw">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="appr" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_stacklstt" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_stacklstt" TEST_METHOD="appr" TEST_MODE="SUITE_TEST">
+    <configuration name="Clear" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_queuearr" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_queuearr" TEST_METHOD="Clear" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="atr" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_stackarrt" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_stackarrt" TEST_METHOD="atr" TEST_MODE="SUITE_TEST">
+    <configuration name="Push, Pop &amp; Top" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_queuearr" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_queuearr" TEST_METHOD="Push, Pop &amp; Top" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cons" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_stackarrt" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_stackarrt" TEST_METHOD="cons" TEST_MODE="SUITE_TEST">
+    <configuration name="appr" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_queuearr" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_queuearr" TEST_METHOD="appr" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cons" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_stacklst" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_stacklst" TEST_METHOD="cons" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -198,24 +216,10 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bitset" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="bitset" CONFIG_NAME="Release">
+    <configuration name="throw" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_stacklst" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_stacklst" TEST_METHOD="appr" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="queuearr" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="queuearr" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="queuearrt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="queuearrt" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="queuelst" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="queuelst" CONFIG_NAME="Release">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="queuelstr" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="queuelstr" CONFIG_NAME="Release">
@@ -248,58 +252,36 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="timing_q" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="timing_q" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="timing_q">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Unnamed" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="binfinder_ecv_number.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="binfinder_ecv_number.cpp" CONFIG_NAME="binfinder_ecv_number.cpp">
-      <option name="sourceFile" value="prj.codeforces/binfinder_ecv_number.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="timing_q.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="timing_q.cpp" CONFIG_NAME="timing_q.cpp">
-      <option name="sourceFile" value="prj.app/timing_q/timing_q.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="C/C++ File.Unnamed" />
-      <item itemvalue="C/C++ File.binfinder_ecv_number.cpp" />
-      <item itemvalue="C/C++ File.timing_q.cpp" />
-      <item itemvalue="CMake Application.bitset" />
-      <item itemvalue="CMake Application.queuearr" />
-      <item itemvalue="CMake Application.queuearrt" />
-      <item itemvalue="CMake Application.queuelst" />
       <item itemvalue="CMake Application.queuelstr" />
       <item itemvalue="CMake Application.stackarrt" />
       <item itemvalue="CMake Application.stacklstt" />
       <item itemvalue="CMake Application.test_queuelstt" />
       <item itemvalue="CMake Application.test_stackarrt" />
       <item itemvalue="CMake Application.test_stacklstt" />
-      <item itemvalue="CMake Application.timing_q" />
       <item itemvalue="Doctest.test_bitset" />
       <item itemvalue="Doctest.test_queuearr" />
       <item itemvalue="Doctest.test_queuelst" />
       <item itemvalue="Doctest.test_queuelstr" />
+      <item itemvalue="Doctest.throw" />
+      <item itemvalue="Doctest.Clear" />
+      <item itemvalue="Doctest.Push, Pop &amp; Top" />
       <item itemvalue="Doctest.appr" />
-      <item itemvalue="Doctest.atr" />
       <item itemvalue="Doctest.cons" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="C/C++ File.binfinder_ecv_number.cpp" />
-        <item itemvalue="C/C++ File.timing_q.cpp" />
-        <item itemvalue="Doctest.cons" />
-        <item itemvalue="Doctest.atr" />
+        <item itemvalue="Doctest.throw" />
         <item itemvalue="Doctest.appr" />
+        <item itemvalue="Doctest.cons" />
+        <item itemvalue="Doctest.Push, Pop &amp; Top" />
+        <item itemvalue="Doctest.Clear" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +331,7 @@
       <workItem from="1714061031278" duration="2832000" />
       <workItem from="1714068044647" duration="2000" />
       <workItem from="1714424131713" duration="82000" />
-      <workItem from="1714457375212" duration="2206000" />
+      <workItem from="1714457375212" duration="10073000" />
     </task>
     <task id="LOCAL-00001" summary="add queue + test_queue">
       <option name="closed" value="true" />

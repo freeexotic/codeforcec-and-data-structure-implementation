@@ -1,3 +1,4 @@
+#pragma once
 #ifndef STACKLST_STACKLST_HPP_20240213
 #define STACKLST_STACKLST_HPP_20240213
 
@@ -9,15 +10,15 @@ class StackLst final {
 public:
     StackLst() = default;
 
-    StackLst(const StackLst& src);
+    StackLst(const StackLst& st);
 
-    StackLst(StackLst&& src) noexcept;
+    StackLst(StackLst&& st) noexcept;
 
     ~StackLst() = default;
 
-    StackLst& operator=(const StackLst& src);
+    StackLst& operator=(const StackLst& st);
 
-    StackLst& operator=(StackLst&& src) noexcept;
+    StackLst& operator=(StackLst&& st) noexcept;
 
     [[nodiscard]] bool IsEmpty() const noexcept;
 
@@ -25,7 +26,7 @@ public:
 
     void Push(const Complex& val);
 
-    [[nodiscard]] Complex& Top() &;
+    [[nodiscard]] Complex& Top()&;
 
     [[nodiscard]] const Complex& Top() const &;
 

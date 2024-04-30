@@ -1,23 +1,23 @@
+#pragma once
 #ifndef STACKARR_STACKARR_HPP_20240203
 #define STACKARR_STACKARR_HPP_20240203
 
 #include <complex/complex.hpp>
 
-#include <cstddef>
 
-class StackArr {
+class StackArr final {
 public:
     StackArr() = default;
 
-    StackArr(const StackArr& src);
+    StackArr(const StackArr& mas);
 
-    StackArr(StackArr&& src) noexcept;
+    StackArr(StackArr&& mas) noexcept;
 
     ~StackArr();
 
-    StackArr& operator=(const StackArr& src);
+    StackArr& operator=(const StackArr& mas);
 
-    StackArr& operator=(StackArr&& src) noexcept;
+    StackArr& operator=(StackArr&& mas) noexcept;
 
     [[nodiscard]] bool IsEmpty() const noexcept;
 
@@ -31,12 +31,11 @@ public:
 
     void Clear() noexcept;
 
-    bool operator==(const Complex& src) const;
 
 private:
-    int size_ = 0;   //!< число элементов в буфере
-    int i_top_ = -1; //!< индекс top элемента
-    Complex* data_ = nullptr;   //!< элементы стека
+    int size_ = 0;
+    int i_top_ = -1;
+    Complex* data_ = nullptr;
 };
 
-#endif // !STACKARR_STACKARR_HPP_20240203
+#endif

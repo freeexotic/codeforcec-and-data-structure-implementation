@@ -5,81 +5,55 @@
 TEST_CASE("cons") {
   SUBCASE("default") {
     QueueArr a;
-    CHECK(a.Size() == 0);
+    CHECK_THROWS(a.IsEmpty() == true);
   }
   SUBCASE("copy") {
     QueueArr a;
     for (int i = 0; i < 500; ++i)
-      a.Push(Complex(1, i));
+      a.Push(Complex(i, i));
 
     QueueArr b(a);
-    CHECK(b.Size() == 500);
     CHECK(b.Top() == a.Top());
 
-    b.Push(Complex());
-    CHECK(b.Size() == 501);
-    CHECK(a.Size() == 500);
-    CHECK(b.Top() == a.Top());
-
+    b.Push(Complex(101, 101));
+    CHECK(b.Top() == Complex(101,101));
+    CHECK(a.Top() == b.Top());
     b.Pop();
-    CHECK(b.Size() == 500);
-    CHECK(a.Size() == 500);
     CHECK(b.Top() != a.Top());
   }
 }
 
-TEST_CASE("appr") {
-  SUBCASE("appr with empty") {
-    QueueArr a;
-    QueueArr b;
-    for (int i = 0; i < 5; ++i)
-      b.Push(Complex(1, i));
-    a = b;
-    CHECK(a.Size() == 5);
-    CHECK(b.Top() == a.Top());
+TEST_CASE("Clear") {
+    SUBCASE("appr with empty") {
+        QueueArr a;
+        QueueArr b;
+        for (int i = 1; i < 5; ++i)
+            b.Push(Complex(i, i));
+        a = b;
+        CHECK(b.Top() == a.Top());
 
-    b.Push(Complex());
-    CHECK(b.Size() == 6);
-    CHECK(a.Size() == 5);
-    CHECK(b.Top() == a.Top());
-  }
-  SUBCASE("appr with full") {
-    QueueArr a;
-    QueueArr b;
-    for (int i = 0; i < 5; ++i)
-    {
-      a.Push(Complex(1, i));
-      b.Push(Complex(i, 2));
+        b.Pop();
+        CHECK(b.Top() != a.Top());
+        CHECK(a.IsEmpty() != true);
+        a.Clear();
+        CHECK(a.IsEmpty() == true);
+        CHECK(b.IsEmpty() != true);
     }
-    a = b;
-    CHECK(a.Size() == 5);
-    CHECK(b.Top() == a.Top());
-    b.Push(Complex());
-    CHECK(b.Size() == 6);
-    CHECK(a.Size() == 5);
-    CHECK(b.Top() == a.Top());
-  }
 }
-
 TEST_CASE("Push, Pop & Top"){
   QueueArr a;
-  CHECK(a.Size() == 0);
   for (int i = 0; i < 1000; ++i)
   {
     a.Push(Complex(i, i));
-    CHECK(a.Size() == i + 1);
-    CHECK(a.Top() == Complex(0, 0));
   }
 
   for (int i = 1; i < 1000; ++i)
   {
     a.Pop();
-    CHECK(a.Size() == 1000 - i);
     CHECK(a.Top() == Complex(i, i));
   }
   a.Pop();
   CHECK_THROWS(a.Top());
-  a.Pop();
 }
 
 TEST_CASE("Run around") {

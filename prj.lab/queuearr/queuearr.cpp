@@ -3,9 +3,6 @@
 #include <algorithm>
 #include <stdexcept>
 
-std::ptrdiff_t QueueArr::Count() const {
-    return IsEmpty() ? 0 : (tail_ + size_ - head_) % size_ + 1;
-}
 
 QueueArr& QueueArr::operator=(const QueueArr& src) {
     if (this != &src) {
@@ -84,7 +81,7 @@ void QueueArr::Pop() noexcept {
 }
 
 void QueueArr::Push(const Complex& val) {
-    if (nullptr == data_) {
+    if (data_ == nullptr) {
         size_ = 2;
         data_ = new Complex[size_];
     }
@@ -93,7 +90,6 @@ void QueueArr::Push(const Complex& val) {
         tail_ = 0;
     } else {
         if (head_ == (tail_ + 1) % size_) {
-            // resize
             Complex* buf = new Complex[size_ * 2];
             std::swap(buf, data_);
             if (head_ < tail_) {
@@ -114,18 +110,22 @@ void QueueArr::Push(const Complex& val) {
 
 Complex& QueueArr::Top() {
     if (IsEmpty()) {
-        throw std::logic_error("QueueArr - try get top form empty queue.");
+        throw std::logic_error("QueueArr - Пуст.");
     }
     return data_[head_];
 }
 
 const Complex& QueueArr::Top() const {
     if (IsEmpty()) {
-        throw std::logic_error("QueueArr - try get top form empty queue.");
+        throw std::logic_error("QueueArr - Пуст.");
     }
     return data_[head_];
 }
 
 void QueueArr::Clear() noexcept {
     head_ = -1;
+}
+
+std::ptrdiff_t QueueArr::Count() const {
+    return IsEmpty() ? 0 : (tail_ + size_ - head_) % size_ + 1;
 }

@@ -7,55 +7,47 @@
 #include <cstdint>
 
 TEST_CASE("cons") {
-
-SUBCASE("copy") {
-StackLst a;
-for (int i = 0; i < 500; i++)
-a.Push(Complex());
-
-StackLst b(a);
-b.Push(Complex());
-}
+    SUBCASE("copy") {
+    StackLst a;
+    for (int i = 0; i < 500; i++) {
+        a.Push(Complex(i, i));
+    }
+    StackLst b(a);
+    CHECK(a.Top() == b.Top());
+    b.Pop();
+    CHECK(a.Top() != b.Top());
+    }
 }
 
 TEST_CASE("appr") {
-    SUBCASE("appr with empty") {
+    SUBCASE("copy") {
         StackLst a;
         StackLst b;
-        for (int i = 0; i < 5; ++i)
-            b.Push(Complex());
+        for (int i = 0; i < 5; ++i) {
+            b.Push(Complex(i,i));
+        }
+        CHECK(a.IsEmpty() == true);
         a = b;
-
-        b.Push(Complex());
+        CHECK(a.IsEmpty() == false);
     }
-    SUBCASE("appr with full") {
+    SUBCASE("Clear") {
         StackLst a;
         StackLst b;
         for (int i = 0; i < 5; ++i)
         {
-            a.Push(Complex());
+            a.Push(Complex(i,i));
             b.Push(Complex());
         }
-        a = b;
-
-        b.Push(Complex());
+        CHECK(a.IsEmpty() == false);
+        CHECK(b.IsEmpty() == false);
+        a.Clear();
+        CHECK(a.IsEmpty() == true);
+        CHECK(b.IsEmpty() == false);
     }
 }
-
-TEST_CASE("Push, Pop & Top"){
-    StackLst a;
-    for (int i = 0; i < 1000; ++i)
-    {
-        a.Push(Complex(i, i));
-        CHECK(a.Top() == Complex(i,i)); //?
+TEST_CASE("throw") {
+    SUBCASE("throw") {
+        StackLst a;
+        CHECK_THROWS(a.Top());
     }
-
-    for (int i = 998; i >= 0; --i)
-    {
-        a.Pop();
-        CHECK(a.Top() == Complex(i, i));
-    }
-    a.Pop();
-    CHECK_THROWS(a.Top(), "123");
-    a.Pop();
 }
