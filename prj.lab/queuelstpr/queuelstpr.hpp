@@ -1,30 +1,39 @@
-#ifndef SILAEV_V_V_23_03_QUEUELSTR_HPP
-#define SILAEV_V_V_23_03_QUEUELSTR_HPP
+#pragma once
+#ifndef SILAEV_QUEUELSTPR_HPP_20240324
+#define SILAEV_QUEUELSTPR_HPP_20240324
 
-class Node {
+#include <cstddef>
+
+class QueueLstPr {
 public:
-    Node* up = nullptr;
-    float data = 1.5;
-    Node() = default;
-    Node(float data_) : data(data_), up(nullptr) {}
-    ~Node() = default;
-};
+    QueueLstPr() = default;
 
-class QueueLstR {
-public:
-    QueueLstR() = default;
-    QueueLstR(const QueueLstR&) = default;
-    ~QueueLstR() = default;
+    QueueLstPr(const QueueLstPr&) = default;
+    QueueLstPr(QueueLstPr&&) = default;
 
-    float Top() noexcept;
+    ~QueueLstPr() = default;
+
+    [[nodiscard]] QueueLstPr& operator=(const QueueLstPr&) = default;
+    [[nodiscard]] QueueLstPr& operator=(QueueLstPr&&) = default;
+
+    [[nodiscard]] bool IsEmpty() const noexcept;
+
     void Pop() noexcept;
-    int Size() noexcept;
-    bool IsEmpty() const noexcept;
+
     void Push(const float& val);
 
+    [[nodiscard]] float& Top();
+
+    [[nodiscard]] const float& Top() const;
+
+    void Clear() noexcept;
+
 private:
-    Node* head;
-    int size_ = 0;
+    struct Node {
+        float val;
+        Node* next = nullptr;
+    };
+    Node* head_ = nullptr;
 };
 
-#endif //SILAEV_V_V_23_03_QUEUELSTR_HPP
+#endif

@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"prj.lab/queuelstr/CMakeLists.txt"
+			"prj.lab/dynarr/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -17,7 +17,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 7,
 				"parent" : 0
 			}
 		]
@@ -30,16 +30,16 @@
 			"destination" : "lib",
 			"paths" : 
 			[
-				"prj.lab/queuelstr/libqueuelstr.a"
+				"prj.lab/dynarr/libdynarr.a"
 			],
-			"targetId" : "queuelstr::@6be9beab16ec0bc80d44",
-			"targetIndex" : 5,
+			"targetId" : "dynarr::@0ea11cdcf82ac2213dcb",
+			"targetIndex" : 2,
 			"type" : "target"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "prj.lab/queuelstr",
-		"source" : "prj.lab/queuelstr"
+		"build" : "prj.lab/dynarr",
+		"source" : "prj.lab/dynarr"
 	}
 }

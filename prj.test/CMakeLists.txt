@@ -16,6 +16,9 @@ add_executable(test_stacklstt test_stacklstt.cpp)
 
 add_executable(test_queuelstt test_queuelstt.cpp)
 
+add_executable(test_queuelstpr test_queuelstpr.cpp)
+
+target_link_libraries(test_queuelstpr queuelstpr)
 target_link_libraries(test_queuelstt queuelstt)
 target_link_libraries(test_stacklstt stacklstt)
 target_link_libraries(test_stackarrt stackarrt)

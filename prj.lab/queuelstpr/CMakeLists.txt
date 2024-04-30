@@ -1,8 +1,8 @@
-add_library(queuelstr queuelstr.cpp queuelstr.hpp)
-target_link_libraries(queuelstr)
-set_property(TARGET queuelstr PROPERTY CXX_STANDARD 20)
-target_include_directories(queuelstr PUBLIC
+add_library(queuelstpr queuelstpr.cpp queuelstpr.hpp)
+target_link_libraries(queuelstpr)
+set_property(TARGET queuelstpr PROPERTY CXX_STANDARD 20)
+target_include_directories(queuelstpr PUBLIC
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/..>
         $<INSTALL_INTERFACE:include>
 )
-install(TARGETS queuelstr)
+install(TARGETS queuelstpr)

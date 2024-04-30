@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_stackarr"
+			"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_queuelstt"
 		}
 	],
 	"backtrace" : 1,
@@ -15,8 +15,7 @@
 		],
 		"files" : 
 		[
-			"prj.test/CMakeLists.txt",
-			"prj.lab/stackarr/CMakeLists.txt"
+			"prj.test/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -26,7 +25,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 1,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
@@ -34,15 +33,6 @@
 				"file" : 0,
 				"line" : 22,
 				"parent" : 0
-			},
-			{
-				"file" : 1
-			},
-			{
-				"command" : 1,
-				"file" : 1,
-				"line" : 2,
-				"parent" : 3
 			}
 		]
 	},
@@ -53,17 +43,6 @@
 			[
 				{
 					"fragment" : "-O3 -DNDEBUG -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics"
-				}
-			],
-			"includes" : 
-			[
-				{
-					"backtrace" : 2,
-					"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarr/.."
-				},
-				{
-					"backtrace" : 2,
-					"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/complex/.."
 				}
 			],
 			"language" : "CXX",
@@ -81,18 +60,7 @@
 			]
 		}
 	],
-	"dependencies" : 
-	[
-		{
-			"backtrace" : 2,
-			"id" : "complex::@f01986494a78af0cc1db"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "stackarr::@5cb587019536b540a06d"
-		}
-	],
-	"id" : "test_stackarr::@03e42033715ba8c02d37",
+	"id" : "test_queuelstt::@03e42033715ba8c02d37",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -107,19 +75,14 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "prj.lab/stackarr/libstackarr.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "prj.lab/complex/libcomplex.a",
+				"fragment" : "-lqueuelstt",
 				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "test_stackarr",
-	"nameOnDisk" : "test_stackarr",
+	"name" : "test_queuelstt",
+	"nameOnDisk" : "test_queuelstt",
 	"paths" : 
 	{
 		"build" : "prj.test",
@@ -140,7 +103,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "prj.test/test_stackarr.cpp",
+			"path" : "prj.test/test_queuelstt.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
