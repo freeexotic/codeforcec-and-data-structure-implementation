@@ -183,6 +183,9 @@
 			"path" : "prj.lab/dynarr/CMakeLists.txt"
 		},
 		{
+			"path" : "prj.lab/queuelstt/CMakeLists.txt"
+		},
+		{
 			"path" : "prj.test/CMakeLists.txt"
 		},
 		{

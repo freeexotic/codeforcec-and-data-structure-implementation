@@ -44,7 +44,7 @@ private:
 
 template <class T>
 QueueLstT<T>::QueueLstT(const QueueLstT<T>& qul) {
-    if (!qul.IsEmpty()) {
+    if (qul.head_ != nullptr) {
         head_ = new Node{qul.head_->val};
         Node* buf1 = qul.head_;
         Node* buf2 = head_;
@@ -66,7 +66,7 @@ QueueLstT<T>::QueueLstT(QueueLstT<T>&& qul) noexcept: head_(qul.head_), tail_(qu
 template <class T>
 QueueLstT<T>& QueueLstT<T>::operator=(const QueueLstT<T>& qul) {
     if (this != &qul) {
-        if (qul.IsEmpty()) {
+        if (qul.head_ == nullptr) {
             Clear();
         } else {
             QueueLstT<T> copy(qul);
@@ -93,19 +93,19 @@ bool QueueLstT<T>::IsEmpty() const noexcept {
 
 template <class T>
 void QueueLstT<T>::Pop() noexcept {
-    if (!IsEmpty()) {
+    if (this->head_!= nullptr) {
         Node* deleted = head_;
         head_ = head_->next;
         delete deleted;
     }
-    if (IsEmpty()) {
+    if (this->head_== nullptr) {
         tail_ = nullptr;
     }
 }
 
 template <class T>
-void QueueLstT<T>::Push(const Complex& data) {
-    if (IsEmpty()) {
+void QueueLstT<T>::Push(const T& data) {
+    if (this->head_ == nullptr) {
         tail_ = new Node{data};
         head_ = tail_;
     } else {
@@ -116,7 +116,7 @@ void QueueLstT<T>::Push(const Complex& data) {
 
 template <class T>
 T& QueueLstT<T>::Top() & {
-    if (IsEmpty()) {
+    if (this->head_== nullptr) {
         throw std::logic_error("QueueLst - ПУСТ!");
     }
     return head_->val;
@@ -124,7 +124,7 @@ T& QueueLstT<T>::Top() & {
 
 template <class T>
 const T& QueueLstT<T>::Top() const & {
-    if (IsEmpty()) {
+    if (this->head_== nullptr) {
         throw std::logic_error("QueueLst - ПУСТ!");
     }
     return head_->val;
@@ -132,7 +132,7 @@ const T& QueueLstT<T>::Top() const & {
 
 template <class T>
 void QueueLstT<T>::Clear() noexcept {
-    while (!IsEmpty()) {
+    while (this->head_!= nullptr) {
         Pop();
     }
 }

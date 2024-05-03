@@ -9,8 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						13,
-						14
+						14,
+						15
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
@@ -35,7 +35,8 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-prj.lab-Release-6b850684795bf15e457d.json",
@@ -66,7 +67,7 @@
 				{
 					"build" : "prj.lab/stackarr",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-prj.lab.stackarr-Release-c72271add06a1f5ff422.json",
+					"jsonFile" : "directory-prj.lab.stackarr-Release-31a0ffbd18df7a68e3db.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -76,13 +77,13 @@
 					"source" : "prj.lab/stackarr",
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
 					"build" : "prj.lab/stacklst",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-prj.lab.stacklst-Release-53eed4fbbb4d564da108.json",
+					"jsonFile" : "directory-prj.lab.stacklst-Release-53230e8fd931aa5f089b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -92,7 +93,7 @@
 					"source" : "prj.lab/stacklst",
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -171,7 +172,7 @@
 					"source" : "prj.lab/stackarrt",
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -186,7 +187,7 @@
 					"source" : "prj.lab/stacklstt",
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -221,6 +222,21 @@
 					]
 				},
 				{
+					"build" : "prj.lab/queuelstt",
+					"jsonFile" : "directory-prj.lab.queuelstt-Release-27a520d491cfdf4ee3ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "prj.lab/queuelstt",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
 					"build" : "prj.test",
 					"jsonFile" : "directory-prj.test-Release-5c21977a58eb6220d410.json",
 					"minimumCMakeVersion" : 
@@ -232,7 +248,6 @@
 					"source" : "prj.test",
 					"targetIndexes" : 
 					[
-						11,
 						12,
 						13,
 						14,
@@ -248,7 +263,7 @@
 					"build" : "prj.app",
 					"childIndexes" : 
 					[
-						15
+						16
 					],
 					"jsonFile" : "directory-prj.app-Release-6c7aeb6676c436d330d1.json",
 					"minimumCMakeVersion" : 
@@ -266,7 +281,7 @@
 					{
 						"string" : "3.20"
 					},
-					"parentIndex" : 14,
+					"parentIndex" : 15,
 					"projectIndex" : 0,
 					"source" : "prj.app/timing_q",
 					"targetIndexes" : 
@@ -296,7 +311,8 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16
 					],
 					"name" : "silaev-v-v-23-03",
 					"targetIndexes" : 
@@ -378,6 +394,13 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 13,
+					"id" : "queuelstt::@272e7ea60edf5e4a54ea",
+					"jsonFile" : "target-queuelstt-Release-005bcbf2b82a75c2edc6.json",
+					"name" : "queuelstt",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 3,
 					"id" : "stackarr::@5cb587019536b540a06d",
 					"jsonFile" : "target-stackarr-Release-8aeda2937365628caf48.json",
@@ -406,79 +429,72 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 13,
+					"directoryIndex" : 14,
 					"id" : "test_bitset::@03e42033715ba8c02d37",
-					"jsonFile" : "target-test_bitset-Release-501e60c9f6426f168ab7.json",
+					"jsonFile" : "target-test_bitset-Release-8080a3c5aed0c505d731.json",
 					"name" : "test_bitset",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 13,
+					"directoryIndex" : 14,
 					"id" : "test_queuearr::@03e42033715ba8c02d37",
-					"jsonFile" : "target-test_queuearr-Release-bb5d2b058d574a340251.json",
+					"jsonFile" : "target-test_queuearr-Release-91249d3b7e72ff42110f.json",
 					"name" : "test_queuearr",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 13,
+					"directoryIndex" : 14,
 					"id" : "test_queuelst::@03e42033715ba8c02d37",
-					"jsonFile" : "target-test_queuelst-Release-70d64d4eb729d4a764a5.json",
+					"jsonFile" : "target-test_queuelst-Release-a54cfe4be6f871d79479.json",
 					"name" : "test_queuelst",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 13,
+					"directoryIndex" : 14,
 					"id" : "test_queuelstpr::@03e42033715ba8c02d37",
-					"jsonFile" : "target-test_queuelstpr-Release-36fe469cf80378cb9458.json",
+					"jsonFile" : "target-test_queuelstpr-Release-6b3b69aa1cc30074a46b.json",
 					"name" : "test_queuelstpr",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 13,
-					"id" : "test_queuelstr::@03e42033715ba8c02d37",
-					"jsonFile" : "target-test_queuelstr-Release-68a0d832d288f732b72a.json",
-					"name" : "test_queuelstr",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 13,
+					"directoryIndex" : 14,
 					"id" : "test_queuelstt::@03e42033715ba8c02d37",
-					"jsonFile" : "target-test_queuelstt-Release-1199c853e57a7ce03212.json",
+					"jsonFile" : "target-test_queuelstt-Release-3eab0fb2030627ec71ae.json",
 					"name" : "test_queuelstt",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 13,
+					"directoryIndex" : 14,
 					"id" : "test_stackarr::@03e42033715ba8c02d37",
-					"jsonFile" : "target-test_stackarr-Release-87c32539840cc7afab3f.json",
+					"jsonFile" : "target-test_stackarr-Release-5d11f514f687ebdfc8b5.json",
 					"name" : "test_stackarr",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 13,
+					"directoryIndex" : 14,
 					"id" : "test_stackarrt::@03e42033715ba8c02d37",
-					"jsonFile" : "target-test_stackarrt-Release-d01fe689e21c8e986e0d.json",
+					"jsonFile" : "target-test_stackarrt-Release-df1dcad7e81e3014afb4.json",
 					"name" : "test_stackarrt",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 13,
+					"directoryIndex" : 14,
 					"id" : "test_stacklst::@03e42033715ba8c02d37",
-					"jsonFile" : "target-test_stacklst-Release-d454048ad04454298280.json",
+					"jsonFile" : "target-test_stacklst-Release-1ac3cee79bee73c019b9.json",
 					"name" : "test_stacklst",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 13,
+					"directoryIndex" : 14,
 					"id" : "test_stacklstt::@03e42033715ba8c02d37",
-					"jsonFile" : "target-test_stacklstt-Release-6c35748801d5a1d1376a.json",
+					"jsonFile" : "target-test_stacklstt-Release-33c32c4bbe03ea9159e1.json",
 					"name" : "test_stacklstt",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 15,
+					"directoryIndex" : 16,
 					"id" : "timing_q::@bf56b48576469ddf7b1f",
-					"jsonFile" : "target-timing_q-Release-73b41c6ddd4af5df8e64.json",
+					"jsonFile" : "target-timing_q-Release-3887a084f84e785de08f.json",
 					"name" : "timing_q",
 					"projectIndex" : 0
 				}

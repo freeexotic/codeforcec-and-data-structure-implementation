@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_queuelstt"
+			"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_stackarrt"
 		}
 	],
 	"backtrace" : 1,
@@ -25,7 +25,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 17,
+				"line" : 11,
 				"parent" : 0
 			},
 			{
@@ -45,6 +45,13 @@
 					"fragment" : "-O3 -DNDEBUG -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics"
 				}
 			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarrt/.."
+				}
+			],
 			"language" : "CXX",
 			"languageStandard" : 
 			{
@@ -60,7 +67,14 @@
 			]
 		}
 	],
-	"id" : "test_queuelstt::@03e42033715ba8c02d37",
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "stackarrt::@22b8ac2838b41b53b15a"
+		}
+	],
+	"id" : "test_stackarrt::@03e42033715ba8c02d37",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -72,17 +86,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "-lqueuelstt",
-				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "test_queuelstt",
-	"nameOnDisk" : "test_queuelstt",
+	"name" : "test_stackarrt",
+	"nameOnDisk" : "test_stackarrt",
 	"paths" : 
 	{
 		"build" : "prj.test",
@@ -96,6 +105,13 @@
 			[
 				0
 			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
 		}
 	],
 	"sources" : 
@@ -103,8 +119,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "prj.test/test_queuelstt.cpp",
+			"path" : "prj.test/test_stackarrt.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "prj.test/utils.hpp",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

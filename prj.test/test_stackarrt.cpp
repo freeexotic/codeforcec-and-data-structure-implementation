@@ -9,7 +9,7 @@
 
 #define TYPES int, double, std::string
 
-TEST_CASE_TEMPLATE_DEFINE("[stacklstt] - ctor", T, test_ctor) {
+TEST_CASE_TEMPLATE_DEFINE("[stackarrt] - ctor", T, test_ctor) {
 
     SUBCASE("copy") {
         StackArrT<double> a;

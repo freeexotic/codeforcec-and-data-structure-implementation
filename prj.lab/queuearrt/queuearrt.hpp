@@ -1,4 +1,3 @@
-
 #ifndef SILAEV_V_V_23_03_QUEUEARRT_HPP
 #define SILAEV_V_V_23_03_QUEUEARRT_HPP
 
@@ -6,7 +5,7 @@
 #include <cstddef>
 
 template <class T>
-class QueueArrT {
+class QueueArrT final {
 public:
     QueueArrT() = default;
 
@@ -28,24 +27,20 @@ public:
 
     [[nodiscard]] T& Top();
 
-    [[nodiscard]] const T& Top() const;
-
-    int Size();
-
     void Clear() noexcept;
 
 private:
-    std::ptrdiff_t size_ = 0;  //!<
-    T* data_ = nullptr;  //!<
-    std::ptrdiff_t head_ = -1; //!<
-    std::ptrdiff_t tail_ = -1; //!<
+    std::ptrdiff_t size_ = 0;
+    T* data_ = nullptr;
+    std::ptrdiff_t head_ = -1;
+    std::ptrdiff_t tail_ = -1;
 private:
     std::ptrdiff_t Count() const;
 };
 
 template <class T>
 std::ptrdiff_t QueueArrT<T>::Count() const {
-    return IsEmpty() ? 0 : (tail_ + size_ - head_) % size_ + 1;
+    return (this->head_== nullptr) ? 0 : (tail_ + size_ - head_) % size_ + 1;
 }
 
 template <class T>
@@ -76,8 +71,8 @@ QueueArrT<T>& QueueArrT<T>::operator=(const QueueArrT<T>& src) {
 
 
 template <class T>
-QueueArrT<T>::QueueArr(const QueueArr<T>& src) {  // TODO: ?????
-    if (!src.IsEmpty()) {
+QueueArrT<T>::QueueArrT(const QueueArrT<T>& src) {
+    if (this->head_ != nullptr) {
         std::ptrdiff_t count = src.Count();
         head_ = 0;
         tail_ = count - 1;
@@ -102,7 +97,7 @@ QueueArrT<T>::QueueArrT(QueueArrT<T>&& src) noexcept {
 }
 
 template <class T>
-QueueArrT<T>& QueueArrT<T>::operator=(QueueArr<T>&& src) {
+QueueArrT<T>& QueueArrT<T>::operator=(QueueArrT<T>&& src) {
     if (this != &src) {
         std::swap(size_, src.size_);
         std::swap(data_, src.data_);
@@ -127,7 +122,7 @@ bool QueueArrT<T>::IsEmpty() const noexcept {
 
 template <class T>               // TODO: Ask why it is not work
 void QueueArrT<T>::Pop() noexcept {
-    if (!IsEmpty()) {
+    if (this->head_!= nullptr) {
         if (head_ != tail_) {
             head_ = (head_ + 1) % size_;
         } else {
@@ -143,7 +138,7 @@ void QueueArrT<T>::Push(const T& val) {
         size_ = 2;
         data_ = new T[size_];
     }
-    if (IsEmpty()) {
+    if (this->head_== nullptr) {
         head_ = 0;
         tail_ = 0;
     } else {
@@ -170,7 +165,7 @@ void QueueArrT<T>::Push(const T& val) {
 
 template <class T>
 T& QueueArrT<T>::Top() {
-    if (IsEmpty()) {
+    if (this->head_== nullptr) {
         throw std::logic_error("QueueArr - try get top form empty queue.");
     }
     return data_[head_];

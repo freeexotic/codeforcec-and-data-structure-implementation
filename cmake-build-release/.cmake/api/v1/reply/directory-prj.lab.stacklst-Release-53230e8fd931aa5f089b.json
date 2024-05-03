@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"prj.lab/stackarr/CMakeLists.txt"
+			"prj.lab/stacklst/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -30,16 +30,16 @@
 			"destination" : "lib",
 			"paths" : 
 			[
-				"prj.lab/stackarr/libstackarr.a"
+				"prj.lab/stacklst/libstacklst.a"
 			],
-			"targetId" : "stackarr::@5cb587019536b540a06d",
-			"targetIndex" : 7,
+			"targetId" : "stacklst::@6bb98f6a26e8fa7c255c",
+			"targetIndex" : 10,
 			"type" : "target"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "prj.lab/stackarr",
-		"source" : "prj.lab/stackarr"
+		"build" : "prj.lab/stacklst",
+		"source" : "prj.lab/stacklst"
 	}
 }
