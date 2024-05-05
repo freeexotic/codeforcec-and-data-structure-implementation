@@ -1756,12 +1756,12 @@ build prj.app/install/strip: phony prj.app/CMakeFiles/install/strip.util
 #############################################
 # Order-only phony target for timing_q
 
-build cmake_object_order_depends_target_timing_q: phony || cmake_object_order_depends_target_complex cmake_object_order_depends_target_stackarr
+build cmake_object_order_depends_target_timing_q: phony || prj.lab/stackarrt/stackarrt
 
 build prj.app/timing_q/CMakeFiles/timing_q.dir/timing_q.cpp.o: CXX_COMPILER__timing_q_unscanned_Release /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.app/timing_q/timing_q.cpp || cmake_object_order_depends_target_timing_q
   DEP_FILE = prj.app/timing_q/CMakeFiles/timing_q.dir/timing_q.cpp.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarr/.. -I/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/complex/..
+  INCLUDES = -I/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarrt/..
   OBJECT_DIR = prj.app/timing_q/CMakeFiles/timing_q.dir
   OBJECT_FILE_DIR = prj.app/timing_q/CMakeFiles/timing_q.dir
 
@@ -1773,9 +1773,8 @@ build prj.app/timing_q/CMakeFiles/timing_q.dir/timing_q.cpp.o: CXX_COMPILER__tim
 #############################################
 # Link the executable /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/timing_q
 
-build /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/timing_q: CXX_EXECUTABLE_LINKER__timing_q_Release prj.app/timing_q/CMakeFiles/timing_q.dir/timing_q.cpp.o | prj.lab/stackarr/libstackarr.a prj.lab/complex/libcomplex.a || prj.lab/complex/libcomplex.a prj.lab/stackarr/libstackarr.a
+build /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/timing_q: CXX_EXECUTABLE_LINKER__timing_q_Release prj.app/timing_q/CMakeFiles/timing_q.dir/timing_q.cpp.o || prj.lab/stackarrt/stackarrt
   FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  LINK_LIBRARIES = prj.lab/stackarr/libstackarr.a  prj.lab/complex/libcomplex.a
   OBJECT_DIR = prj.app/timing_q/CMakeFiles/timing_q.dir
   POST_BUILD = :
   PRE_LINK = :

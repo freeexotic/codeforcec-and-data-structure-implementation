@@ -48,7 +48,7 @@ TEST_CASE_TEMPLATE_DEFINE("[queuelstt] - cppt", T, test_ctor) {
 }
 
 
-TEST_CASE_TEMPLATE_DEFINE("[IE C] - ", T, test_lifo) {SUBCASE("clear")
+TEST_CASE_TEMPLATE_DEFINE("[IE C] - ", T, test_lifo)
 {
     SUBCASE("IsEmpty, Clear") {
         QueueLstT<double> a;

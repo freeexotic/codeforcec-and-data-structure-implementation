@@ -1,12 +1,12 @@
 #include <chrono>
-#include <stackarrt/stackarrt.hpp>
 #include <iostream>
+#include <stackarrt/stackarrt.hpp>
 
 
 
 int main(){
     std::chrono::duration<double, std::micro>;
-    StackArr a;
+    StackArrT<int> a;
     auto begin = std::chrono::steady_clock::now();
     for (int i=0; i!=100000000; ++i){
         arr.Push(Complex(i,i));

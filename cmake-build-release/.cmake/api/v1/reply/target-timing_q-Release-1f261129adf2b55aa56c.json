@@ -15,8 +15,7 @@
 		],
 		"files" : 
 		[
-			"prj.app/timing_q/CMakeLists.txt",
-			"prj.lab/stackarr/CMakeLists.txt"
+			"prj.app/timing_q/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -26,23 +25,14 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 3,
+				"line" : 1,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 5,
+				"line" : 3,
 				"parent" : 0
-			},
-			{
-				"file" : 1
-			},
-			{
-				"command" : 1,
-				"file" : 1,
-				"line" : 2,
-				"parent" : 3
 			}
 		]
 	},
@@ -59,11 +49,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarr/.."
-				},
-				{
-					"backtrace" : 2,
-					"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/complex/.."
+					"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarrt/.."
 				}
 			],
 			"language" : "CXX",
@@ -85,11 +71,7 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "complex::@f01986494a78af0cc1db"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "stackarr::@5cb587019536b540a06d"
+			"id" : "stackarrt::@22b8ac2838b41b53b15a"
 		}
 	],
 	"id" : "timing_q::@bf56b48576469ddf7b1f",
@@ -104,16 +86,6 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "prj.lab/stackarr/libstackarr.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "prj.lab/complex/libcomplex.a",
-				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
