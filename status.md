@@ -1,42 +1,22 @@
-CHECK: 20240429-055643
-
-ERROR: lab complex - test build failed
-
-ERROR: lab complex_io - test build failed
-
-ERROR: lab complex_m - test build failed
-
-ERROR: lab rational - test build failed
-
-ERROR: lab rational_io - test build failed
-
-ERROR: lab rational_m - test build failed
-
-ERROR: lab dynarr - test build failed
-
-ERROR: lab dynarr_m - test build failed
-
-ERROR: lab stackarr - test build failed
-
-ERROR: lab stackarr_m - test build failed
-
-ERROR: lab stacklst - test build failed
-
-ERROR: lab stacklst_m - test build failed
-
-ERROR: lab queuearr - test build failed
-
-ERROR: lab queuearr_m - test build failed
-
-ERROR: lab queuelst - test build failed
-
-ERROR: lab queuelst_m - test build failed
-
-ERROR: lab queuelstpr - test build failed
-
-ERROR: lab queuelstpr_m - test build failed
-
-ERROR: lab bitset - test build failed
-
-ERROR: lab bitset_m - test build failed
-
+CHECK: 20240513-073825
+OK: file codeforces.id is correct
+ERROR: invalid file name 1877
+ERROR: file prj.lab/rational/CMakeLists.txt is absent
+OK: CMake generator successed
+ERROR: CMake build (MSVC x64) failed
+STATUS: lab complex - test-failed
+STATUS: lab complex_io - test-ok
+STATUS: lab complex_m - test-failed
+ERROR: lab rational - test build failed
+ERROR: lab rational_io - test build failed
+ERROR: lab rational_m - test build failed
+STATUS: lab dynarr - test-ok
+STATUS: lab dynarr_m - test-failed
+STATUS: lab stackarr - test-ok
+STATUS: lab stackarr_m - test-ok
+STATUS: lab stacklst - test-ok
+STATUS: lab stacklst_m - test-ok
+STATUS: lab queuelst - test-ok
+STATUS: lab queuelst_m - test-ok
+STATUS: lab queuearr - test-ok
+STATUS: lab queuearr_m - test-ok
