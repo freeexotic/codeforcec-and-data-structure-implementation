@@ -43,16 +43,100 @@
   <component name="ChangeListManager">
     <list default="true" id="14f6de4e-848c-4b33-ac7d-5406e9e5545e" name="Changes" comment="add queuearr">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-48b2d9574f2999ae3e08.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/index-2024-04-30T17-55-15-0429.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-timing_q-Release-3887a084f84e785de08f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cache-v2-9cce0bca5be756d1a871.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cmakeFiles-v1-a054c957c6862102cb49.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-286082c68d297489c825.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-.-Release-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.app-Release-6c7aeb6676c436d330d1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.app.timing_q-Release-ba06148fd1f8f7a3d61b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab-Release-6b850684795bf15e457d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.bitset-Release-4ad64f46ca80534b59c0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.complex-Release-a82ca0d035fb00870618.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.dynarr-Release-45f9355e45dc7f8eb1f2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.queuearr-Release-fbefb7e4b84d2b9d4b92.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.queuearrt-Release-8c50c6af7fe365f99313.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.queuelst-Release-486f647b5469dd1e75c1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.queuelstpr-Release-ed7a4505e60d1706c09f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.queuelstt-Release-27a520d491cfdf4ee3ba.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.stackarr-Release-31a0ffbd18df7a68e3db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.stackarrt-Release-c8aab8cfca8ea61cfe4e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.stacklst-Release-53230e8fd931aa5f089b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.stacklstt-Release-70dac5ced95b3001fdc9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.test-Release-5c21977a58eb6220d410.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/index-2024-05-03T13-21-09-0687.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-bitset-Release-5a2d46d5227333ffd413.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-complex-Release-3cad3b89624f2d80d013.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-dynarr-Release-129c4d776313a4b87ff1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-queuearr-Release-a4ec282fb1509f840e76.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-queuearrt-Release-64839656d025cca1e6f1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-queuelst-Release-0697ada27a1cf11b4288.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-queuelstpr-Release-b5617a2baf374351dcc0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-queuelstt-Release-005bcbf2b82a75c2edc6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-stackarr-Release-8aeda2937365628caf48.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-stackarrt-Release-6e9df19dcbe5032786ab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-stacklst-Release-e6f17651cdbf553a955c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-stacklstt-Release-36f7c420215c18b1ba34.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_bitset-Release-8080a3c5aed0c505d731.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queuearr-Release-91249d3b7e72ff42110f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queuelst-Release-a54cfe4be6f871d79479.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queuelstpr-Release-6b3b69aa1cc30074a46b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queuelstt-Release-3eab0fb2030627ec71ae.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stackarr-Release-5d11f514f687ebdfc8b5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stackarrt-Release-df1dcad7e81e3014afb4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stacklst-Release-1ac3cee79bee73c019b9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stacklstt-Release-33c32c4bbe03ea9159e1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-timing_q-Release-1f261129adf2b55aa56c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/toolchains-v1-7908ad211abb8eeafc96.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-Release-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.app/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.app/timing_q/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/bitset/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/complex/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/dynarr/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/queue/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/queuearr/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/queuearrt/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/queuelst/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/queuelstpr/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/queuelstr/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/queuelstt/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/stackarr/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/stackarrt/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/stacklst/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/stacklstt/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.test/cmake_install.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/prj.app/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/prj.app/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.app/timing_q/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/prj.app/timing_q/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.app/timing_q/timing_q.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.app/timing_q/timing_q.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.test/test_queuelstt.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.test/test_queuelstt.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.app/timing_q/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.app/timing_q/timing_q.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/prj.test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.test/test_stackarrt.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.test/test_stackarrt.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.test/test_stacklstt.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.test/test_stacklstt.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks.md" beforeDir="false" afterPath="$PROJECT_DIR$/tasks.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,59 +189,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "C/C++ File.1914b.cpp.executor": "Run",
-    "C/C++ File.1928c.cpp.executor": "Run",
-    "C/C++ File.1948b.cpp.executor": "Run",
-    "C/C++ File.binfinder_ecv_number.cpp.executor": "Run",
-    "C/C++ File.queuelstr.cpp.executor": "Run",
-    "C/C++ File.test1948.cpp.executor": "Run",
-    "C/C++ File.test_queuelstr.cpp.executor": "Run",
-    "C/C++ File.timing_q.cpp.executor": "Run",
-    "CMake Application.complex.executor": "Run",
-    "CMake Application.test_complex.executor": "Run",
-    "CMake Application.timing_q.executor": "Run",
-    "Doctest.Check operations.executor": "Run",
-    "Doctest.Clear.executor": "Run",
-    "Doctest.Create.executor": "Run",
-    "Doctest.Push, Pop & Top.executor": "Run",
-    "Doctest.Run around.executor": "Run",
-    "Doctest.[queuelstt] - cppt<*.executor": "Run",
-    "Doctest.[stackarrt] - ctor<*.executor": "Run",
-    "Doctest.[stacklstt] - LIFO<*.executor": "Run",
-    "Doctest.[stacklstt] - ctor<*.executor": "Run",
-    "Doctest.appr.executor": "Run",
-    "Doctest.atr.executor": "Run",
-    "Doctest.clear.executor": "Run",
-    "Doctest.cons.executor": "Run",
-    "Doctest.first test.executor": "Run",
-    "Doctest.pop.executor": "Run",
-    "Doctest.test_queuelstr.executor": "Run",
-    "Doctest.throw.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.app",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "structure.view.defaults.are.configured": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;C/C++ File.1914b.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.1928c.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.1948b.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.binfinder_ecv_number.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.queuelstr.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.test1948.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.test_queuelstr.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.timing_q.cpp (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.timing_q.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.complex.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.test_complex.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.timing_q.executor&quot;: &quot;Run&quot;,
+    &quot;Doctest.Check operations.executor&quot;: &quot;Run&quot;,
+    &quot;Doctest.Clear.executor&quot;: &quot;Run&quot;,
+    &quot;Doctest.Create.executor&quot;: &quot;Run&quot;,
+    &quot;Doctest.Push, Pop &amp; Top.executor&quot;: &quot;Run&quot;,
+    &quot;Doctest.Run around.executor&quot;: &quot;Run&quot;,
+    &quot;Doctest.[queuelstt] - cppt&lt;*.executor&quot;: &quot;Run&quot;,
+    &quot;Doctest.[stackarrt] - ctor&lt;*.executor&quot;: &quot;Run&quot;,
+    &quot;Doctest.[stacklstt] - LIFO&lt;*.executor&quot;: &quot;Debug&quot;,
+    &quot;Doctest.[stacklstt] - ctor&lt;*.executor&quot;: &quot;Run&quot;,
+    &quot;Doctest.appr.executor&quot;: &quot;Run&quot;,
+    &quot;Doctest.atr.executor&quot;: &quot;Run&quot;,
+    &quot;Doctest.clear.executor&quot;: &quot;Run&quot;,
+    &quot;Doctest.cons.executor&quot;: &quot;Run&quot;,
+    &quot;Doctest.first test.executor&quot;: &quot;Run&quot;,
+    &quot;Doctest.pop.executor&quot;: &quot;Run&quot;,
+    &quot;Doctest.test_queuelstr.executor&quot;: &quot;Run&quot;,
+    &quot;Doctest.throw.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.codeforces&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/prj.codeforces" />
       <recent name="$PROJECT_DIR$/prj.app" />
+      <recent name="$PROJECT_DIR$/prj.test" />
       <recent name="$PROJECT_DIR$/prj.lab/stackarrt" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -167,12 +254,6 @@
     </key>
   </component>
   <component name="RunManager" selected="C/C++ File.timing_q.cpp">
-    <configuration name="[queuelstt] - cppt&lt;*" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_queuelstt" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_queuelstt" TEST_METHOD="[queuelstt] - cppt&lt;*" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="[stackarrt] - ctor&lt;*" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_stackarrt" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_stackarrt" TEST_METHOD="[stackarrt] - ctor&lt;*" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -185,7 +266,7 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="[stacklstt] - ctor&lt;*" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_queuelstt" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_queuelstt" TEST_METHOD="[stacklstt] - ctor&lt;*" TEST_MODE="SUITE_TEST">
+    <configuration name="cons" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_stacklstt" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_stacklstt" TEST_METHOD="cons" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -207,11 +288,6 @@
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="dynarr" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="dynarr" CONFIG_NAME="Release">
@@ -264,6 +340,12 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="timing_q.cpp (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="timing_q.cpp" CONFIG_NAME="timing_q.cpp">
+      <option name="sourceFile" value="prj.test/timing_q.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="timing_q.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="timing_q.cpp" CONFIG_NAME="timing_q.cpp">
       <option name="sourceFile" value="prj.app/timing_q/timing_q.cpp" />
       <method v="2">
@@ -272,6 +354,7 @@
     </configuration>
     <list>
       <item itemvalue="C/C++ File.Unnamed" />
+      <item itemvalue="C/C++ File.timing_q.cpp (1)" />
       <item itemvalue="C/C++ File.timing_q.cpp" />
       <item itemvalue="CMake Application.dynarr" />
       <item itemvalue="CMake Application.queuelstpr" />
@@ -285,18 +368,17 @@
       <item itemvalue="Doctest.test_bitset" />
       <item itemvalue="Doctest.test_queuearr" />
       <item itemvalue="Doctest.test_queuelst" />
+      <item itemvalue="Doctest.cons" />
       <item itemvalue="Doctest.[stackarrt] - ctor&lt;*" />
-      <item itemvalue="Doctest.[queuelstt] - cppt&lt;*" />
       <item itemvalue="Doctest.[stacklstt] - LIFO&lt;*" />
-      <item itemvalue="Doctest.[stacklstt] - ctor&lt;*" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="C/C++ File.timing_q.cpp" />
-        <item itemvalue="Doctest.[stacklstt] - LIFO&lt;*" />
+        <item itemvalue="C/C++ File.timing_q.cpp (1)" />
         <item itemvalue="Doctest.[stackarrt] - ctor&lt;*" />
-        <item itemvalue="Doctest.[queuelstt] - cppt&lt;*" />
-        <item itemvalue="Doctest.[stacklstt] - ctor&lt;*" />
+        <item itemvalue="Doctest.cons" />
+        <item itemvalue="Doctest.[stacklstt] - LIFO&lt;*" />
       </list>
     </recent_temporary>
   </component>
@@ -348,6 +430,9 @@
       <workItem from="1714424131713" duration="82000" />
       <workItem from="1714457375212" duration="19228000" />
       <workItem from="1714741157408" duration="1390000" />
+      <workItem from="1714981910523" duration="4632000" />
+      <workItem from="1715065014973" duration="603000" />
+      <workItem from="1715586824055" duration="578000" />
     </task>
     <task id="LOCAL-00001" summary="add queue + test_queue">
       <option name="closed" value="true" />
@@ -407,5 +492,16 @@
     <MESSAGE value="add queue + test_queue" />
     <MESSAGE value="add queuearr" />
     <option name="LAST_COMMIT_MESSAGE" value="add queuearr" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/prj.test/test_stackarrt.cpp</url>
+          <line>92</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

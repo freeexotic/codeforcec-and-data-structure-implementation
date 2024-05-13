@@ -90,7 +90,7 @@ TEST_CASE_TEMPLATE_DEFINE("[stacklstt] - LIFO", T, test_lifo) {
         CHECK(a.IsEmpty() == false);
         a.Clear();
         CHECK(a.IsEmpty() == true);
-        // CHECK_THROWS(a.Top()); TODO: почему не работает чек сроу?
+        CHECK_THROWS(a.Top());
         CHECK(b.IsEmpty() == false);
         b = a;
         CHECK(b.IsEmpty() == true);

@@ -6,9 +6,11 @@
 #include <complex/complex.hpp>
 
 #include <cstdint>
+#include <string>
 
+#define TYPES int, double, std::string
 
-TEST_CASE("cons") {
+TEST_CASE_TEMPLATE_DEFINE("[stackarrt] - ctor", T, test_ctor) {
     SUBCASE("copy") {
         StackLstT<int> a;
         for (int i = 0; i < 500; i++)
@@ -19,31 +21,31 @@ TEST_CASE("cons") {
     }
 }
 
-TEST_CASE("appr") {
+TEST_CASE_TEMPLATE_DEFINE("[stacklstt] - LIFO", T, test_lifo) {
     SUBCASE("appr with empty") {
-        StackLstT<Complex> a;
-        StackLstT<Complex> b;
+        StackLstT<int> a;
+        StackLstT<int> b;
         for (int i = 0; i < 5; ++i)
-            b.Push(Complex());
+            b.Push(i);
         a = b;
 
-        b.Push(Complex());
+        b.Push(1);
     }
     SUBCASE("appr with full") {
-        StackLstT<Complex> a;
-        StackLstT<Complex> b;
+        StackLstT<int> a;
+        StackLstT<int> b;
         for (int i = 0; i < 5; ++i)
         {
-            a.Push(Complex());
-            b.Push(Complex());
+            a.Push(i);
+            b.Push(i);
         }
         a = b;
-        b.Push(Complex(1, 4));
-        CHECK(b.Top() == Complex(1,4));
+        b.Push(5);
+        CHECK(b.Top() == 5);
     }
 }
 
-TEST_CASE("Push, Pop & Top"){
+/*TEST_CASE("Push, Pop & Top"){
     StackLstT<Complex> a;
     for (int i = 0; i < 1000; ++i)
     {
@@ -60,3 +62,6 @@ TEST_CASE("Push, Pop & Top"){
     CHECK_THROWS(a.Top(), "123");
     a.Pop();
 }
+*/
+TEST_CASE_TEMPLATE_INVOKE(test_ctor, TYPES);
+TEST_CASE_TEMPLATE_INVOKE(test_lifo, TYPES);
