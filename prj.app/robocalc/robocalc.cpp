@@ -5,9 +5,6 @@
 #include <string>
 
 
-bool RoboCalc::IsEmpty() const noexcept {
-    return head_ < 0;
-}
 
 bool RoboCalc::IsEmpty() const noexcept {
     return nullptr == head_;
@@ -42,7 +39,30 @@ int RoboCalc::Size() const noexcept {
     return size_;
 }
 
+void RoboCalc::Desk(const std::string &com ,double& val, double& out) {
+    if (com == "ADD"){
+        return ADD(out, val);
+    }
+    else if (com == "SUB"){
+        return SUB(out, val);
+    }
+    else if (com == "MUL"){
+        return MUL(out, val);
+    }
+    else if (com == "DIV"){
+        return DIV(out, val);
+    }
+}
+
 double RoboCalc::OUT(double &out) noexcept {
     Node* buf = head_;
-    while(buf != tail_){}
+    do{
+
+    } while (buf != tail_);
 }
+
+
+// при неверном вводе - заканчиваем ошибкой
+// сделать ключ значение
+// консольное приложение принимающее параметры командной строки
+// если что-то приводит к некорректному состоянию - пишим err - "сама ошибка"

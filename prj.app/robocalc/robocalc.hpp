@@ -25,6 +25,7 @@ public:
 private:
     void Pop() noexcept;
     void Push(const std::string &com, const double &val);
+    void Desk(const std::string &com, double &val, double& out);
 
     struct Node {
         std::string data_com;
