@@ -39,7 +39,23 @@ int RoboCalc::Size() const noexcept {
     return size_;
 }
 
-void RoboCalc::Desk(const std::string &com ,double& val, double& out) {
+double RoboCalc::ADD(double &com, double &out) noexcept {
+    return out = out + com;
+}
+
+double RoboCalc::DIV(double &com, double &out) noexcept {
+    return out = out/com;
+}
+
+double RoboCalc::MUL(double &com, double &out) noexcept {
+    return out = out*com;
+}
+
+double RoboCalc::SUB(double &com, double &out) noexcept {
+    return out = out - com;
+}
+
+double RoboCalc::Desk(const std::string &com ,double& val, double& out) {
     if (com == "ADD"){
         return ADD(out, val);
     }
@@ -56,9 +72,10 @@ void RoboCalc::Desk(const std::string &com ,double& val, double& out) {
 
 double RoboCalc::OUT(double &out) noexcept {
     Node* buf = head_;
-    do{
-
-    } while (buf != tail_);
+    while (buf->next != nullptr) {
+        out = Desk(buf->data_com, buf->data_val, out);
+        buf = buf->next;
+    }
 }
 
 

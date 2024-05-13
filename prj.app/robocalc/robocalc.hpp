@@ -11,11 +11,11 @@ public:
 
     ~RoboCalc();
 
-    void ADD(double &com, double &out) noexcept;
-    void SUB(double &com, double &out) noexcept;
-    void MUL(double &com, double &out) noexcept;
-    void DIV(double &com, double &out) noexcept;
-    void REV(double &com, double &out) noexcept;
+    double ADD(double &com, double &out) noexcept;
+    double SUB(double &com, double &out) noexcept;
+    double MUL(double &com, double &out) noexcept;
+    double DIV(double &com, double &out) noexcept;
+    double REV(double &com, double &out) noexcept;
     double OUT(double &out) noexcept;
 
     int Size() const noexcept;
@@ -25,7 +25,7 @@ public:
 private:
     void Pop() noexcept;
     void Push(const std::string &com, const double &val);
-    void Desk(const std::string &com, double &val, double& out);
+    double Desk(const std::string &com, double &val, double& out);
 
     struct Node {
         std::string data_com;
