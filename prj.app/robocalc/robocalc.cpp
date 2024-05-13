@@ -10,16 +10,6 @@ bool RoboCalc::IsEmpty() const noexcept {
     return nullptr == head_;
 }
 
-void RoboCalc::Pop() noexcept {
-    if (!IsEmpty()) {
-        Node* deleted = head_;
-        head_ = head_->next;
-        delete deleted;
-    }
-    if (IsEmpty()) {
-        tail_ = nullptr;
-    }
-}
 
 void RoboCalc::Push(const std::string& com, const double& val) {
     if (IsEmpty()) {
@@ -39,52 +29,59 @@ int RoboCalc::Size() const noexcept {
     return size_;
 }
 
-double RoboCalc::ADD(double &com, double &out) noexcept {
-    return out = out + com;
+double RoboCalc::ADD(double &from_out, double &val) noexcept {
+    return from_out + val;
 }
 
-double RoboCalc::DIV(double &com, double &out) noexcept {
-    return out = out/com;
+double RoboCalc::DIV(double &from_out, double &val) noexcept {
+    return from_out/val;
 }
 
-double RoboCalc::MUL(double &com, double &out) noexcept {
-    return out = out*com;
+double RoboCalc::MUL(double &from_out, double &val) noexcept {
+    return from_out*val;
 }
 
-double RoboCalc::SUB(double &com, double &out) noexcept {
-    return out = out - com;
+double RoboCalc::SUB(double &from_out, double &val) noexcept {
+    return from_out - val;
 }
 
-double RoboCalc::Desk(const std::string &com ,double& val, double& out) {
+double RoboCalc::Desk(const std::string &com ,double& val, double& from_out) {
     if (com == "ADD"){
-        return ADD(out, val);
+        return ADD(from_out, val);
     }
     else if (com == "SUB"){
-        return SUB(out, val);
+        return SUB(from_out, val);
     }
     else if (com == "MUL"){
-        return MUL(out, val);
+        return MUL(from_out, val);
     }
     else if (com == "DIV"){
-        return DIV(out, val);
+        return DIV(from_out, val);
     }
 }
 
 double RoboCalc::OUT(double &out) noexcept {
+    double from_out = out;
     Node* buf = head_;
-    while (buf->next != nullptr) {
-        out = Desk(buf->data_com, buf->data_val, out);
+    do {
+        from_out = Desk(buf->data_com, buf->data_val, from_out);
         buf = buf->next;
-    }
+    }while (buf != nullptr);
+    return from_out;
 }
 
 double RoboCalc::REV(int &num) noexcept {
-    Node* buf = head_;
-    for (int i = 0; i!=size_-num; ++i){
-        buf = buf->next;
+    if (num >= 0 && num <= size_){
+        Node* buf = head_;
+        for (int i = 1; i!=size_-num; ++i){
+            buf = buf->next;
+        }
+        tail_=buf;
+        tail_->next = nullptr;
     }
-    tail_=buf;
-    tail_->next = nullptr;
+    else{
+        throw std::logic_error("The number in is not in the allowed range");
+    }
 }
 
 // при неверном вводе - заканчиваем ошибкой

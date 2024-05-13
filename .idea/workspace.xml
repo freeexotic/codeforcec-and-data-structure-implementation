@@ -11,26 +11,27 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="silaev-v-v-23-03" targetName="test_stacklst" />
+      <config projectName="silaev-v-v-23-03" targetName="test_robocalc" />
       <config projectName="silaev-v-v-23-03" targetName="queuearrt" />
-      <config projectName="silaev-v-v-23-03" targetName="complex" />
       <config projectName="silaev-v-v-23-03" targetName="test_queuelstt" />
       <config projectName="silaev-v-v-23-03" targetName="stackarrt" />
       <config projectName="silaev-v-v-23-03" targetName="stackarr" />
       <config projectName="silaev-v-v-23-03" targetName="test_queuelst" />
+      <config projectName="silaev-v-v-23-03" targetName="queuearr" />
+      <config projectName="silaev-v-v-23-03" targetName="stacklstt" />
+      <config projectName="silaev-v-v-23-03" targetName="dynarr" />
+      <config projectName="silaev-v-v-23-03" targetName="test_bitset" />
+      <config projectName="silaev-v-v-23-03" targetName="test_stacklstt" />
+      <config projectName="silaev-v-v-23-03" targetName="test_queuelstpr" />
+      <config projectName="silaev-v-v-23-03" targetName="test_stacklst" />
+      <config projectName="silaev-v-v-23-03" targetName="complex" />
       <config projectName="silaev-v-v-23-03" targetName="queuelstpr" />
       <config projectName="silaev-v-v-23-03" targetName="stacklst" />
       <config projectName="silaev-v-v-23-03" targetName="robocalc" />
       <config projectName="silaev-v-v-23-03" targetName="test_stackarr" />
       <config projectName="silaev-v-v-23-03" targetName="queuelstt" />
-      <config projectName="silaev-v-v-23-03" targetName="queuearr" />
-      <config projectName="silaev-v-v-23-03" targetName="stacklstt" />
-      <config projectName="silaev-v-v-23-03" targetName="dynarr" />
       <config projectName="silaev-v-v-23-03" targetName="test_queuearr" />
       <config projectName="silaev-v-v-23-03" targetName="queuelst" />
-      <config projectName="silaev-v-v-23-03" targetName="test_bitset" />
-      <config projectName="silaev-v-v-23-03" targetName="test_stacklstt" />
-      <config projectName="silaev-v-v-23-03" targetName="test_queuelstpr" />
       <config projectName="silaev-v-v-23-03" targetName="bitset" />
       <config projectName="silaev-v-v-23-03" targetName="test_stackarrt" />
       <config projectName="silaev-v-v-23-03" targetName="timing_q" />
@@ -44,8 +45,26 @@
   <component name="ChangeListManager">
     <list default="true" id="14f6de4e-848c-4b33-ac7d-5406e9e5545e" name="Changes" comment="add queuearr">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-8bcf576b931b5f118a92.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/index-2024-05-13T08-31-11-0288.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_bitset-Release-4f05a5f8f314266119b0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queuearr-Release-54c492d6a0dbdcb4ba85.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queuelst-Release-f06d93e5cb9590ab25fb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queuelstpr-Release-e1013cd1316d3578381f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queuelstt-Release-7834942e7edbb22e9ba6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stackarr-Release-10c2dd34a80640ac7bb5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stackarrt-Release-7054ff8e86bd541ffcf6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stacklst-Release-625ce11b5edd7972f0b4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stacklstt-Release-c4c83a86851c20876d6f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prj.app/robocalc/robocalc.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.app/robocalc/robocalc.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prj.app/robocalc/robocalc.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.app/robocalc/robocalc.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/queuelst/queuelst.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/queuelst/queuelst.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/queuelst/queuelst.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/queuelst/queuelst.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/prj.test/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,9 +103,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="OCResolveContextSettings">
-    <option name="configuration" value="0-Release-test_queuearr" />
-  </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2023" />
@@ -115,7 +131,9 @@
     &quot;C/C++ File.timing_q.cpp.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.complex.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.test_complex.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.test_robocalc.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.timing_q.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Debug.silaev-v-v-23-03.executor&quot;: &quot;Debug&quot;,
     &quot;Doctest.Check operations.executor&quot;: &quot;Run&quot;,
     &quot;Doctest.Clear.executor&quot;: &quot;Run&quot;,
     &quot;Doctest.Create.executor&quot;: &quot;Run&quot;,
@@ -160,12 +178,13 @@
       <recent name="$PROJECT_DIR$/prj.lab/stackarrt" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/prj.app/timing_q" />
       <recent name="$PROJECT_DIR$/prj.app" />
+      <recent name="$PROJECT_DIR$/prj.lab" />
+      <recent name="$PROJECT_DIR$/prj.app/timing_q" />
       <recent name="$PROJECT_DIR$/prj.test" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.timing_q.cpp">
+  <component name="RunManager" selected="CMake Application.test_robocalc">
     <configuration name="[stackarrt] - ctor&lt;*" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_stackarrt" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_stackarrt" TEST_METHOD="[stackarrt] - ctor&lt;*" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -242,6 +261,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test_robocalc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_robocalc" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_robocalc">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test_stackarrt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_stackarrt" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_stackarrt">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -280,6 +304,7 @@
       <item itemvalue="CMake Application.stackarrt" />
       <item itemvalue="CMake Application.stacklstt" />
       <item itemvalue="CMake Application.test_queuelstt" />
+      <item itemvalue="CMake Application.test_robocalc" />
       <item itemvalue="CMake Application.test_stackarrt" />
       <item itemvalue="CMake Application.test_stacklstt" />
       <item itemvalue="CMake Application.test_queuelstpr" />
@@ -352,7 +377,8 @@
       <workItem from="1715065014973" duration="603000" />
       <workItem from="1715586824055" duration="578000" />
       <workItem from="1715587688312" duration="7623000" />
-      <workItem from="1715616016443" duration="765000" />
+      <workItem from="1715616016443" duration="6944000" />
+      <workItem from="1715631756115" duration="926000" />
     </task>
     <task id="LOCAL-00001" summary="add queue + test_queue">
       <option name="closed" value="true" />

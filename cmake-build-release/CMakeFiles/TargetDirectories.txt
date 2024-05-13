@@ -103,6 +103,7 @@
 /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.test/CMakeFiles/test_stacklstt.dir
 /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.test/CMakeFiles/test_queuelstt.dir
 /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.test/CMakeFiles/test_queuelstpr.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.test/CMakeFiles/test_robocalc.dir
 /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.test/CMakeFiles/edit_cache.dir
 /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.test/CMakeFiles/rebuild_cache.dir
 /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.test/CMakeFiles/list_install_components.dir

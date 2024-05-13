@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_queuelstt"
+			"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_stackarrt"
 		}
 	],
 	"backtrace" : 1,
@@ -25,13 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 15,
+				"line" : 11,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 21,
+				"line" : 25,
 				"parent" : 0
 			}
 		]
@@ -49,7 +49,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuelstt/.."
+					"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/stackarrt/.."
 				}
 			],
 			"language" : "CXX",
@@ -71,10 +71,10 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "queuelstt::@272e7ea60edf5e4a54ea"
+			"id" : "stackarrt::@22b8ac2838b41b53b15a"
 		}
 	],
-	"id" : "test_queuelstt::@03e42033715ba8c02d37",
+	"id" : "test_stackarrt::@03e42033715ba8c02d37",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -90,8 +90,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "test_queuelstt",
-	"nameOnDisk" : "test_queuelstt",
+	"name" : "test_stackarrt",
+	"nameOnDisk" : "test_stackarrt",
 	"paths" : 
 	{
 		"build" : "prj.test",
@@ -119,7 +119,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "prj.test/test_queuelstt.cpp",
+			"path" : "prj.test/test_stackarrt.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

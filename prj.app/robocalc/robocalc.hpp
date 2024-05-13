@@ -9,7 +9,7 @@ class RoboCalc final {
 public:
     RoboCalc() = default;
 
-    ~RoboCalc();
+    ~RoboCalc() = default;
 
     double ADD(double &com, double &out) noexcept;
     double SUB(double &com, double &out) noexcept;
@@ -21,11 +21,10 @@ public:
     int Size() const noexcept;
 
     [[nodiscard]] bool IsEmpty() const noexcept;
-
-private:
-    void Pop() noexcept;
     void Push(const std::string &com, const double &val);
     double Desk(const std::string &com, double &val, double& out);
+
+private:
 
     struct Node {
         std::string data_com;
