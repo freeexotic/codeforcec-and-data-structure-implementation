@@ -20,6 +20,7 @@
       <config projectName="silaev-v-v-23-03" targetName="test_queuelst" />
       <config projectName="silaev-v-v-23-03" targetName="queuelstpr" />
       <config projectName="silaev-v-v-23-03" targetName="stacklst" />
+      <config projectName="silaev-v-v-23-03" targetName="robocalc" />
       <config projectName="silaev-v-v-23-03" targetName="test_stackarr" />
       <config projectName="silaev-v-v-23-03" targetName="queuelstt" />
       <config projectName="silaev-v-v-23-03" targetName="queuearr" />
@@ -43,100 +44,21 @@
   <component name="ChangeListManager">
     <list default="true" id="14f6de4e-848c-4b33-ac7d-5406e9e5545e" name="Changes" comment="add queuearr">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cache-v2-9cce0bca5be756d1a871.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cmakeFiles-v1-a054c957c6862102cb49.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-286082c68d297489c825.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-.-Release-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.app-Release-6c7aeb6676c436d330d1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.app.timing_q-Release-ba06148fd1f8f7a3d61b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab-Release-6b850684795bf15e457d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.bitset-Release-4ad64f46ca80534b59c0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.complex-Release-a82ca0d035fb00870618.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.dynarr-Release-45f9355e45dc7f8eb1f2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.queuearr-Release-fbefb7e4b84d2b9d4b92.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.queuearrt-Release-8c50c6af7fe365f99313.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.queuelst-Release-486f647b5469dd1e75c1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.queuelstpr-Release-ed7a4505e60d1706c09f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.queuelstt-Release-27a520d491cfdf4ee3ba.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cmakeFiles-v1-546aad75d51296ef4d7b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-8c8e414ef66abbda3e52.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.stackarr-Release-31a0ffbd18df7a68e3db.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.stackarrt-Release-c8aab8cfca8ea61cfe4e.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.stacklst-Release-53230e8fd931aa5f089b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.stacklstt-Release-70dac5ced95b3001fdc9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.test-Release-5c21977a58eb6220d410.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/index-2024-05-03T13-21-09-0687.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-bitset-Release-5a2d46d5227333ffd413.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-complex-Release-3cad3b89624f2d80d013.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-dynarr-Release-129c4d776313a4b87ff1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-queuearr-Release-a4ec282fb1509f840e76.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-queuearrt-Release-64839656d025cca1e6f1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-queuelst-Release-0697ada27a1cf11b4288.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-queuelstpr-Release-b5617a2baf374351dcc0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-queuelstt-Release-005bcbf2b82a75c2edc6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-stackarr-Release-8aeda2937365628caf48.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-stackarrt-Release-6e9df19dcbe5032786ab.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-stacklst-Release-e6f17651cdbf553a955c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-stacklstt-Release-36f7c420215c18b1ba34.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_bitset-Release-8080a3c5aed0c505d731.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queuearr-Release-91249d3b7e72ff42110f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queuelst-Release-a54cfe4be6f871d79479.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queuelstpr-Release-6b3b69aa1cc30074a46b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queuelstt-Release-3eab0fb2030627ec71ae.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stackarr-Release-5d11f514f687ebdfc8b5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stackarrt-Release-df1dcad7e81e3014afb4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stacklst-Release-1ac3cee79bee73c019b9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stacklstt-Release-33c32c4bbe03ea9159e1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-timing_q-Release-1f261129adf2b55aa56c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/toolchains-v1-7908ad211abb8eeafc96.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-Release-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.app/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.app/timing_q/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/bitset/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/complex/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/dynarr/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/queue/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/queuearr/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/queuearrt/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/queuelst/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/queuelstpr/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/queuelstr/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/queuelstt/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/stackarr/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/stackarrt/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/stacklst/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/stacklstt/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.test/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/index-2024-05-06T08-52-20-0644.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-Release-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-Release-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.app/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/prj.app/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prj.app/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/prj.app/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.app/timing_q/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.app/timing_q/timing_q.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/prj.test/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.test/test_stackarrt.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.test/test_stackarrt.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.test/test_stacklstt.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.test/test_stacklstt.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks.md" beforeDir="false" afterPath="$PROJECT_DIR$/tasks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/queuelst/queuelst.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/queuelst/queuelst.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,6 +96,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-Release-test_queuearr" />
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
@@ -254,6 +179,11 @@
     </key>
   </component>
   <component name="RunManager" selected="C/C++ File.timing_q.cpp">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="[stackarrt] - ctor&lt;*" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_stackarrt" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_stackarrt" TEST_METHOD="[stackarrt] - ctor&lt;*" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -301,6 +231,11 @@
       </method>
     </configuration>
     <configuration name="queuelstt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="queuelstt" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="robocalc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="robocalc" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -356,6 +291,7 @@
       <item itemvalue="C/C++ File.Unnamed" />
       <item itemvalue="C/C++ File.timing_q.cpp (1)" />
       <item itemvalue="C/C++ File.timing_q.cpp" />
+      <item itemvalue="CMake Application.robocalc" />
       <item itemvalue="CMake Application.dynarr" />
       <item itemvalue="CMake Application.queuelstpr" />
       <item itemvalue="CMake Application.queuelstt" />
@@ -433,6 +369,7 @@
       <workItem from="1714981910523" duration="4632000" />
       <workItem from="1715065014973" duration="603000" />
       <workItem from="1715586824055" duration="578000" />
+      <workItem from="1715587688312" duration="3895000" />
     </task>
     <task id="LOCAL-00001" summary="add queue + test_queue">
       <option name="closed" value="true" />

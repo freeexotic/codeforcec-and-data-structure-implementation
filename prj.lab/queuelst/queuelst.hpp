@@ -34,7 +34,8 @@ public:
 
 private:
     struct Node {
-        Complex val;
+        std::string data_com;
+        double data_val;
         Node* next = nullptr;
     };
 

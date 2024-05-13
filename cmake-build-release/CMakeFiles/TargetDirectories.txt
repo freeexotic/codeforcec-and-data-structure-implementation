@@ -122,3 +122,10 @@
 /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/timing_q/CMakeFiles/install.dir
 /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/timing_q/CMakeFiles/install/local.dir
 /Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/timing_q/CMakeFiles/install/strip.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/robocalc/CMakeFiles/robocalc.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/robocalc/CMakeFiles/edit_cache.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/robocalc/CMakeFiles/rebuild_cache.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/robocalc/CMakeFiles/list_install_components.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/robocalc/CMakeFiles/install.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/robocalc/CMakeFiles/install/local.dir
+/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/cmake-build-release/prj.app/robocalc/CMakeFiles/install/strip.dir

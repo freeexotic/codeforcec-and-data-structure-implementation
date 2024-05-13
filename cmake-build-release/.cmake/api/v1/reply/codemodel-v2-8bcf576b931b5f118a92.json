@@ -67,7 +67,7 @@
 				{
 					"build" : "prj.lab/stackarr",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-prj.lab.stackarr-Release-31a0ffbd18df7a68e3db.json",
+					"jsonFile" : "directory-prj.lab.stackarr-Release-3f06388e649f9d313f55.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -77,13 +77,13 @@
 					"source" : "prj.lab/stackarr",
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
 					"build" : "prj.lab/stacklst",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-prj.lab.stacklst-Release-53230e8fd931aa5f089b.json",
+					"jsonFile" : "directory-prj.lab.stacklst-Release-90bd9cd340384157d572.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -93,7 +93,7 @@
 					"source" : "prj.lab/stacklst",
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -172,7 +172,7 @@
 					"source" : "prj.lab/stackarrt",
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -187,7 +187,7 @@
 					"source" : "prj.lab/stacklstt",
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -248,7 +248,6 @@
 					"source" : "prj.test",
 					"targetIndexes" : 
 					[
-						12,
 						13,
 						14,
 						15,
@@ -256,15 +255,18 @@
 						17,
 						18,
 						19,
-						20
+						20,
+						21
 					]
 				},
 				{
 					"build" : "prj.app",
 					"childIndexes" : 
 					[
-						16
+						16,
+						17
 					],
+					"hasInstallRule" : true,
 					"jsonFile" : "directory-prj.app-Release-6c7aeb6676c436d330d1.json",
 					"minimumCMakeVersion" : 
 					{
@@ -286,7 +288,23 @@
 					"source" : "prj.app/timing_q",
 					"targetIndexes" : 
 					[
-						21
+						22
+					]
+				},
+				{
+					"build" : "prj.app/robocalc",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.app.robocalc-Release-9fa6250b093a1db6be7d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 0,
+					"source" : "prj.app/robocalc",
+					"targetIndexes" : 
+					[
+						8
 					]
 				}
 			],
@@ -312,7 +330,8 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17
 					],
 					"name" : "silaev-v-v-23-03",
 					"targetIndexes" : 
@@ -338,7 +357,8 @@
 						18,
 						19,
 						20,
-						21
+						21,
+						22
 					]
 				}
 			],
@@ -398,6 +418,13 @@
 					"id" : "queuelstt::@272e7ea60edf5e4a54ea",
 					"jsonFile" : "target-queuelstt-Release-005bcbf2b82a75c2edc6.json",
 					"name" : "queuelstt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "robocalc::@c6cc81d216390b7bc66b",
+					"jsonFile" : "target-robocalc-Release-7592137520f7dfc670fc.json",
+					"name" : "robocalc",
 					"projectIndex" : 0
 				},
 				{
