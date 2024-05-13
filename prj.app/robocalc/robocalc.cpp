@@ -78,6 +78,14 @@ double RoboCalc::OUT(double &out) noexcept {
     }
 }
 
+double RoboCalc::REV(int &num) noexcept {
+    Node* buf = head_;
+    for (int i = 0; i!=size_-num; ++i){
+        buf = buf->next;
+    }
+    tail_=buf;
+    tail_->next = nullptr;
+}
 
 // при неверном вводе - заканчиваем ошибкой
 // сделать ключ значение

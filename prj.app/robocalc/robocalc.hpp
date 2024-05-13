@@ -15,7 +15,7 @@ public:
     double SUB(double &com, double &out) noexcept;
     double MUL(double &com, double &out) noexcept;
     double DIV(double &com, double &out) noexcept;
-    double REV(double &com, double &out) noexcept;
+    double REV(int &num) noexcept;
     double OUT(double &out) noexcept;
 
     int Size() const noexcept;

@@ -166,11 +166,6 @@
     </key>
   </component>
   <component name="RunManager" selected="C/C++ File.timing_q.cpp">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="[stackarrt] - ctor&lt;*" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_stackarrt" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_stackarrt" TEST_METHOD="[stackarrt] - ctor&lt;*" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -356,7 +351,8 @@
       <workItem from="1714981910523" duration="4632000" />
       <workItem from="1715065014973" duration="603000" />
       <workItem from="1715586824055" duration="578000" />
-      <workItem from="1715587688312" duration="7379000" />
+      <workItem from="1715587688312" duration="7623000" />
+      <workItem from="1715616016443" duration="765000" />
     </task>
     <task id="LOCAL-00001" summary="add queue + test_queue">
       <option name="closed" value="true" />
