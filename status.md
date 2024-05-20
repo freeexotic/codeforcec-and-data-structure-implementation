@@ -1,9 +1,4 @@
-CHECK: 20240513-073825
-OK: file codeforces.id is correct
-ERROR: invalid file name 1877
-ERROR: file prj.lab/rational/CMakeLists.txt is absent
-OK: CMake generator successed
-ERROR: CMake build (MSVC x64) failed
+CHECK: 20240520-081905
 STATUS: lab complex - test-failed
 STATUS: lab complex_io - test-ok
 STATUS: lab complex_m - test-failed
@@ -16,7 +11,11 @@ STATUS: lab stackarr - test-ok
 STATUS: lab stackarr_m - test-ok
 STATUS: lab stacklst - test-ok
 STATUS: lab stacklst_m - test-ok
-STATUS: lab queuelst - test-ok
-STATUS: lab queuelst_m - test-ok
 STATUS: lab queuearr - test-ok
 STATUS: lab queuearr_m - test-ok
+STATUS: lab queuelst - test-ok
+STATUS: lab queuelst_m - test-ok
+ERROR: lab queuelstpr - test build failed
+ERROR: lab queuelstpr_m - test build failed
+ERROR: lab bitset - test build failed
+ERROR: lab bitset_m - test build failed
