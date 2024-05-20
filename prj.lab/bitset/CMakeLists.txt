@@ -1,3 +1,4 @@
+
 add_library(bitset bitset.cpp bitset.hpp)
 target_link_libraries(bitset)
 set_property(TARGET bitset PROPERTY CXX_STANDARD 20)

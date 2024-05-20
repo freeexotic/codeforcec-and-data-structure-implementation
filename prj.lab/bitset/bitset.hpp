@@ -44,24 +44,18 @@ public:
 
     [[nodiscard]] BitSet& operator^=(const BitSet& rhs); // доделать в тесте
 
+    std::ofstream& WriteTxt(std::ofstream& cout);
 
-    // ? operator[](const uint32_t) - what can return
-    // std::ostream& WriteTxt(std::ostream&)
-    // std::ostream& WriteBinary(std::ostream&)
-    // std::istream& ReadTxt(std::istream&)
-    // std::istream& RaadBinary(std::istream&)
+    std::ofstream& WriteBinary(std::ofstream& cout);
+
+    std::ifstream& ReadBinary(std::ifstream& cin);
+
+    std::ifstream& ReadTxt(std::ifstream& cin);
+
 private:
     int size_ = 0;
     std::vector<uint32_t> bits_;
 };
 
-// std::ostream& operaror<<(std::ostream&, const BitSet&);
-// std::istream& operaror>>(std::istream&, BitSet&);
-
-   // [[nodiscard]] BitSet operator&(const BitSet& rhs);
-
-  //  [[nodiscard]] BitSet operator|(const BitSet& rhs , BitSet& lhs);
-
-   // [[nodiscard]] BitSet operator^(const BitSet& rhs, BitSet& lhs);
 
 #endif

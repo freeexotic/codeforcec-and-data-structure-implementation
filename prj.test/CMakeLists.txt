@@ -28,3 +28,4 @@ target_link_libraries(test_stacklst stacklst)
 target_link_libraries(test_queuelst queuelst)
 target_link_libraries(test_queuearr queuearr)
 target_link_libraries(test_bitset bitset)
+
