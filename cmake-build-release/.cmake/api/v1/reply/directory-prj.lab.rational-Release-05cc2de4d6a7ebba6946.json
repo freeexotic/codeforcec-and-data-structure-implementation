@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"prj.lab/stackarr/CMakeLists.txt"
+			"prj.lab/rational/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -17,7 +17,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 7,
 				"parent" : 0
 			}
 		]
@@ -30,16 +30,16 @@
 			"destination" : "lib",
 			"paths" : 
 			[
-				"prj.lab/stackarr/libstackarr.a"
+				"prj.lab/rational/librational.a"
 			],
-			"targetId" : "stackarr::@5cb587019536b540a06d",
-			"targetIndex" : 9,
+			"targetId" : "rational::@fd4f4962d1a8e6d13fee",
+			"targetIndex" : 8,
 			"type" : "target"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "prj.lab/stackarr",
-		"source" : "prj.lab/stackarr"
+		"build" : "prj.lab/rational",
+		"source" : "prj.lab/rational"
 	}
 }

@@ -18,6 +18,9 @@ add_executable(test_queuelstpr test_queuelstpr.cpp)
 
 add_executable(test_robocalc test_robocalc.cpp)
 
+add_executable(test_rational test_rational.cpp)
+
+target_link_libraries(test_rational rational)
 target_link_libraries(test_robocalc robocalc)
 target_link_libraries(test_queuelstpr queuelstpr)
 target_link_libraries(test_queuelstt queuelstt)

@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"prj.app/robocalc/CMakeLists.txt"
+			"prj.lab/stacklst/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -30,16 +30,16 @@
 			"destination" : "lib",
 			"paths" : 
 			[
-				"prj.app/robocalc/librobocalc.a"
+				"prj.lab/stacklst/libstacklst.a"
 			],
-			"targetId" : "robocalc::@c6cc81d216390b7bc66b",
-			"targetIndex" : 8,
+			"targetId" : "stacklst::@6bb98f6a26e8fa7c255c",
+			"targetIndex" : 12,
 			"type" : "target"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "prj.app/robocalc",
-		"source" : "prj.app/robocalc"
+		"build" : "prj.lab/stacklst",
+		"source" : "prj.lab/stacklst"
 	}
 }

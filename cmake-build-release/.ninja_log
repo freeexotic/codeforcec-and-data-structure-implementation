@@ -1,7 +1,7 @@
 # ninja log v5
-3070	3501	1716205630854192544	prj.app/robocalc/CMakeFiles/robocalc.dir/robocalc.cpp.o	3f6f8db0536c993e
+3	490	1716800083937874592	prj.app/robocalc/CMakeFiles/robocalc.dir/robocalc.cpp.o	28699a38c5de1da6
 4967	5003	1716205632358694430	/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_bitset	41a68c63ccbfd1e0
-2600	3070	1716205630422856593	prj.test/CMakeFiles/test_robocalc.dir/test_robocalc.cpp.o	2c54c347aa58aea4
+2	520	1716800083968663231	prj.test/CMakeFiles/test_robocalc.dir/test_robocalc.cpp.o	824fc595bc4e8136
 3	2599	1716205629950594524	prj.test/CMakeFiles/test_stackarr.dir/test_stackarr.cpp.o	5225e93ee896c05d
 2569	5465	1716205632817534917	prj.test/CMakeFiles/test_queuelstt.dir/test_queuelstt.cpp.o	524833ae437985a3
 4225	4274	1716205631628265855	/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_stacklst	cccff766b6139f62
@@ -11,7 +11,7 @@
 2580	5109	1716205632460995811	prj.test/CMakeFiles/test_queuelstpr.dir/test_queuelstpr.cpp.o	59cef0c86230c8c3
 149	3338	1716205630684566046	prj.test/CMakeFiles/test_stackarrt.dir/test_stackarrt.cpp.o	70c2db3ad3424a7d
 3144	3200	1716205630554340547	/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/timing_q	33e1e6471f9e111
-3532	3596	1716205630948960365	/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_robocalc	7e10d508b829b622
+528	603	1716800084054684783	/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_robocalc	790bea15a8482195
 4145	4188	1716205631545306000	prj.lab/stackarr/libstackarr.a	796b56079aaf90f6
 5465	5497	1716205632853622677	/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_queuelstt	840d94dcd71d2aea
 5109	5144	1716205632499882436	/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_queuelstpr	419b672ec6dd979c
@@ -36,8 +36,12 @@
 2656	3144	1716205630497819478	prj.app/timing_q/CMakeFiles/timing_q.dir/timing_q.cpp.o	3787e1f2ed959bec
 4457	4521	1716205631874063025	/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_queuelst	84fc72b6217b1462
 0	8	0	clean	ad90e366ad70d77b
-3501	3532	1716205630888954000	prj.app/robocalc/librobocalc.a	ab2af1d41fda8298
+490	528	1716800083979996000	prj.app/robocalc/librobocalc.a	ab2af1d41fda8298
 3726	4184	1716205631538438518	prj.lab/stacklst/CMakeFiles/stacklst.dir/stacklst.cpp.o	fe24b220d1029053
 4234	4714	1716205632066127243	prj.lab/queuearr/CMakeFiles/queuearr.dir/queuearr.cpp.o	b7146b3f332df712
 4748	4793	1716205632147458065	/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_queuearr	442c0721800d7362
 4365	4946	1716205632299594036	prj.lab/bitset/CMakeFiles/bitset.dir/bitset.cpp.o	558713e58bf05b5b
+0	520	1717402530936473210	prj.lab/rational/CMakeFiles/rational.dir/rational.cpp.o	eb190d3a0c3268d2
+520	625	1717402531044034000	prj.lab/rational/librational.a	df7cef13d73ce061
+1	5271	1717402535684954706	prj.test/CMakeFiles/test_rational.dir/test_rational.cpp.o	cde1d044f2bacdc5
+5271	5532	1717402535950894318	/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/bin.rel/test_rational	50aeec60a4a3894f

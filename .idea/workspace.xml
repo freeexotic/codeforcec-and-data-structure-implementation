@@ -13,10 +13,12 @@
     <generated>
       <config projectName="silaev-v-v-23-03" targetName="test_robocalc" />
       <config projectName="silaev-v-v-23-03" targetName="queuearrt" />
+      <config projectName="silaev-v-v-23-03" targetName="test_rational" />
       <config projectName="silaev-v-v-23-03" targetName="test_queuelstt" />
       <config projectName="silaev-v-v-23-03" targetName="stackarrt" />
       <config projectName="silaev-v-v-23-03" targetName="stackarr" />
       <config projectName="silaev-v-v-23-03" targetName="test_queuelst" />
+      <config projectName="silaev-v-v-23-03" targetName="rational" />
       <config projectName="silaev-v-v-23-03" targetName="queuearr" />
       <config projectName="silaev-v-v-23-03" targetName="stacklstt" />
       <config projectName="silaev-v-v-23-03" targetName="dynarr" />
@@ -45,6 +47,33 @@
   <component name="ChangeListManager">
     <list default="true" id="14f6de4e-848c-4b33-ac7d-5406e9e5545e" name="Changes" comment="add queuearr">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cache-v2-a7a0399dba0753835bfd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cmakeFiles-v1-2f29fd57cdb7d6b10392.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-957477bbf5098217bcb4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.app.robocalc-Release-9fa6250b093a1db6be7d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.stackarr-Release-3f06388e649f9d313f55.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.stacklst-Release-90bd9cd340384157d572.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/index-2024-05-20T11-47-34-0173.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_bitset-Release-5691dc9d5e647f87264c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queuearr-Release-8c7c8b9389ad7e9804bd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queuelst-Release-ee6b94819690c02794fb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queuelstpr-Release-5f02019f37576c418470.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_queuelstt-Release-a45315a46df368868824.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_robocalc-Release-0f3de536b32f9dfa9b70.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stackarr-Release-61c8e954e1e40e80357c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stackarrt-Release-1e61d0da3a15e59d3416.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stacklst-Release-53976cb6d46fda987793.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-test_stacklstt-Release-ea8ef16b4b2234be72cc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/prj.lab/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.app/robocalc/robocalc.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.app/robocalc/robocalc.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/prj.test/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,59 +126,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;C/C++ File.1914b.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.1928c.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.1948b.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.binfinder_ecv_number.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.queuelstr.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.test1948.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.test_queuelstr.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.timing_q.cpp (1).executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.timing_q.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.complex.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.test_complex.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.test_robocalc.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.timing_q.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Debug.silaev-v-v-23-03.executor&quot;: &quot;Debug&quot;,
-    &quot;Doctest.Check operations.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.Clear.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.Create.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.Push, Pop &amp; Top.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.Run around.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.[queuelstt] - cppt&lt;*.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.[stackarrt] - ctor&lt;*.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.[stacklstt] - LIFO&lt;*.executor&quot;: &quot;Debug&quot;,
-    &quot;Doctest.[stacklstt] - ctor&lt;*.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.appr.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.atr.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.clear.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.cons.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.first test.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.pop.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.test_queuelstr.executor&quot;: &quot;Run&quot;,
-    &quot;Doctest.throw.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.codeforces&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "C/C++ File.1914b.cpp.executor": "Run",
+    "C/C++ File.1928c.cpp.executor": "Run",
+    "C/C++ File.1948b.cpp.executor": "Run",
+    "C/C++ File.binfinder_ecv_number.cpp.executor": "Run",
+    "C/C++ File.queuelstr.cpp.executor": "Run",
+    "C/C++ File.test1948.cpp.executor": "Run",
+    "C/C++ File.test_queuelstr.cpp.executor": "Run",
+    "C/C++ File.timing_q.cpp (1).executor": "Run",
+    "C/C++ File.timing_q.cpp.executor": "Run",
+    "CMake Application.complex.executor": "Run",
+    "CMake Application.test_complex.executor": "Run",
+    "CMake Application.test_robocalc.executor": "Run",
+    "CMake Application.timing_q.executor": "Run",
+    "CMake Debug.silaev-v-v-23-03.executor": "Debug",
+    "Doctest.Check operations.executor": "Run",
+    "Doctest.Clear.executor": "Run",
+    "Doctest.Create.executor": "Run",
+    "Doctest.Push, Pop & Top.executor": "Run",
+    "Doctest.Run around.executor": "Run",
+    "Doctest.[queuelstt] - cppt<*.executor": "Run",
+    "Doctest.[stackarrt] - ctor<*.executor": "Run",
+    "Doctest.[stacklstt] - LIFO<*.executor": "Debug",
+    "Doctest.[stacklstt] - ctor<*.executor": "Run",
+    "Doctest.appr.executor": "Run",
+    "Doctest.atr.executor": "Run",
+    "Doctest.clear.executor": "Run",
+    "Doctest.cons.executor": "Run",
+    "Doctest.first test.executor": "Run",
+    "Doctest.pop.executor": "Run",
+    "Doctest.test constructors.executor": "Run",
+    "Doctest.test_queuelstr.executor": "Run",
+    "Doctest.throw.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.codeforces",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "structure.view.defaults.are.configured": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/prj.codeforces" />
@@ -158,13 +188,13 @@
       <recent name="$PROJECT_DIR$/prj.lab/stackarrt" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/prj.app" />
-      <recent name="$PROJECT_DIR$/prj.lab" />
-      <recent name="$PROJECT_DIR$/prj.app/timing_q" />
       <recent name="$PROJECT_DIR$/prj.test" />
+      <recent name="$PROJECT_DIR$/prj.lab" />
+      <recent name="$PROJECT_DIR$/prj.app" />
+      <recent name="$PROJECT_DIR$/prj.app/timing_q" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.test_robocalc">
+  <component name="RunManager" selected="Doctest.test constructors">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -176,13 +206,13 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="[stacklstt] - LIFO&lt;*" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_stackarrt" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_stackarrt" TEST_METHOD="[stacklstt] - LIFO&lt;*" TEST_MODE="SUITE_TEST">
+    <configuration name="cons" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_stacklstt" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_stacklstt" TEST_METHOD="cons" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cons" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_stacklstt" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_stacklstt" TEST_METHOD="cons" TEST_MODE="SUITE_TEST">
+    <configuration name="test constructors" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_rational" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_rational" TEST_METHOD="test constructors" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -206,6 +236,12 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test_rational" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_rational" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_rational" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="dynarr" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="dynarr" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -217,6 +253,11 @@
       </method>
     </configuration>
     <configuration name="queuelstt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="queuelstt" CONFIG_NAME="Release">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rational" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="rational" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -286,6 +327,7 @@
       <item itemvalue="CMake Application.dynarr" />
       <item itemvalue="CMake Application.queuelstpr" />
       <item itemvalue="CMake Application.queuelstt" />
+      <item itemvalue="CMake Application.rational" />
       <item itemvalue="CMake Application.stackarrt" />
       <item itemvalue="CMake Application.stacklstt" />
       <item itemvalue="CMake Application.test_queuelstt" />
@@ -293,20 +335,21 @@
       <item itemvalue="CMake Application.test_stackarrt" />
       <item itemvalue="CMake Application.test_stacklstt" />
       <item itemvalue="CMake Application.test_queuelstpr" />
+      <item itemvalue="Doctest.test_rational" />
       <item itemvalue="Doctest.test_bitset" />
       <item itemvalue="Doctest.test_queuearr" />
       <item itemvalue="Doctest.test_queuelst" />
+      <item itemvalue="Doctest.test constructors" />
       <item itemvalue="Doctest.cons" />
       <item itemvalue="Doctest.[stackarrt] - ctor&lt;*" />
-      <item itemvalue="Doctest.[stacklstt] - LIFO&lt;*" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Doctest.test constructors" />
         <item itemvalue="C/C++ File.timing_q.cpp" />
         <item itemvalue="C/C++ File.timing_q.cpp (1)" />
         <item itemvalue="Doctest.[stackarrt] - ctor&lt;*" />
         <item itemvalue="Doctest.cons" />
-        <item itemvalue="Doctest.[stacklstt] - LIFO&lt;*" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +408,9 @@
       <workItem from="1715616016443" duration="6944000" />
       <workItem from="1715631756115" duration="926000" />
       <workItem from="1715763048420" duration="671000" />
-      <workItem from="1716204533598" duration="2809000" />
+      <workItem from="1716204533598" duration="2893000" />
+      <workItem from="1716796550825" duration="3270000" />
+      <workItem from="1717402115693" duration="439000" />
     </task>
     <task id="LOCAL-00001" summary="add queue + test_queue">
       <option name="closed" value="true" />
