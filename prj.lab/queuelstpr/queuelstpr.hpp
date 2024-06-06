@@ -20,7 +20,7 @@ public:
 
     void Pop() noexcept;
 
-    void Push(const float& val);
+    void Push(const float& num);
 
     [[nodiscard]] float& Top();
 
@@ -30,6 +30,10 @@ public:
 
 private:
     struct Node {
+        Node(const float num, Node* ptr){
+            val = num;
+            next = ptr;
+        }
         float val;
         Node* next = nullptr;
     };

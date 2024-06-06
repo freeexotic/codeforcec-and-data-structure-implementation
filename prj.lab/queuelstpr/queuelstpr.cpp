@@ -12,38 +12,43 @@ void QueueLstPr::Pop() noexcept {
         delete deleted;
     }
 }
-// TODO Доделать Push
-/*void QueueLstPr::Push(const float &val) {
-    Node* new_node = new Node(val);
+
+void QueueLstPr::Push(const float& num) {
+    Node *f_ptr = nullptr;
+    Node *buf;
+
+    int stop = 1;
+    if (IsEmpty()) {
+        head_ = new Node(num, nullptr);
+        stop = 0;
+    }
+
     Node* finder = head_;
-    Node* buf;
-    if (IsEmpty()){
-        head_->val = val;
-        size_++;
-    }
-    else if (size_ == 1){
-        if (head_->val <= val){
-            buf = head_;
-            new_node->next = buf;
-            head_ = new_node;
-            size_++;
-        }
-    }
-    else if (finder->next == nullptr){
-        finder->next = new_node;
-    }
-    else {
-        for (int i = 0; i!= size_-1 ; ++i){
-            if (val <= finder->val) {
-                new_node->next = finder->next;
-                finder = new_node;
-                size_++;
+    if (stop == 1){
+        while(finder != nullptr){
+            if (finder->val >= num) {
+                if (f_ptr == nullptr) {
+                    buf = head_;
+                    head_ = new Node{num, buf};
+                    break;
+                }
+                else{
+                    f_ptr->next = new Node(num, finder);
+                    break;
+                }
+            }
+            else {
+                f_ptr = finder;
+                finder = finder->next;
+            }
+            if (finder == nullptr){
+                f_ptr->next = new Node(num, nullptr);
                 break;
             }
-            finder = finder->next;
         }
     }
-} */
+
+}
 
 float& QueueLstPr::Top() {
     if (IsEmpty()) {
