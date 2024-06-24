@@ -47,12 +47,7 @@
   <component name="ChangeListManager">
     <list default="true" id="14f6de4e-848c-4b33-ac7d-5406e9e5545e" name="Changes" comment="add queuearr">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.lab/queuelstpr/queuelstpr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/queuelstpr/queuelstpr.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.lab/queuelstpr/queuelstpr.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/queuelstpr/queuelstpr.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prj.test/test_queuelstpr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.test/test_queuelstpr.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +85,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-Release-queuelstpr" />
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
@@ -216,11 +214,6 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="dynarr" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="dynarr" CONFIG_NAME="Release">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -302,25 +295,25 @@
       <item itemvalue="C/C++ File.Unnamed" />
       <item itemvalue="C/C++ File.timing_q.cpp (1)" />
       <item itemvalue="C/C++ File.timing_q.cpp" />
-      <item itemvalue="CMake Application.robocalc" />
       <item itemvalue="CMake Application.dynarr" />
       <item itemvalue="CMake Application.queuelstpr" />
       <item itemvalue="CMake Application.queuelstt" />
       <item itemvalue="CMake Application.rational" />
+      <item itemvalue="CMake Application.robocalc" />
       <item itemvalue="CMake Application.stackarrt" />
       <item itemvalue="CMake Application.stacklstt" />
+      <item itemvalue="CMake Application.test_queuelstpr" />
       <item itemvalue="CMake Application.test_queuelstt" />
       <item itemvalue="CMake Application.test_robocalc" />
       <item itemvalue="CMake Application.test_stackarrt" />
       <item itemvalue="CMake Application.test_stacklstt" />
-      <item itemvalue="CMake Application.test_queuelstpr" />
-      <item itemvalue="Doctest.test_rational" />
       <item itemvalue="Doctest.test_bitset" />
       <item itemvalue="Doctest.test_queuearr" />
       <item itemvalue="Doctest.test_queuelst" />
-      <item itemvalue="Doctest.test constructors" />
-      <item itemvalue="Doctest.cons" />
+      <item itemvalue="Doctest.test_rational" />
       <item itemvalue="Doctest.[stackarrt] - ctor&lt;*" />
+      <item itemvalue="Doctest.cons" />
+      <item itemvalue="Doctest.test constructors" />
     </list>
     <recent_temporary>
       <list>
@@ -390,7 +383,9 @@
       <workItem from="1716204533598" duration="2893000" />
       <workItem from="1716796550825" duration="3270000" />
       <workItem from="1717402115693" duration="6833000" />
-      <workItem from="1717519819812" duration="4112000" />
+      <workItem from="1717519819812" duration="4665000" />
+      <workItem from="1719216223116" duration="49000" />
+      <workItem from="1719216282953" duration="547000" />
     </task>
     <task id="LOCAL-00001" summary="add queue + test_queue">
       <option name="closed" value="true" />
