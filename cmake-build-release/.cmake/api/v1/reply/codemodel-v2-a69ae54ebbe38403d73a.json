@@ -131,8 +131,7 @@
 				},
 				{
 					"build" : "prj.lab/queuelstpr",
-					"hasInstallRule" : true,
-					"jsonFile" : "directory-prj.lab.queuelstpr-Release-ed7a4505e60d1706c09f.json",
+					"jsonFile" : "directory-prj.lab.queuelstpr-Release-48b24f83dab754f8ec20.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -432,7 +431,7 @@
 				{
 					"directoryIndex" : 7,
 					"id" : "queuelstpr::@d29721a077a9f8dd4f82",
-					"jsonFile" : "target-queuelstpr-Release-b5617a2baf374351dcc0.json",
+					"jsonFile" : "target-queuelstpr-Release-5a22f56180c6cc3d9294.json",
 					"name" : "queuelstpr",
 					"projectIndex" : 0
 				},

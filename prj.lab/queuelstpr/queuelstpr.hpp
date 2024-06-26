@@ -1,6 +1,6 @@
 #pragma once
-#ifndef QUEUELSTPR_MISIS2023S_23_32
-#define QUEUELSTPR_MISIS2023S_23_32
+#ifndef QUEUELSTPR
+#define QUEUELSTPR
 
 #include <cstddef>
 #include <memory>

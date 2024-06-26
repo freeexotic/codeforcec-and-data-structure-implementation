@@ -12,7 +12,6 @@
 		"commands" : 
 		[
 			"add_library",
-			"install",
 			"target_include_directories",
 			"set_property"
 		],
@@ -34,19 +33,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 8,
+				"line" : 3,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 4,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 3,
+				"line" : 2,
 				"parent" : 0
 			}
 		]
@@ -63,7 +56,7 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
+					"backtrace" : 2,
 					"path" : "/Users/vsevolodsilaev/CLionProjects/misis2024s-23-03-silaev-v-v/prj.lab/queuelstpr/.."
 				}
 			],
@@ -72,7 +65,7 @@
 			{
 				"backtraces" : 
 				[
-					4
+					3
 				],
 				"standard" : "20"
 			},
@@ -83,20 +76,6 @@
 		}
 	],
 	"id" : "queuelstpr::@d29721a077a9f8dd4f82",
-	"install" : 
-	{
-		"destinations" : 
-		[
-			{
-				"backtrace" : 2,
-				"path" : "lib"
-			}
-		],
-		"prefix" : 
-		{
-			"path" : "/usr/local"
-		}
-	},
 	"name" : "queuelstpr",
 	"nameOnDisk" : "libqueuelstpr.a",
 	"paths" : 

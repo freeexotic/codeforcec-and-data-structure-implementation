@@ -45,7 +45,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14f6de4e-848c-4b33-ac7d-5406e9e5545e" name="Changes" comment="add queuearr" />
+    <list default="true" id="14f6de4e-848c-4b33-ac7d-5406e9e5545e" name="Changes" comment="add queuearr">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-99ce39f888158a9e9362.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/directory-prj.lab.queuelstpr-Release-ed7a4505e60d1706c09f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/index-2024-06-03T08-15-18-0281.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-queuelstpr-Release-b5617a2baf374351dcc0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/prj.lab/queuelstpr/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/prj.lab/queuelstpr/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/queuelstpr/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/queuelstpr/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/queuelstpr/queuelstpr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/queuelstpr/queuelstpr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prj.lab/queuelstpr/queuelstpr.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/prj.lab/queuelstpr/queuelstpr.hpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +97,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="OCResolveContextSettings">
-    <option name="configuration" value="0-Release-queuelstpr" />
+    <option name="configuration" value="0-Release-test_queuelstpr" />
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
@@ -162,6 +175,7 @@
       <recent name="$PROJECT_DIR$/prj.lab/stackarrt" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/prj.lab/queuelstpr" />
       <recent name="$PROJECT_DIR$/prj.test" />
       <recent name="$PROJECT_DIR$/prj.lab" />
       <recent name="$PROJECT_DIR$/prj.app" />
@@ -169,6 +183,11 @@
     </key>
   </component>
   <component name="RunManager" selected="Doctest.cons">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="[stackarrt] - ctor&lt;*" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="silaev-v-v-23-03" TARGET_NAME="test_stackarrt" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="silaev-v-v-23-03" RUN_TARGET_NAME="test_stackarrt" TEST_METHOD="[stackarrt] - ctor&lt;*" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -382,7 +401,8 @@
       <workItem from="1717402115693" duration="6833000" />
       <workItem from="1717519819812" duration="4665000" />
       <workItem from="1719216223116" duration="49000" />
-      <workItem from="1719216282953" duration="602000" />
+      <workItem from="1719216282953" duration="2405000" />
+      <workItem from="1719372427104" duration="357000" />
     </task>
     <task id="LOCAL-00001" summary="add queue + test_queue">
       <option name="closed" value="true" />
